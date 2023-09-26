@@ -11,7 +11,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/projects/louis/introduction',
+    link: '/docs/products/louis/introduction',
   },
   {
     title: 'NACHET',
@@ -21,7 +21,7 @@ const FeatureList = [
        
       </>
     ),
-    link: '/docs/projects/nachet/introduction',
+    link: '/docs/products/nachet/introduction',
   },
   {
     title: 'MEMBRANE',
@@ -31,7 +31,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/projects/membrane/introduction',
+    link: '/docs/products/membrane/introduction',
   },
   {
     title: 'FINESSE',
@@ -41,7 +41,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/projects/finesse/introduction',
+    link: '/docs/products/finesse/introduction',
   },
 ];
 

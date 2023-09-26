@@ -42,15 +42,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -112,7 +112,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Projects',
+            title: 'Products',
             items: [
               {
                 label: 'Louis',
@@ -133,37 +133,36 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/ai-cfia',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'CFIA Website',
+                href: 'https://inspection.canada.ca/eng/1297964599443/1297965645317',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+            ],
+          },
+                    {
+            title: 'Blog',
+            items: [
+
             ],
           },
           {
             title: 'More',
             items: [
+
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Internships',
+                to: '/docs/about/team/internships.md',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} | A.I. Lab. | THIS WEBSITE IS IN ALPHA STAGE`,
+        copyright: `SITE IS IN ALPHA STAGE | Copyright © ${new Date().getFullYear()} | A.I. Lab. | SITE IS IN ALPHA STAGE`,
       },
       prism: {
         theme: lightCodeTheme,
