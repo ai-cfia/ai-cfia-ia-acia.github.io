@@ -6,8 +6,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #3c8786;
+  --ifm-color-primary-dark: #05486c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -27,4 +27,31 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.backgroundImg {
+  background-image: url('/img/CFIA_Teams_Background_NoLogo.png');
+}
+
+.centerText {
+  text-align: center;
+}
+
+.alpha {
+  color: red;
+  font-weight: bold;
+}
+
+.alphaStamp {
+  height: 20%;
+
+}
+
+
+.alphaDiv {
+  position: absolute;
+  z-index: 3;
+  top: 0; /* Adjust as needed */
+  left: 50%; /* Set to middle of screen */
+  transform: translateX(-50%); /* Center the div */
 }
