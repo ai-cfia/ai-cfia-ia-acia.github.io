@@ -162,7 +162,7 @@ const config = {
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE | Copyright © ${new Date().getFullYear()} | A.I. Lab. | SITE IS IN ALPHA STAGE`,
+        copyright: `SITE IS IN ALPHA STAGE | Copyright © ${new Date().getFullYear()} A.I. Lab. | SITE IS IN ALPHA STAGE`,
       },
       prism: {
         theme: lightCodeTheme,
