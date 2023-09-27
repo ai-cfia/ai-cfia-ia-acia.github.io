@@ -33,6 +33,15 @@
   background-image: url('/img/CFIA_Teams_Background_NoLogo.png');
 }
 
+@media screen and (max-width: 996px) {
+  .backgroundImg {
+    background-image: url('/img/CFIA_Teams_Background_NoLogo_Vertical2_Full.png');
+    
+  }
+
+
+}
+
 .centerText {
   text-align: center;
 }
@@ -46,7 +55,6 @@
   height: 20%;
 
 }
-
 
 .alphaDiv {
   position: absolute;

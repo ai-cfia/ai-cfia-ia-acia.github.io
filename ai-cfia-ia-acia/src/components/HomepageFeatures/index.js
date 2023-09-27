@@ -11,7 +11,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/products/louis/introduction',
+    link: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
   },
   {
     title: 'NACHET',
@@ -21,7 +21,7 @@ const FeatureList = [
        
       </>
     ),
-    link: '/docs/products/nachet/introduction',
+    link: '/ai-cfia-ia-acia.github.io/docs/products/nachet/introduction',
   },
   {
     title: 'MEMBRANE',
@@ -31,7 +31,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/products/membrane/introduction',
+    link: '/ai-cfia-ia-acia.github.io/docs/products/membrane/introduction',
   },
   {
     title: 'FINESSE',
@@ -41,7 +41,7 @@ const FeatureList = [
         
       </>
     ),
-    link: '/docs/products/finesse/introduction',
+    link: '/ai-cfia-ia-acia.github.io/docs/products/finesse/introduction',
   },
 ];
 
