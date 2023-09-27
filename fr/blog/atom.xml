@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ai-cfia-ia-acia.github.io/fr/blog</id>
+    <id>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog</id>
     <title>Artificial Intelligence Lab Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ai-cfia-ia-acia.github.io/fr/blog"/>
+    <link rel="alternate" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog"/>
     <subtitle>Artificial Intelligence Lab Blog</subtitle>
-    <icon>https://ai-cfia-ia-acia.github.io/fr/img/ai-lab-logo.png</icon>
+    <icon>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/img/ai-lab-logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Coming soon!]]></title>
-        <id>https://ai-cfia-ia-acia.github.io/fr/blog/welcome</id>
-        <link href="https://ai-cfia-ia-acia.github.io/fr/blog/welcome"/>
+        <id>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog/welcome</id>
+        <link href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're currently working on some great content, keep your eyes peeled!]]></summary>
         <content type="html"><![CDATA[<p>We're currently working on some great content, keep your eyes peeled!</p>]]></content>
