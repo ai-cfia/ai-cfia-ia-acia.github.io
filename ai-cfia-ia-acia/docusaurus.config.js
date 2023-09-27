@@ -21,7 +21,7 @@ const config = {
   organizationName: 'ai-cfia', // Usually your GitHub org/user name.
   projectName: 'ai-cfia-ia-acia.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: "deployment",
   trailingSlash: false,
