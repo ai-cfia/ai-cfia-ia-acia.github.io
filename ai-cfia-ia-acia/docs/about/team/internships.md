@@ -26,7 +26,7 @@ sidebar_position: 4
 
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps Automne 2023
-> L'intégration dans l'entreprise est honnêtement incroyable. On nous demande d'être présent dans la promotion de l'agence, on nous demande d'aller voir des agriculteurs pour leur parler du projet, on nous dit également de mettre nos noms dans les contributeurs officiels des services qui sont offerts, modifier notre Linkedin, bref, on nous traite comme des gens qui font déjà partie de l'entreprise à partir du premier jour. 
+> L'intégration dans l'entreprise est honnêtement incroyable. On nous demande d'être présent dans la promotion de l'agence, on nous demande d'aller voir des inspecteurs pour leur parler du projet, on nous dit également de mettre nos noms dans les contributeurs officiels des services qui sont offerts, modifier notre Linkedin, bref, on nous traite comme des gens qui font déjà partie de l'entreprise à partir du premier jour. 
 
 > Le fait que ce soit de l'intelligence artificielle était la seule et unique raison pour laquelle j'ai postulé pour ce stage, je n'avais jamais fait de DevOps avant et je ne savais même pas c'était quoi exactement, mais je suis très content d'avoir postulé à l'ACIA.
 
