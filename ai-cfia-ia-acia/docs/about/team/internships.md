@@ -20,9 +20,7 @@ sidebar_position: 4
 ### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend Automne 2023
 > Je suis retourné aux études pour éventuellement travailler dans le domaine de l'intelligence artificielle. Je ne suis pas tant intéressé de développer l'IA en tant que telle, mais plutôt de l'utiliser et de l'adapter à des contextes pratiques pour résoudre des problèmes réels et c'est exactement ce que ce stage me permet de réaliser. J'ai également l'occasion de faire valoir mon expérience antérieure en relations publiques/communications en travaillant sur le projet de site web, ce qui m'est fort intéressant.
 
-> Le processus d'intégration m'a semblé décousu, comme dans une start-up. Je m'attendais à quelque chose de plus structuré, étant un poste au gouvernement fédéral. En fait, ce n'est pas mal structuré, c'est en construction et nous avons tous notre part à jouer pour améliorer le processus. 
-
-> Nos supérieurs nous ont fait comprendre que nous avons une place et qu'ils veulent notre apport, que nous sommes les bienvenus au sein de l'équipe
+> Nos supérieurs nous ont fait comprendre que nous avons une place et qu'ils veulent notre apport, que nous sommes les bienvenus au sein de l'équipe.
 
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps Automne 2023
@@ -33,7 +31,7 @@ sidebar_position: 4
 > Je suis extrêmement satisfait de ce stage, je penses que le superviseur de stage est exceptionnel, on peut voir qu'il tient à nous apprendre et à notre réussite en général. 
 
 ### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données Automne 2023
-> Travaillant avec le gouvernement, nous avons été soumis à de nombreuses enquêtes de sécurité et avons dû respecter des restrictions initiales sur nos environnement de travail mais nous sommes relativement bien guidés, ce qui rends ces procédures plus faciles à compléter. 
+> Travaillant avec le gouvernement, nous avons été soumis à de nombreuses enquêtes de sécurité et avons dû respecter des restrictions initiales sur nos environnements de travail mais nous sommes relativement bien guidés, ce qui rend ces procédures plus faciles à compléter. 
 
 > Notre maître de stage nous a accueillis chaleureusement, et l'ambiance au sein de l'équipe est très agréable. Puisque le stage se déroule dans un environnement bilingue, cela constitue en une excellente opportunité de perfectionner son anglais.
 
