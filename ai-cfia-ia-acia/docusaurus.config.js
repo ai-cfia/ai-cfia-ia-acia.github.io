@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Artificial Intelligence Lab',
-  tagline: 'Reimagining public service',
+  tagline: '',
   favicon: '/img/ai-lab-logo.png',
 
   // Set the production url of your site here
