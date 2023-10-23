@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Artificial Intelligence Lab',
   tagline: '',
-  favicon: '/img/ai-lab-logo.png',
+  favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://ai-cfia-ia-acia.github.io',
@@ -63,13 +63,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/ai-lab-logo.png',
+      
+      image: 'img/favicon.icon',
       navbar: {
         title: 'AI LAB',
+        /*
         logo: {
           alt: 'My Site Logo',
-          src: 'img/ai-lab-logo.png',
-        },
+          src: '',
+        },*/
         items: [
           {
             to: 'docs/about/', // Link to the About page
