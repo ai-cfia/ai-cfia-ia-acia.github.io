@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - 36-change-workflow-from-yarn-to-npm
 
 permissions:
   contents: write
