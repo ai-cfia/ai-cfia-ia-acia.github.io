@@ -10,43 +10,10 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
-    env:
-      WORKING_DIR: ai-cfia-ia-acia
-      NODE_VERSION: 18
-      PUBLISH_DIR: ./ai-cfia-ia-acia/build
-      CACHE_DEPENDENCY_PATH: ai-cfia-ia-acia
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-          cache-dependency-path: ${{ env.CACHE_DEPENDENCY_PATH }}
-
-      - name: Install dependencies
-        run: npm ci
-        working-directory: ${{ env.WORKING_DIR }}
-
-      - name: Build website
-        run: npm run build
-        working-directory: ${{ env.WORKING_DIR }}
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ env.PUBLISH_DIR }}
-          publish_branch: deployment
-
-          user_name: github-actions[bot]
-          # The email used below is the default GitHub Action bot email.
-          # This email is used to make commits when the GitHub Pages site is being
-          # built and deployed. For more details about the bot and email, you can visit:
-          # - Bot Details: https://github.com/marketplace/actions/bot-details
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@12-reusable-workflow-gh-pages-deployment
+    with:
+      working-dir: ai-cfia-ia-acia
+      node-version: 18
+      publish-dir: ./ai-cfia-ia-acia/build
+      cache-dependency-path: ai-cfia-ia-acia
+    secrets: inherit
