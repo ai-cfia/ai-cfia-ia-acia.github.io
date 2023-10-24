@@ -16,4 +16,5 @@ jobs:
       node-version: 18
       publish-dir: ./ai-cfia-ia-acia/build
       cache-dependency-path: ai-cfia-ia-acia
+      publish-branch: deployment
     secrets: inherit
