@@ -23,7 +23,6 @@ const sidebars = {
       type: 'doc',
       label: 'Products',
       id: 'products/products',
-      //items: ['about/about', 'about/cfia', 'about/team'],
     },
     {
       type: 'category',
@@ -54,7 +53,6 @@ const sidebars = {
       type: 'doc',
       label: 'Projects',
       id: 'projects/projects',
-      //items: ['about/about', 'about/cfia', 'about/team'],
     },
   ],
 
@@ -64,36 +62,12 @@ const sidebars = {
       type: 'doc',
       label: 'About the Lab',
       id: 'about/about',
-      //items: ['about/about', 'about/cfia', 'about/team'],
-    },
-    {
-      type: 'doc',
-      label: 'About the Agency',
-      id: 'about/cfia',
-      //items: ['about/about', 'about/cfia', 'about/team'],
     },
     {
       type: 'category',
       label: 'About the Team',
-      items: ['about/team/team', 'about/team/cs', 'about/team/ds', 'about/team/internships' ],
+      items: ['about/team/cs', 'about/team/ds', 'about/team/internships' ],
     },
-
-    /*
-    {
-      type: 'category',
-      label: 'About',
-      items: ['about/about', 'about/cfia', 'about/team'],
-    },
-    {
-      type: 'category',
-      label: 'Projects',
-      items: [
-        'projects/louis/presentation',
-
-      ],
-    },
-    */
-    // ... other categories or items
   ],
   
 };

@@ -116,19 +116,19 @@ const config = {
             items: [
               {
                 label: 'Louis',
-                to: '/docs/intro',
+                to: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
               },
               {
                 label: 'Nachet',
-                to: '/docs/intro',
+                to: '/ai-cfia-ia-acia.github.io/docs/products/nachet/introduction',
               },
               {
                 label: 'Finesse',
-                to: '/docs/intro',
+                to: '/ai-cfia-ia-acia.github.io/docs/products/finesse/introduction',
               },
               {
                 label: 'Membrane',
-                to: '/docs/intro',
+                to: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
               },
             ],
           },
@@ -139,30 +139,24 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/ai-cfia',
               },
-              {
-                label: 'CFIA Website',
-                href: 'https://inspection.canada.ca/eng/1297964599443/1297965645317',
-              },
-            ],
-          },
-                    {
-            title: 'Blog',
-            items: [
 
             ],
           },
           {
             title: 'More',
             items: [
-
               {
-                label: 'Internships',
-                to: '/docs/about/team/internships.md',
-              }
+                label: 'Terms and conditions',
+                href: 'https://www.canada.ca/en/transparency/terms.html'
+              },
+              {
+                label: 'CFIA Website',
+                href: 'https://inspection.canada.ca/eng/1297964599443/1297965645317',
+              },
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE | Copyright © ${new Date().getFullYear()} A.I. Lab. | SITE IS IN ALPHA STAGE`,
+        copyright: `SITE IS IN ALPHA STAGE | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -172,6 +166,7 @@ const config = {
         sidebar: {
           autoCollapseCategories: true,
           //hideable: true,
+          
         },
       }
     }),
