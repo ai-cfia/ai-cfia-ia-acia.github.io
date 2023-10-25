@@ -3,14 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - 36-change-workflow-from-yarn-to-npm
+      - main
 
 permissions:
   contents: write
 
 jobs:
   deploy:
-    uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@12-reusable-workflow-gh-pages-deployment
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@main
     with:
       working-dir: ai-cfia-ia-acia
       node-version: 18
