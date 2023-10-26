@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[3281],{7660:a=>{a.exports=JSON.parse('{"label":"AI","permalink":"/ai-cfia-ia-acia.github.io/blog/tags/ai","allTagsPath":"/ai-cfia-ia-acia.github.io/blog/tags","count":1}')}}]);
