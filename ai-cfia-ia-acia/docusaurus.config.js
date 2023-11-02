@@ -74,29 +74,34 @@ const config = {
         },*/
         items: [
           {
-            to: 'docs/about/', // Link to the About page
-            label: 'About', // Label for the link
+            to: 'docs/about/',
+            label: 'About',
             position: 'left',
           },
           {
-            to: 'docs/products/', // Link to the Projects page
-            label: 'Products', // Label for the link
+            to: 'docs/products/',
+            label: 'Products',
             position: 'left',
           },
           {
-            to: 'docs/projects/', // Link to the Projects page
-            label: 'Projects', // Label for the link
-            position: 'left',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' }, // Blog link
-          {
-            to: 'docs/contact', // Link to the Projects page
-            label: 'Contact Us', // Label for the link
+            to: 'docs/projects/',
+            label: 'Projects',
             position: 'left',
           },
           {
-            to: 'docs/alpha/', // Link to the Projects page
-            label: 'Site is in ALPHA stage', // Label for the link
+            to: 'docs/dev-rel-docs/', 
+            label: 'Dev-Rel-Docs',
+            position: 'left',
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            to: 'docs/contact', 
+            label: 'Contact Us', 
+            position: 'left',
+          },
+          {
+            to: 'docs/alpha/',
+            label: 'Site is in ALPHA stage', 
             position: 'right',
           },
           {
