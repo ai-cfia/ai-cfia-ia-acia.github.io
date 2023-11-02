@@ -21,6 +21,6 @@ Welcome to the Developer Related Docs! These docs serve as a knowledge base cont
 
 ---
 
-We hope you find the Developer Relative Documentation helpful and engaging. If you have any questions or need assistance, please reach out to the CFIA AI Lab team.
+We hope you find the Developer Related Documentation helpful and engaging. If you have any questions or need assistance, please reach out to the CFIA AI Lab team.
 
 Happy developing!
