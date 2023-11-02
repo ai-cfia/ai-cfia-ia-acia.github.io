@@ -19,14 +19,6 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-    height: 85vh;
-  }
-
-  
-}
 
 .buttons {
   display: flex;
@@ -70,4 +62,21 @@
   font-size: medium;
   text-align: left;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    height: 85vh;
+  }
+
+  .popup {
+    width: 85%;  
+    padding: 5px; 
+  }
+
+  .disclaimerText {
+    font-size: smaller;
+  }
+  
 }
