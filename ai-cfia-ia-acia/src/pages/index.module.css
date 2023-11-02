@@ -19,14 +19,6 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-    height: 85vh;
-  }
-
-  
-}
 
 .buttons {
   display: flex;
@@ -34,3 +26,57 @@
   justify-content: center;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  width: 60%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  box-sizing: border-box;
+  text-align: center;
+  border: red 2px solid;
+}
+
+.disclaimerHeading {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.disclaimerText {
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    height: 85vh;
+  }
+
+  .popup {
+    width: 85%;  
+    padding: 5px; 
+  }
+
+  .disclaimerText {
+    font-size: smaller;
+  }
+  
+}
