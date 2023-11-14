@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+# Computer Science Team
+
 ### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/)
 
 👋 Hey there, fellow tech enthusiasts!
