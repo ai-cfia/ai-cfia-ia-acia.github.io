@@ -1,29 +1,36 @@
-# ai-cfia-ia-acia.github.io
-Docusaurus website serving to showcase the AI Lab's activities.
+# Website
 
-## URL
-https://ai-cfia.github.io/ai-cfia-ia-acia.github.io/
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Developing Locally
-After opening the project in the devcontainer, change your current working directory:
 
-`cd ai-cfia-ia-acia`
+### Local Development
 
-Then install the npm dependencies:
+```
+$ yarn start
+```
 
-`npm install`
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-You can now run the development server:
+### Build
+When ready to deploy, new content will be built into the `deployment` branch. 
 
-`npm start -- --port 3001`
+```
+$ yarn build
+```
 
-## Deployment
-The website is automatically deployed to GitHub Pages through a streamlined process that begins with a single trigger:
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-When a push is made to the `main` branch, it initiates the `Deploy to GitHub Pages` workflow. This singular action sets off a series of automated steps:
+### Deployment
 
-- **Build Process**: Static assets are generated during the workflow run.
-- **Permissions**: Write permissions to the repository contents are verified to enable updates to GitHub Pages.
-- **Execution of Deployment Job**: Utilizing a reusable workflow from the [workflow repository](https://github.com/ai-cfia/github-workflows), the job configures the environment with the specified Node.js version, sets the working directory, identifies the directory from which to publish, and designates the `deployment` branch as the publication target.
+Using SSH:
 
-Upon successful completion of these steps, the updated website will be accessible at the provided URL.
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
