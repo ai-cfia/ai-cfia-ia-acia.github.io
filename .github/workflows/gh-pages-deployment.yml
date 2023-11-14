@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - issue-42-Move-website-files-to-root-of-project
+      - main
 
 permissions:
   contents: write
