@@ -66,7 +66,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'About the Team',
-      items: ['about/team/cs', 'about/team/ds', 'about/team/internships' ],
+      items: ['about/team/swe', 'about/team/ds', 'about/team/internships' ],
     },
   ],
   
