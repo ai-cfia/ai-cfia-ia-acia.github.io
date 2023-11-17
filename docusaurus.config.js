@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      
+
       image: 'img/favicon.icon',
       navbar: {
         title: 'AI LAB',
@@ -89,19 +89,19 @@ const config = {
             position: 'left',
           },
           {
-            to: 'docs/dev-rel-docs/', 
+            to: 'docs/dev-rel-docs/',
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            to: 'docs/contact', 
-            label: 'Contact Us', 
+            to: 'docs/contact',
+            label: 'Contact Us',
             position: 'left',
           },
           {
             to: 'docs/alpha/',
-            label: 'Site is in ALPHA stage', 
+            label: 'Site is in ALPHA stage',
             position: 'right',
           },
           {
@@ -173,7 +173,7 @@ const config = {
         sidebar: {
           autoCollapseCategories: true,
           //hideable: true,
-          
+
         },
       }
     }),
