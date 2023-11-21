@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Artificial Intelligence Lab Blog</title>
-        <link>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog</link>
+        <link>https://ai-cfia-ia-acia.github.io/fr/blog</link>
         <description>Artificial Intelligence Lab Blog</description>
         <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>fr</language>
         <item>
             <title><![CDATA[Coming soon!]]></title>
-            <link>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog/welcome</link>
-            <guid>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/fr/blog/welcome</guid>
+            <link>https://ai-cfia-ia-acia.github.io/fr/blog/welcome</link>
+            <guid>https://ai-cfia-ia-acia.github.io/fr/blog/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[We're currently working on some great content, keep your eyes peeled!]]></description>
             <content:encoded><![CDATA[<p>We're currently working on some great content, keep your eyes peeled!</p>]]></content:encoded>
