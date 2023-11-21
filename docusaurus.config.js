@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const baseUrl = process.env.DOCS_BASE_URL || '/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -173,11 +174,17 @@ const config = {
         sidebar: {
           autoCollapseCategories: true,
           //hideable: true,
-
         },
-      }
+      },
+      plugins:[
+        [
+          "docusaurus2-dotenv",
+          {
+            systemvars: true,
+          },
+        ],
+      ],
     }),
-
 };
 
 module.exports = config;
