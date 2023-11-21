@@ -3,7 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const baseUrl = process.env.DOCS_BASE_URL || '/';
+const baseUrl = process.env.BASE_URL || '/';
+<<<<<<< HEAD
+=======
+console.log("baseUrl:", baseUrl);
+>>>>>>> f405041 (issue #57: update files for baseURL)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -13,9 +17,10 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://ai-cfia-ia-acia.github.io',
+
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ai-cfia-ia-acia.github.io/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
