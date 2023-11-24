@@ -12,9 +12,8 @@ jobs:
   deploy:
     uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@main
     with:
-      working-dir: ai-cfia-ia-acia
       node-version: 18
-      publish-dir: ./ai-cfia-ia-acia/build
-      cache-dependency-path: ai-cfia-ia-acia
+      publish-dir: ./build
+      cache-dependency-path: .
       publish-branch: deployment
     secrets: inherit

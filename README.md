@@ -1,18 +1,36 @@
-# ai-cfia-ia-acia.github.io
-Docusaurus website serving to showcase the AI Lab's activities.
+# Website
 
-## URL
-https://ai-cfia.github.io/ai-cfia-ia-acia.github.io/
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Developing Locally
-After opening the project in the devcontainer, change your current working directory:  
 
-`cd ai-cfia-ia-acia`
+### Local Development
 
-Then install the npm dependencies:
+```
+$ yarn start
+```
 
-`npm install`
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-You can now run the development server: 
+### Build
+When ready to deploy, new content will be built into the `deployment` branch. 
 
-`npm start -- --port 3001`
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
