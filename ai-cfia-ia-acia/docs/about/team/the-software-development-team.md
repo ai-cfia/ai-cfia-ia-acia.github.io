@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Software engineering team
+# The Software development team
 
 ### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/)
 
