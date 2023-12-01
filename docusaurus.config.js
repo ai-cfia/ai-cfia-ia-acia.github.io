@@ -4,10 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const baseUrl = process.env.BASE_URL || '/';
-<<<<<<< HEAD
-=======
-console.log("baseUrl:", baseUrl);
->>>>>>> f405041 (issue #57: update files for baseURL)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
