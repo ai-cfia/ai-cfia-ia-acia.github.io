@@ -8,14 +8,14 @@ jobs:
   vercel-deployment-dev:
     uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@issue-33-create-vercel-deployment-workflow
     with:
-        vercel-project-name: 'ai-cfia-website'
-        deployment_environment: 'dev'
+        project-name: 'ai-cfia-website'
+        deployment-environment: 'dev'
     secrets: inherit
 
   vercel-deployment-uat:
     if: github.ref == 'refs/heads/main'
     uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@issue-33-create-vercel-deployment-workflow
     with:
-        vercel-project-name: 'ai-cfia-website'
-        deployment_environment: 'uat'
+        project-name: 'ai-cfia-website'
+        deployment-environment: 'uat'
     secrets: inherit
