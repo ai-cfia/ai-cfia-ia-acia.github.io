@@ -1,11 +1,11 @@
-name: Vercel Preview Deployment
+name: Vercel Static Frontend Deployment
 
 on:
   push:
 
 jobs:
   vercel-deployment-dev:
-    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@issue-33-create-vercel-deployment-workflow
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@main
     with:
         project-name: 'ai-cfia-website'
         deployment-environment: 'dev'
@@ -13,7 +13,7 @@ jobs:
 
   vercel-deployment-uat:
     if: github.ref == 'refs/heads/main'
-    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@issue-33-create-vercel-deployment-workflow
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@main
     with:
         project-name: 'ai-cfia-website'
         deployment-environment: 'uat'
