@@ -59,3 +59,16 @@ I hope we can get along, and build the technological world of tomorrow !
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/)
 
 Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline software development and deployment to improve system reliability and efficiency. I'll enforce security to protect our operations and align with SRE practices to ensure our infrastructure's scalability and continuous service delivery. 
+
+### [Kabir, Ibrahim](www.linkedin.com/in/ibrahimkabir)
+
+**Hello everyone!** 👋
+
+You might have already come across me as a member of the software team at the **Éclipse** club at ÉTS or on stage as a trumpeter during performances with the **Orchestre des jeunes Laval-Laurentides**. If this is our first encounter, I'm Ibrahim Kabir, a **back-end developer** at ACIA! 💻
+
+My journey has been quite an adventure. After studying electronic engineering in college, my final project involved creating an arcade from scratch, featuring games like Snake and Stacking Game. This project allowed me to merge electronics using an Atmega328p microcontroller, 3D design with Fusion 360, and C++ programming through the Arduino IDE. It was through this experience that I discovered my passion for programming, leading me to my current role as a developer at ACIA. 🚀
+
+I'm excited to share my diverse journey with you, and I'm always open to new and exciting connections! 🌟
+
+[Linkedin](www.linkedin.com/in/ibrahimkabir)
+Mail : ibrahim.kabir@inspection.gc.ca
