@@ -35,7 +35,7 @@ sidebar_position: 4
 
 > Notre maître de stage nous a accueillis chaleureusement, et l'ambiance au sein de l'équipe est très agréable. Puisque le stage se déroule dans un environnement bilingue, cela constitue en une excellente opportunité de perfectionner son anglais.
 
-### [Kabir, Ibrahim](www.linkedin.com/in/ibrahimkabir) - Backend Hiver 2023
+### [Kabir, Ibrahim](www.linkedin.com/in/ibrahimkabir) - Backend Hiver 2023 
 
 **Salut tout le monde !** 👋 
 
