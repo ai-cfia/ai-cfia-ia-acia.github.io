@@ -35,6 +35,19 @@ sidebar_position: 4
 
 > Notre maître de stage nous a accueillis chaleureusement, et l'ambiance au sein de l'équipe est très agréable. Puisque le stage se déroule dans un environnement bilingue, cela constitue en une excellente opportunité de perfectionner son anglais.
 
+### [Kabir, Ibrahim](www.linkedin.com/in/ibrahimkabir) - Backend Hiver 2023
+
+**Salut tout le monde !** 👋 
+
+Vous m'avez peut-être déjà croisé en tant que membre de l'équipe logiciel du club **Éclipse** à l'ÉTS ou sur scène en tant que trompettiste lors des concerts de l'**Orchestre des jeunes Laval-Laurentides**. Si c'est votre première rencontre avec moi, je suis Ibrahim Kabir, **développeur back-end** chez l'ACIA ! 💻
+
+Mon parcours a été une réelle aventure. Après des études en technique électronique au cégep, mon projet de fin d'études a été la création d'une arcade de zéro, proposant des jeux tels que Snake ou Stacking Game. Ce projet m'a permis de fusionner l'électronique à partir d'un microcontrôleur Atmega328p, la conception 3D avec Fusion 360, et la programmation C++ via l'interface Arduino IDE. C'est à travers cette expérience que j'ai découvert ma passion pour la programmation, devenant ainsi le développeur que je suis aujourd'hui chez l'ACIA. 🚀
+
+Je suis ravi de partager avec vous mon parcours éclectique, et je suis toujours ouvert à de nouvelles rencontres passionnantes ! 🌟
+
+[Linkedin](www.linkedin.com/in/ibrahimkabir)
+Mail : ibrahim.kabir@inspection.gc.ca
+
 ---
 
 Un stage chez l'ACIA c'est :
