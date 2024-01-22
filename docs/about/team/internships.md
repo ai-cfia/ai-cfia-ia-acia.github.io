@@ -9,7 +9,7 @@ sidebar_position: 4
 
 > Ce qui est intéressant à l'agence, et plus spécifiquement au laboratoire d'intelligence artificielle, c'est que les solutions développées proposent de vraie amélioration dans le quotidien des employés de l'agence. Je considère que construire des logiciels faisant une différence est une plus-value au stage.
 
-> Dès le départ, notre contribution est demandée. J'ai déjà pu proposer des changements au processus d'intégration. D'avoir rapidement cette confiance de la part de nos superviseurs m'indique qu'ils ont à cœur la réussite de leur stagiaire.
+> Dès le départ, notre contribution est demandée. J'ai déjà été en mesure de proposer des changements au processus d'intégration. D'avoir rapidement cette confiance de la part de nos superviseurs m'indique qu'ils ont à cœur la réussite de leur stagiaire.
 
 ### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Backend Automne 2023
 > J'ai choisi ce stage parce qu'il s'aligne parfaitement avec les compétences que je possède déjà et que je souhaite développer davantage. Ce stage représente une opportunité idéale pour moi de grandir professionnellement tout en contribuant à un domaine qui me passionne.

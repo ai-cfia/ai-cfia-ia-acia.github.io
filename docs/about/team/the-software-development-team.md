@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Hello! My name is Maxence Guindon, and I am a backend developer at Canadian Food Inspection Agency AI-Lab.
 
-I’m working on Nachet. It is a tools that will help inspector to identify seed in an image using an AI model. More specifically, my role in the backend is to make sure that the frontend, the database and the AI model are able to talk to each other. How would you ask? By building efficient API and route for data to travel safely.
+I’m working on Nachet. It is a tools that will help analyst in our science labs to identify seeds in an image using an AI model. More specifically, my role in the backend is to make sure that the frontend, the database and the AI model are able to talk to each other. How would you ask? By building efficient API and routes for data to travel safely.
 
 Before that, I work in escape room, where I was a game master. Working for a small company, we had the opportunity to test our skills in different areas and propose solution. So during the pandemic, I propose a system to fuse the hint system and the video story introduction. Since then, I've followed the path of the programmer.
 
