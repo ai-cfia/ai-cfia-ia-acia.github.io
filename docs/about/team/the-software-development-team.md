@@ -8,12 +8,12 @@ sidebar_position: 2
 
 **Hello everyone!** 👋
 
-I am Ibrahim Kabir, a Backend Developer in the Artificial Intelligence
+I am Ibrahim Kabir, a backend developer in the Artificial Intelligence
 Laboratory team, and my role involves designing and implementing the server-side
 logic that powers our AI solutions.
 
 With a degree in electronics, I discovered my passion for computer science.
-Being a Backend Developer at CFIA is a way for me to nurture this passion and
+Being a backend developer at CFIA is a way for me to nurture this passion and
 continually expand my knowledge.
 
 - Email : ibrahim.kabir@inspection.gc.ca
