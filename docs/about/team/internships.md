@@ -11,7 +11,7 @@ sidebar_position: 4
 
 > Ce qui est intéressant à l'agence, et plus spécifiquement au laboratoire
 > d'intelligence artificielle, c'est que les solutions développées proposent de
-> vraie amélioration dans le quotidien des employés de l'agence. Je considère
+> vraies améliorations dans le quotidien des employés de l'agence. Je considère
 > que construire des logiciels faisant une différence est une plus-value au
 > stage.
 
