@@ -53,18 +53,6 @@ foster connections and share knowledge!
 
 Cheers to new beginnings and endless lines of code!
 
-### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/)
-
-Hello! My name is Mélanie Fressard, and I am a Database Manager in the
-Artificial Intelligence Laboratory team at the CFIA (Canadian Food Inspection
-Agency). My role involves evolving the database to enhance information
-processing and management.
-
-I am very excited to work on such a project, as artificial intelligence and
-database management are fields rich in knowledge.
-
-Email: melanie.fressard@inspection.gc.ca
-
 ### [Lemire, William](https://www.linkedin.com/in/wlemire/)
 
 Hello! My name is William Lemire, and I am a Backend Application Developer in
@@ -82,13 +70,7 @@ that utilize emerging technologies. Additionally, this initiative by the
 Canadian Food Inspection Agency demonstrates a commitment to innovation, and
 it's an honor to contribute to its mission.
 
-### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/)
 
-Hello, my username is @redat97. I am happy to announce my role as a DevOps
-Engineer at CFIA. My primary responsibilities include ensuring the reliability
-and efficiency of our technical processes as well as making sure a strong level
-of security is maintained. I am thrilled to be a part of the team that is making
-this project possible !
 
 ### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/)
 
@@ -111,3 +93,25 @@ many different things and to increase my programming  skills in the future.
 I hope we can get along, and build the technological world of tomorrow !
 
 - Mail : jolan.thomassin@inspection.gc.ca
+
+# Former members of the software development team
+
+### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/)
+
+Hello! My name is Mélanie Fressard, and I am a Database Manager in the
+Artificial Intelligence Laboratory team at the CFIA (Canadian Food Inspection
+Agency). My role involves evolving the database to enhance information
+processing and management.
+
+I am very excited to work on such a project, as artificial intelligence and
+database management are fields rich in knowledge.
+
+Email: melanie.fressard@inspection.gc.ca
+
+### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/)
+
+Hello, my username is @redat97. I am happy to announce my role as a DevOps
+Engineer at CFIA. My primary responsibilities include ensuring the reliability
+and efficiency of our technical processes as well as making sure a strong level
+of security is maintained. I am thrilled to be a part of the team that is making
+this project possible !

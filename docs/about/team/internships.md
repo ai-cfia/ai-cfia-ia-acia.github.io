@@ -35,6 +35,18 @@ sidebar_position: 4
 > Cela ajoute une couche de motivation et rend l'expérience d'autant plus
 > gratifiante.
 
+### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données Automne 2023
+> Puisque j'étais en compétition avec mon club étudiant, je n'ai malheureusement
+> pas commencé à travailler en même temps que les autres stagiaires mais j'ai
+> tout de même reçu un accueil vraiment chaleureux. L'intégration prend en
+> compte toutes les formations nécessaires en matière de sécurité de
+> l'information mais aussi du côté technique selon notre rôle.
+
+> Le fait que nous utilisons des outils qui encouragent la cohésion d’équipe et
+> facilitent la collaboration entre tout le monde permet d’avancer plus
+> efficacement dans les projets, de se sentir inclus et d’avoir l’avis de chacun
+> sur les décisions importantes.
+
 ### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend Automne 2023
 > Je suis retourné aux études pour éventuellement travailler dans le domaine de
 > l'intelligence artificielle. Je ne suis pas tant intéressé de développer l'IA
@@ -46,19 +58,6 @@ sidebar_position: 4
 
 > Nos supérieurs nous ont fait comprendre que nous avons une place et qu'ils
 > veulent notre apport, que nous sommes les bienvenus au sein de l'équipe.
-
-### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données Automne 2023
-> Travaillant avec le gouvernement, nous avons été soumis à de nombreuses
-> enquêtes de sécurité et avons dû respecter des restrictions initiales sur nos
-> environnements de travail mais nous sommes relativement bien guidés, ce qui
-> rend ces procédures plus faciles à compléter.
-
-> Notre maître de stage nous a accueillis chaleureusement, et l'ambiance au sein
-> de l'équipe est très agréable. Puisque le stage se déroule dans un
-> environnement bilingue, cela constitue une excellente opportunité de
-> perfectionner son anglais.
-
-# Prior internships at the AI Lab
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps Automne 2023
 > L'intégration dans l'entreprise est honnêtement incroyable. On nous demande
@@ -77,17 +76,17 @@ sidebar_position: 4
 > stage est exceptionnel, on peut voir qu'il tient à nous apprendre et à notre
 > réussite en général.
 
-### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données Automne 2023
-> Puisque j'étais en compétition avec mon club étudiant, je n'ai malheureusement
-> pas commencé à travailler en même temps que les autres stagiaires mais j'ai
-> tout de même reçu un accueil vraiment chaleureux. L'intégration prend en
-> compte toutes les formations nécessaires en matière de sécurité de
-> l'information mais aussi du côté technique selon notre rôle.
+### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données Automne 2023
+> Travaillant avec le gouvernement, nous avons été soumis à de nombreuses
+> enquêtes de sécurité et avons dû respecter des restrictions initiales sur nos
+> environnements de travail mais nous sommes relativement bien guidés, ce qui
+> rend ces procédures plus faciles à compléter.
 
-> Le fait que nous utilisons des outils qui encouragent la cohésion d’équipe et
-> facilitent la collaboration entre tout le monde permet d’avancer plus
-> efficacement dans les projets, de se sentir inclus et d’avoir l’avis de chacun
-> sur les décisions importantes.
+> Notre maître de stage nous a accueillis chaleureusement, et l'ambiance au sein
+> de l'équipe est très agréable. Puisque le stage se déroule dans un
+> environnement bilingue, cela constitue une excellente opportunité de
+> perfectionner son anglais.
+
 ---
 
 Un stage chez l'ACIA c'est :
