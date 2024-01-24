@@ -6,10 +6,12 @@ sidebar_position: 2
 
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
-Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian Food
-Inspection Agency AI-Lab.
+Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
+Food Inspection Agency AI-Lab.
 
-I’m currently working on Nachet, a web application using computer vision AI models, which is designed to help CFIA seed analysts identify seeds from images taken from digital microscopes. More specifically, my role in
+I’m currently working on Nachet, a web application using computer vision AI
+models, which is designed to help CFIA seed analysts identify seeds from images
+taken from digital microscopes. More specifically, my role in
 the backend is to make sure that the frontend, the database, and the AI model are
 able to talk to each other. "But how?" you might ask. By building efficient APIs and
 routes for data to travel safely.
