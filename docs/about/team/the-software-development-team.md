@@ -16,7 +16,7 @@ With a degree in electronics, I discovered my passion for computer science.
 Being a backend developer at CFIA is a way for me to nurture this passion and
 continually expand my knowledge.
 
-- Email : ibrahim.kabir@inspection.gc.ca
+- Email : <ibrahim.kabir@inspection.gc.ca>
 
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/)
 
@@ -70,8 +70,6 @@ that utilize emerging technologies. Additionally, this initiative by the
 Canadian Food Inspection Agency demonstrates a commitment to innovation, and
 it's an honor to contribute to its mission.
 
-
-
 ### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/)
 
 **Hello !** 👋
@@ -92,7 +90,7 @@ many different things and to increase my programming  skills in the future.
 
 I hope we can get along, and build the technological world of tomorrow !
 
-- Mail : jolan.thomassin@inspection.gc.ca
+- Email : <jolan.thomassin@inspection.gc.ca>
 
 # Former members of the software development team
 
@@ -106,7 +104,7 @@ processing and management.
 I am very excited to work on such a project, as artificial intelligence and
 database management are fields rich in knowledge.
 
-Email: melanie.fressard@inspection.gc.ca
+- Email: <melanie.fressard@inspection.gc.ca>
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/)
 
