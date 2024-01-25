@@ -94,7 +94,7 @@ I hope we can get along, and build the technological world of tomorrow !
 
 - Email : <jolan.thomassin@inspection.gc.ca>
 
-## Former members of team
+## Former team members
 
 ### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données
 
