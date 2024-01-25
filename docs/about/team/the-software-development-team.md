@@ -7,7 +7,7 @@ sidebar_position: 2
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
-Food Inspection Agency AI-Lab.
+Food Inspection Agency AI Lab.
 
 I’m currently working on Nachet, a web application using computer vision AI
 models, which is designed to help CFIA seed analysts identify seeds from images
