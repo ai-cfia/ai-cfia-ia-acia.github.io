@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # The Software development team
 
-### [Kabir, Ibrahim](https://www.linkedin.com/in/ibrahimkabir/) - Backend Hiver 2024
+## Current team
+
+### [Kabir, Ibrahim](https://www.linkedin.com/in/ibrahimkabir/) - Backend
 
 **Hello everyone!** 👋
 
@@ -18,7 +20,7 @@ continually expand my knowledge.
 
 - Email : <ibrahim.kabir@inspection.gc.ca>
 
-### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/) - DevOps Hiver 2024
+### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/) - DevOps
 
 Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline
 software development and deployment to improve system reliability and
@@ -26,7 +28,7 @@ efficiency. I'll enforce security to protect our operations and align with SRE
 practices to ensure our infrastructure's scalability and continuous service
 delivery.
 
-### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Backend Automne 2023
+### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Backend
 
 👋 Hey there, fellow tech enthusiasts!
 
@@ -53,7 +55,7 @@ foster connections and share knowledge!
 
 Cheers to new beginnings and endless lines of code!
 
-### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend Automne 2023
+### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend
 
 Hello! My name is William Lemire, and I am a Backend Application Developer in
 the Artificial Intelligence Laboratory team.
@@ -70,7 +72,7 @@ that utilize emerging technologies. Additionally, this initiative by the
 Canadian Food Inspection Agency demonstrates a commitment to innovation, and
 it's an honor to contribute to its mission.
 
-### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données Automne 2023
+### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données
 
 **Hello !** 👋
 
@@ -92,9 +94,9 @@ I hope we can get along, and build the technological world of tomorrow !
 
 - Email : <jolan.thomassin@inspection.gc.ca>
 
-# Former members of the software development team
+## Former members of team
 
-### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données Automne 2023
+### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données
 
 Hello! My name is Mélanie Fressard, and I am a Database Manager in the
 Artificial Intelligence Laboratory team at the CFIA (Canadian Food Inspection
@@ -106,7 +108,7 @@ database management are fields rich in knowledge.
 
 - Email: <melanie.fressard@inspection.gc.ca>
 
-### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps Automne 2023
+### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps
 
 Hello, my username is @redat97. I am happy to announce my role as a DevOps
 Engineer at CFIA. My primary responsibilities include ensuring the reliability
