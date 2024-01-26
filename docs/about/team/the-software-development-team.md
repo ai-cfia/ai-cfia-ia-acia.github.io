@@ -28,7 +28,7 @@ Hello! My name is Mélanie Fressard, and I am a Database Manager in the Artifici
 
 I am very excited to work on such a project, as artificial intelligence and database management are fields rich in knowledge.
 
-Email: melanie.fressard@inspection.gc.ca
+Email: <melanie.fressard@inspection.gc.ca>
 
 ### [Lemire, William](https://www.linkedin.com/in/wlemire/)
 
@@ -37,6 +37,16 @@ Hello! My name is William Lemire, and I am a Backend Application Developer in th
 Before COVID, I worked in the communications/marketing field, holding a Bachelor's degree in Public Relations from UQAM. As I progressed in my career, I increasingly realized the impact artificial intelligence (AI) was going to have in this sector in the coming years. Therefore, I decided to make a switch to software engineering, eager to be part of this new technological revolution that is set to transform all areas of society.
 
 Thanks to the AI Laboratory, I have the opportunity to work on exciting projects that utilize emerging technologies. Additionally, this initiative by the Canadian Food Inspection Agency demonstrates a commitment to innovation, and it's an honor to contribute to its mission.
+
+### [Lopez, Jonathan](https://www.linkedin.com/in/lopez-jonathan/)
+
+Hi everyone! I'm Jonathan Lopez, currently diving into the world of software engineering at ETS. I've joined the CFIA AI Lab DevSecOps team, where I'll be mixing up a special blend of software development, security, and ops.
+
+My role primarily revolves around the practices of DevOps and Site Reliability Engineering (SRE), focusing on automating workflows to streamline our processes. This not only enhances efficiency but also ensures that our path from development to deployment is as smooth and error-free as possible. I'm passionate about using modern tools and practices to refine our development pipeline, reducing the time from concept to product and ensuring high-quality outputs.
+
+Being part of a team that values innovation and continuous improvement is truly exciting, and I look forward to making significant contributions to our projects.
+
+Outside of work, I'm just as passionate about exploring and learning. In my downtime, I run my own homelab, diving into Kubernetes to enhance my technical expertise. Feel free to approach me for anything - whether it's project-related or just to share ideas and insights. I'm here to learn & contribute. 😄
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/)
 
@@ -54,8 +64,8 @@ I like to do lots of different projects, which I list on [my website](https://jo
 
 I hope we can get along, and build the technological world of tomorrow !
 
-- Mail : jolan.thomassin@inspection.gc.ca
+- Mail : <jolan.thomassin@inspection.gc.ca>
 
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/)
 
-Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline software development and deployment to improve system reliability and efficiency. I'll enforce security to protect our operations and align with SRE practices to ensure our infrastructure's scalability and continuous service delivery. 
+Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline software development and deployment to improve system reliability and efficiency. I'll enforce security to protect our operations and align with SRE practices to ensure our infrastructure's scalability and continuous service delivery.
