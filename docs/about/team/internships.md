@@ -10,11 +10,11 @@ sidebar_position: 4
 > que j'ai eu jusqu'à présent. Ici, le terme stagiaire n'est presque pas
 > employé. On est traité, intégré et faisons le travail des employés permanents.
 > Ce qui correspond à mon avis, le plus grand avantage de cet emploi, car nous
-> avons l'opportunité de participer au développement, d'intéragir avec les
+> avons l'opportunité de participer au développement, d'interagir avec les
 > utilisateurs et de participer à des réunions avec des gens importants au sein
 > de l'ACIA pour présenter notre projet.
 <!-- Ligne vide pour séparer les citations -->
-> On aime nous mettre au défi et ici, on croit sincérement au potentiel des
+> On aime nous mettre au défi et ici, on croit sincèrement au potentiel des
 > stagiaires. On est supporté par l'équipe qui participe à l'apprentissage à nos
 > côtés.
 
