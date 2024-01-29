@@ -59,3 +59,9 @@ I hope we can get along, and build the technological world of tomorrow !
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/)
 
 Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline software development and deployment to improve system reliability and efficiency. I'll enforce security to protect our operations and align with SRE practices to ensure our infrastructure's scalability and continuous service delivery. 
+
+### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck-b17296202)
+
+Hello there! I'm Francois Werbrouck, an enthusiastic database developer for CFIA. 
+
+As a member of the AI-Lab team, I will mainly focus on improving process and task concerning the database behind the growing Artificial intelligence that the team in building. I will face multiple challenges and new concept, but as a software engineer student this is my thrill. I love to crack my head on issues and brainstorm new ideas so I'm confident that I will be served! 
