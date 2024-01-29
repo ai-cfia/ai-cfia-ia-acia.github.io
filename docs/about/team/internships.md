@@ -63,6 +63,20 @@ sidebar_position: 4
 > Nos supérieurs nous ont fait comprendre que nous avons une place et qu'ils
 > veulent notre apport, que nous sommes les bienvenus au sein de l'équipe.
 
+## [Lopez, Jonathan](https://www.linkedin.com/in/lopez-jonathan/) - Hiver 2024
+
+> Dès mon arrivée à l'équipe du laboratoire d'IA de l'ACIA, j'ai été sollicité
+> pour mon expertise en DevOps et en sécurité, ce qui a renforcé ma conviction
+> d'avoir choisi le bon stage. L'un de mes principaux intérêts dans ce stage est
+> de simplifier et d'optimiser les workflows. Mon objectif est de réduire le
+> temps nécessaire pour passer de l'idée au produit final.
+<!-- Ligne vide pour séparer les citations -->
+> Je mets activement mes compétences en pratique et je participe déjà à des
+> discussions utiles avec l'équipe. Notre collaboration évolue chaque jour, et
+> il est gratifiant de constater les progrès réels que nous réalisons ensemble
+> sur nos projets. Cet environnement dynamique favorise mon apprentissage et ma
+> croissance professionnelle.
+
 ## [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) -  Automne 2023
 >
 > L'intégration dans l'entreprise est honnêtement incroyable. On nous demande
