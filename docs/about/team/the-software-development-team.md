@@ -72,11 +72,12 @@ that utilize emerging technologies. Additionally, this initiative by the
 Canadian Food Inspection Agency demonstrates a commitment to innovation, and
 it's an honor to contribute to its mission.
 
-### [Lopez, Jonathan](https://www.linkedin.com/in/lopez-jonathan/)
+### [Lopez, Jonathan](https://www.linkedin.com/in/lopez-jonathan/) - DevSecOps
 
 Hi everyone! I'm Jonathan Lopez, currently diving into the world of software
-engineering at ETS. I've joined the CFIA AI Lab DevSecOps team, where I'll be
-mixing up a special blend of software development, security, and ops.
+engineering at École de technologie supérieure (ÉTS). I've joined the CFIA AI
+Lab DevSecOps team, where I'll be mixing up a special blend of software
+development, security, and ops.
 
 My role primarily revolves around the practices of DevOps and Site Reliability
 Engineering (SRE), focusing on automating workflows to streamline our processes.
