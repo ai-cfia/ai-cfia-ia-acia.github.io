@@ -150,3 +150,9 @@ Engineer at CFIA. My primary responsibilities include ensuring the reliability
 and efficiency of our technical processes as well as making sure a strong level
 of security is maintained. I am thrilled to be a part of the team that is making
 this project possible !
+
+### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck-b17296202)
+
+Hello there! I'm Francois Werbrouck, an enthusiastic database developer for CFIA.
+
+As a member of the AI-Lab team, I will mainly focus on improving process and task concerning the database behind the growing Artificial intelligence that the team in building. I will face multiple challenges and new concept, but as a software engineer student this is my thrill. I love to crack my head on issues and brainstorm new ideas so I'm confident that I will be served!

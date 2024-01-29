@@ -4,10 +4,24 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
-### [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Base de données Hiver 2024
+### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck-b17296202) - Base de données Hivers 2024
 > Ayant déjà travaillé pour le gouvernement, je suis étonnament surpris de mon intégration chaleureuse avec l'équipe. Celle-ci était très guidé documenté et j'ai eu comme tâche d'améliorer le processus d'intégration pour mes futurs collègues. Bref, j'ai hâte de commencer à pouvoir participer aux projets de l'équipe puisque je me sens déjà comme l'un des leurs.
 
 > J'ai appliqué pour ce stage puisque j'étais curieux envers l'intelligence artificielle, n'ayant aucune base sur ce sujet, je me suis lancé. En peu de temps j'ai déjà beaucoup appris sur le sujet. Mon superviseur c'est bien occupé de fournir la documentation nécessaire pour me mettre rapidement à niveau ce qui est très apprécié!
+
+## [Kabir, Ibrahim](https://www.linkedin.com/in/ibrahimkabir/) - Hiver 2024
+>
+> Travailler avec l'ACIA sera probablement la meilleure expérience de travail
+> que j'ai eu jusqu'à présent. Ici, le terme stagiaire n'est presque pas
+> employé. On est traité, intégré et faisons le travail des employés permanents.
+> Ce qui correspond à mon avis, le plus grand avantage de cet emploi, car nous
+> avons l'opportunité de participer au développement, d'interagir avec les
+> utilisateurs et de participer à des réunions avec des gens importants au sein
+> de l'ACIA pour présenter notre projet.
+<!-- Ligne vide pour séparer les citations -->
+> On aime nous mettre au défi et ici, on croit sincèrement au potentiel des
+> stagiaires. On est supporté par l'équipe qui participe à l'apprentissage à nos
+> côtés.
 
 ### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Backend Automne 2023
 > J'ai choisi ce stage parce qu'il s'aligne parfaitement avec les compétences que je possède déjà et que je souhaite développer davantage. Ce stage représente une opportunité idéale pour moi de grandir professionnellement tout en contribuant à un domaine qui me passionne.
