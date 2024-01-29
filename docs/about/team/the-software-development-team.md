@@ -151,7 +151,7 @@ and efficiency of our technical processes as well as making sure a strong level
 of security is maintained. I am thrilled to be a part of the team that is making
 this project possible !
 
-### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck-b17296202)
+### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck)
 
 Hello there! I'm Francois Werbrouck, an enthusiastic database developer for CFIA.
 
