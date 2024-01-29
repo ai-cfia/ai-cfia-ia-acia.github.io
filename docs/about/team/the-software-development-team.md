@@ -60,7 +60,7 @@ I hope we can get along, and build the technological world of tomorrow !
 
 Hello, I'm Thomas Cardin, a DevOps Specialist at CFIA. My job is to streamline software development and deployment to improve system reliability and efficiency. I'll enforce security to protect our operations and align with SRE practices to ensure our infrastructure's scalability and continuous service delivery. 
 
-### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck-b17296202)
+### [Werbrouck, Francois] (https://www.linkedin.com/in/francois-werbrouck)
 
 Hello there! I'm Francois Werbrouck, an enthusiastic database developer for CFIA. 
 
