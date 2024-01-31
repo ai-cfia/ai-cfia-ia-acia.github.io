@@ -13,16 +13,16 @@ Food Inspection Agency AI Lab.
 
 I’m currently working on Nachet, a web application using computer vision AI
 models, which is designed to help CFIA seed analysts identify seeds from images
-taken from digital microscopes. More specifically, my role in
-the backend is to make sure that the frontend, the database, and the AI model are
-able to talk to each other. "But how?" you might ask. By building efficient APIs and
-routes for data to travel safely.
+taken from digital microscopes. More specifically, my role in the backend is to
+make sure that the frontend, the database, and the AI model are able to talk to
+each other. "But how?" you might ask. By building efficient APIs and routes for
+data to travel safely.
 
-Before that, I worked for a local escape game, where I was a game master. Working for a
-small company, I had the opportunity to test my skills in different areas and
-propose innovative solutions. During the pandemic, I proposed a system to fuse the hints
-system and the video story introduction. Since then, I've followed the path of
-the programmer.
+Before that, I worked for a local escape game, where I was a game master.
+Working for a small company, I had the opportunity to test my skills in
+different areas and propose innovative solutions. During the pandemic, I
+proposed a system to fuse the hints system and the video story introduction.
+Since then, I've followed the path of the programmer.
 
 - Mail: <maxence.guindon@inspection.gc.ca>
 
