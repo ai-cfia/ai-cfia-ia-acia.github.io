@@ -6,13 +6,32 @@ sidebar_position: 2
 
 ## Current team
 
+### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
+
+Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
+Food Inspection Agency AI Lab.
+
+I’m currently working on Nachet, a web application using computer vision AI
+models, which is designed to help CFIA seed analysts identify seeds from images
+taken from digital microscopes. More specifically, my role in
+the backend is to make sure that the frontend, the database, and the AI model are
+able to talk to each other. "But how?" you might ask. By building efficient APIs and
+routes for data to travel safely.
+
+Before that, I worked for a local escape game, where I was a game master. Working for a
+small company, I had the opportunity to test my skills in different areas and
+propose innovative solutions. During the pandemic, I proposed a system to fuse the hints
+system and the video story introduction. Since then, I've followed the path of
+the programmer.
+
+- Mail: <maxence.guindon@inspection.gc.ca>
+
 ### [Kabir, Ibrahim](https://www.linkedin.com/in/ibrahimkabir/) - Backend
 
 **Hello everyone!** 👋
 
-I am Ibrahim Kabir, a backend developer in the Artificial Intelligence
-Laboratory team, and my role involves designing and implementing the server-side
-logic that powers our AI solutions.
+I am Ibrahim Kabir, a backend developer in the AI Lab team, and my role involves
+designing and implementing the server-side logic that powers our AI solutions.
 
 With a degree in electronics, I discovered my passion for computer science.
 Being a backend developer at CFIA is a way for me to nurture this passion and
@@ -69,7 +88,7 @@ Cheers to new beginnings and endless lines of code!
 ### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend
 
 Hello! My name is William Lemire, and I am a Backend Application Developer in
-the Artificial Intelligence Laboratory team.
+the AI Lab team.
 
 Before COVID, I worked in the communications/marketing field, holding a
 Bachelor's degree in Public Relations from UQAM. As I progressed in my career, I
@@ -78,7 +97,7 @@ in this sector in the coming years. Therefore, I decided to make a switch to
 software engineering, eager to be part of this new technological revolution that
 is set to transform all areas of society.
 
-Thanks to the AI Laboratory, I have the opportunity to work on exciting projects
+Thanks to the AI Lab, I have the opportunity to work on exciting projects
 that utilize emerging technologies. Additionally, this initiative by the
 Canadian Food Inspection Agency demonstrates a commitment to innovation, and
 it's an honor to contribute to its mission.
@@ -134,7 +153,7 @@ I hope we can get along, and build the technological world of tomorrow !
 ### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données
 
 Hello! My name is Mélanie Fressard, and I am a Database Manager in the
-Artificial Intelligence Laboratory team at the CFIA (Canadian Food Inspection
+AI Lab team at the CFIA (Canadian Food Inspection
 Agency). My role involves evolving the database to enhance information
 processing and management.
 
