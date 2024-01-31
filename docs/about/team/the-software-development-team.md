@@ -39,7 +39,7 @@ continually expand my knowledge.
 
 - Email : <ibrahim.kabir@inspection.gc.ca>
 
-### [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck)
+### [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Database
 
 Hello there! I'm Francois Werbrouck, an enthusiastic database developer for
 CFIA.

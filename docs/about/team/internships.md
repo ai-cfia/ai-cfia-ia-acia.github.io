@@ -4,12 +4,12 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
-## [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck-b17296202) - Base de données Hivers 2024
+## [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Base de données Hivers 2024
 > Ayant déjà travaillé pour le gouvernement, je suis étonnament surpris de mon
-> intégration chaleureuse avec l'équipe. Celle-ci était très guidé documenté et
+> intégration chaleureuse avec l'équipe. Celle-ci était très guidé, documenté et
 > j'ai eu comme tâche d'améliorer le processus d'intégration pour mes futurs
 > collègues. Bref, j'ai hâte de commencer à pouvoir participer aux projets de
-> l'équipe puisque je me sens déjà comme l'un des leurs.
+> l'équipe, puisque je me sens déjà comme l'un des leurs.
 
 > J'ai appliqué pour ce stage puisque j'étais curieux envers l'intelligence
 > artificielle, n'ayant aucune base sur ce sujet, je me suis lancé. En peu de
