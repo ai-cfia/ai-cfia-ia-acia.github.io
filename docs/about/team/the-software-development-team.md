@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Current team
 
-### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
+### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
 Food Inspection Agency AI Lab.

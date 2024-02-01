@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
-## [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Base de données Hivers 2024
+## [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Hivers 2024
 > Ayant déjà travaillé pour le gouvernement, je suis étonnament surpris de mon
 > intégration chaleureuse avec l'équipe. Celle-ci était très guidé, documenté et
 > j'ai eu comme tâche d'améliorer le processus d'intégration pour mes futurs
@@ -17,7 +17,7 @@ sidebar_position: 4
 > occupé de fournir la documentation nécessaire pour me mettre rapidement à
 > niveau ce qui est très apprécié!
 
-### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
+### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Hiver 2024
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des
 > aliments parce qu'il s'agissait d'une opportunité de développer mes habiletés
 > et d'apprendre la profession dans un milieu ouvert et accueillant.
@@ -53,7 +53,7 @@ sidebar_position: 4
 > occupé de fournir la documentation nécessaire pour me mettre rapidement à
 > niveau ce qui est très apprécié!
 
-### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Backend Automne 2023
+### [Allagbe, Kotchikpa Guy-Landry](https://www.linkedin.com/in/guy-landry-allagbe/) - Automne 2023
 > J'ai choisi ce stage parce qu'il s'aligne parfaitement avec les compétences
 > que je possède déjà et que je souhaite développer davantage. Ce stage
 > représente une opportunité idéale pour moi de grandir professionnellement tout
@@ -71,7 +71,7 @@ sidebar_position: 4
 > Cela ajoute une couche de motivation et rend l'expérience d'autant plus
 > gratifiante.
 
-### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données Automne 2023
+### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Automne 2023
 > Puisque j'étais en compétition avec mon club étudiant, je n'ai malheureusement
 > pas commencé à travailler en même temps que les autres stagiaires mais j'ai
 > tout de même reçu un accueil vraiment chaleureux. L'intégration prend en
@@ -84,7 +84,7 @@ sidebar_position: 4
 > sur les décisions importantes.
 
 
-### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Backend Automne 2023
+### [Lemire, William](https://www.linkedin.com/in/wlemire/) - Automne 2023
 > Je suis retourné aux études pour éventuellement travailler dans le domaine de
 > l'intelligence artificielle. Je ne suis pas tant intéressé de développer l'IA
 > en tant que telle, mais plutôt de l'utiliser et de l'adapter à des contextes
@@ -97,7 +97,7 @@ sidebar_position: 4
 > veulent notre apport, que nous sommes les bienvenus au sein de l'équipe.
 
 
-### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps Automne 2023
+### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - Automne 2023
 > L'intégration dans l'entreprise est honnêtement incroyable. On nous demande
 > d'être présent dans la promotion de l'agence, on nous demande d'aller voir des
 > inspecteurs pour leur parler du projet, on nous dit également de mettre nos
@@ -114,7 +114,7 @@ sidebar_position: 4
 > stage est exceptionnel, on peut voir qu'il tient à nous apprendre et à notre
 > réussite en général.
 
-### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données Automne 2023
+### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Automne 2023
 > Travaillant avec le gouvernement, nous avons été soumis à de nombreuses
 > enquêtes de sécurité et avons dû respecter des restrictions initiales sur nos
 > environnements de travail mais nous sommes relativement bien guidés, ce qui
