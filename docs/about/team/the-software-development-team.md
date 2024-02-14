@@ -6,6 +6,18 @@ sidebar_position: 2
 
 ## Current team
 
+## [Samuel Pelletier-Evraire](www.linkedin.com/in/samuel-pelletier-evraire) - Application mobile hivers 2024
+
+Hello! My name is Samuel Pelletier-Evraire, and I am an application developer
+at the Food Inspection Agency AI Lab.
+
+I'm currently working on the new portable application for the food inspectors.
+My role in this application involves design, programming, and project planning.
+
+Before this, I worked at St-Hubert as a delivery driver. Working for this
+company was not very exciting and didn't offer many big opportunities. That's
+ why I'm glad to be on this new team.
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian

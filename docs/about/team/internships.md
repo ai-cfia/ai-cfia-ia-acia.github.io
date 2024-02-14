@@ -4,6 +4,19 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
+## [Samuel Pelletier-Evraire](www.linkedin.com/in/samuel-pelletier-evraire) - Application mobile hivers 2024
+> J'ai choisi de postuler au stage de l'agence canadienne d'inspection des
+> aliment parce que celle-ci m'offrait une opportunité de rentrer au gouvernement
+> et aussi de perfectionner mes différentes habileté en programmation.
+<!-- Ligne vide pour séparer les citations -->
+> Le fait de rentrer dans un environnement et de devoir faire la majorité
+> de l'implémentation d'une application mobile est certainement un stresse
+> mais cela est aussi une chance qu'on me donne afin de me surpasser.
+<!-- Ligne vide pour séparer les citations -->
+> Dès le début j'ai sue que tout commentaire constructif malgré que cela soit
+> mon deuxième jour serais prit à bras ouvert. Je suis content de l'ouverture
+> d'esprit de nos supérieur.
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des
 > aliments parce qu'il s'agissait d'une opportunité de développer mes habiletés
