@@ -6,23 +6,23 @@ sidebar_position: 2
 
 ## Current team
 
-### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
+### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
 Food Inspection Agency AI Lab.
 
 I’m currently working on Nachet, a web application using computer vision AI
 models, which is designed to help CFIA seed analysts identify seeds from images
-taken from digital microscopes. More specifically, my role in
-the backend is to make sure that the frontend, the database, and the AI model are
-able to talk to each other. "But how?" you might ask. By building efficient APIs and
-routes for data to travel safely.
+taken from digital microscopes. More specifically, my role in the backend is to
+make sure that the frontend, the database, and the AI model are able to talk to
+each other. "But how?" you might ask. By building efficient APIs and routes for
+data to travel safely.
 
-Before that, I worked for a local escape game, where I was a game master. Working for a
-small company, I had the opportunity to test my skills in different areas and
-propose innovative solutions. During the pandemic, I proposed a system to fuse the hints
-system and the video story introduction. Since then, I've followed the path of
-the programmer.
+Before that, I worked for a local escape game, where I was a game master.
+Working for a small company, I had the opportunity to test my skills in
+different areas and propose innovative solutions. During the pandemic, I
+proposed a system to fuse the hints system and the video story introduction.
+Since then, I've followed the path of the programmer.
 
 - Mail: <maxence.guindon@inspection.gc.ca>
 
@@ -38,6 +38,18 @@ Being a backend developer at CFIA is a way for me to nurture this passion and
 continually expand my knowledge.
 
 - Email : <ibrahim.kabir@inspection.gc.ca>
+
+### [Werbrouck, Francois](https://www.linkedin.com/in/francois-werbrouck) - Database
+
+Hello there! I'm Francois Werbrouck, an enthusiastic database developer for
+CFIA.
+
+As a member of the AI-Lab team, my primary objective revolves around enhancing
+the database infrastructure supporting our Artificial Intelligence initiatives.
+I will embrace the multiple challenges that I will face. Being a software
+engineering student, I thrive on problem-solving and ideation. Therefore, I
+eagerly anticipate the exciting opportunities and discoveries awaiting me and
+team!
 
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/) - DevOps
 
