@@ -63,3 +63,7 @@
   left: 50%; /* Set to middle of screen */
   transform: translateX(-50%); /* Center the div */
 }
+
+.hero__title {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
