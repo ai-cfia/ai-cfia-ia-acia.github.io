@@ -29,7 +29,7 @@ Guide](https://github.com/ai-cfia/dev-rel-docs/blob/main/Minimal-Backend-Setup-G
 dev containers configurations.
 
 [Naming
-things](https://github.com/ai-cfia/dev-rel-docs/blob/main/Naming-Conventions/NAMING-RESOURCES.md)
+things](https://github.com/ai-cfia/dev-rel-docs/blob/main/adr/008-naming-convention.md)
 : A document outlining standard naming conventions for resources.
 
 [TypeScript Environment Variables Setup
