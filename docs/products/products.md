@@ -7,4 +7,3 @@ sidebar_position: 1
 ## Philosophy
 
 ## The intake process
-
