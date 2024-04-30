@@ -98,12 +98,12 @@ sidebar_position: 4
 > Lors de la journée d'intégration au CFIA, j'ai été introduit au projet,
 > sa vision, son état actuel et mon équipe. La liberté qui m'est accordé m'a
 > ravi;surtout en tant que stagiaire. L'environnement favorise
-> l'innovation et laprise d'initiative. On a très vite l'impression d'être
+> l'innovation et la prise d'initiative. On a très vite l'impression d'être
 > un membre à part entière de l'équipe.
 <!-- Ligne vide pour séparer les citations -->
 > La session précédent le stage, j'ai réalisé un cours d'introduction à
 > l'intelligence artificielle qui a piqué mon intérêt pour le sujet.
-> J'ai aussi del'expérience dans le développement de logiciel backend,
+> J'ai aussi de l'expérience dans le développement de logiciel backend,
 > ce poste semble donc parfaitement correspondre à mes compétences.
 
 ## [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) -  Automne 2023
