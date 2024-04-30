@@ -93,6 +93,19 @@ sidebar_position: 4
 > sur nos projets. Cet environnement dynamique favorise mon apprentissage et ma
 > croissance professionnelle.
 
+## [Ndjeutcha, Bryan](https://www.linkedin.com/in/ndjeutcha-albert-bryan/) - Été 2024
+
+> Lors de la journée d'intégration au CFIA, j'ai été introduit au projet,
+> sa vision, son état actuel et mon équipe. La liberté qui m'est accordé m'a
+> ravi;surtout en tant que stagiaire. L'environnement favorise
+> l'innovation et laprise d'initiative. On a très vite l'impression d'être
+> un membre à part entière de l'équipe.
+<!-- Ligne vide pour séparer les citations -->
+> La session précédent le stage, j'ai réalisé un cours d'introduction à
+> l'intelligence artificielle qui a piqué mon intérêt pour le sujet.
+> J'ai aussi del'expérience dans le développement de logiciel backend,
+> ce poste semble donc parfaitement correspondre à mes compétences.
+
 ## [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) -  Automne 2023
 >
 > L'intégration dans l'entreprise est honnêtement incroyable. On nous demande

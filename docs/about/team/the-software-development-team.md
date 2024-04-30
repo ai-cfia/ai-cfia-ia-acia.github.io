@@ -115,6 +115,17 @@ downtime, I run my own homelab, diving into Kubernetes to enhance my technical
 expertise. Feel free to approach me for anything - whether it's project-related
 or just to share ideas and insights. I'm here to learn & contribute. 😄
 
+### [Ndjeutcha, Bryan](https://www.linkedin.com/in/lopez-jonathan/) - DevSecOps
+
+Hi! My name is Bryan Ndjeutcha, and I've joined the
+CFIA's (Canadian Food Inspection Agency) AI Lab as a full-stack developer.
+My role is to implement services that leverage our AI infrastructure.
+
+I'm very interested in developing novel solutions to everyday problems,
+and the AI Lab seems like the perfect place to start.
+
+- email: albert.ndjeutcha@inspection.gc.ca
+
 ### [Thomassin, Jolan](https://www.linkedin.com/in/jolan-thomassin/) - Base de données
 
 **Hello !** 👋
