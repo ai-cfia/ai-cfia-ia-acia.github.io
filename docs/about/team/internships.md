@@ -93,7 +93,7 @@ sidebar_position: 4
 > sur nos projets. Cet environnement dynamique favorise mon apprentissage et ma
 > croissance professionnelle.
 
-## [Ndjeutcha, Bryan](https://www.linkedin.com/in/ndjeutcha-albert-bryan/) - Été 2024
+## [Ndjeutcha, Bryan](https://www.linkedin.com/in/albert-bryan-ndjeutcha/) - Été 2024
 
 > Lors de la journée d'intégration au CFIA, j'ai été introduit au projet,
 > sa vision, son état actuel et mon équipe. La liberté qui m'est accordé m'a

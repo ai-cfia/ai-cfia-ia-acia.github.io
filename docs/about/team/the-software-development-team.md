@@ -115,7 +115,7 @@ downtime, I run my own homelab, diving into Kubernetes to enhance my technical
 expertise. Feel free to approach me for anything - whether it's project-related
 or just to share ideas and insights. I'm here to learn & contribute. 😄
 
-### [Ndjeutcha, Bryan](https://www.linkedin.com/in/lopez-jonathan/) - DevSecOps
+### [Ndjeutcha, Bryan](https://www.linkedin.com/in/albert-bryan-ndjeutcha/) - Fullstack
 
 Hi! My name is Bryan Ndjeutcha, and I've joined the
 CFIA's (Canadian Food Inspection Agency) AI Lab as a full-stack developer.
