@@ -95,7 +95,7 @@ sidebar_position: 4
 
 ## [Ndjeutcha, Bryan](https://www.linkedin.com/in/albert-bryan-ndjeutcha/) - Été 2024
 
-> Lors de la journée d'intégration au CFIA, j'ai été introduit au projet,
+> Lors de la journée d'intégration à l'ACIA, j'ai été introduit au projet,
 > sa vision, son état actuel et mon équipe. La liberté qui m'est accordé m'a
 > ravi;surtout en tant que stagiaire. L'environnement favorise
 > l'innovation et la prise d'initiative. On a très vite l'impression d'être
