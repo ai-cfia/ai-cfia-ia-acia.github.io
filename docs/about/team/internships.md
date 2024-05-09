@@ -4,7 +4,8 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
-### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
+## [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
+>
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des
 > aliments parce qu'il s'agissait d'une opportunité de développer mes habiletés
 > et d'apprendre la profession dans un milieu ouvert et accueillant.
@@ -137,5 +138,6 @@ Un stage chez l'ACIA c'est :
 - Un mode de travail hybride, des horaires flexibles et un bon salaire;
 - Des mandats adaptés à tes compétences;
 - Une bonne ambiance !
+
 > Participation à des événements extra-professionnels, comme le Linux Meet Up,
 > des 5à7, des webinaires et plus encore !

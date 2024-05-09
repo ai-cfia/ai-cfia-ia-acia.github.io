@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   deploy:
-    uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@issue-31-update-gh-pages-deployment-to-allow-use-of-baseurl
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-gh-pages-deployment.yml@main
     with:
       node-version: 18
       publish-dir: ./build

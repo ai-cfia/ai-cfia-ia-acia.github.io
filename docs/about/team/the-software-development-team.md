@@ -13,16 +13,16 @@ Food Inspection Agency AI Lab.
 
 I’m currently working on Nachet, a web application using computer vision AI
 models, which is designed to help CFIA seed analysts identify seeds from images
-taken from digital microscopes. More specifically, my role in
-the backend is to make sure that the frontend, the database, and the AI model are
-able to talk to each other. "But how?" you might ask. By building efficient APIs and
-routes for data to travel safely.
+taken from digital microscopes. More specifically, my role in the backend is to
+make sure that the frontend, the database, and the AI model are able to talk to
+each other. "But how?" you might ask. By building efficient APIs and routes for
+data to travel safely.
 
-Before that, I worked for a local escape game, where I was a game master. Working for a
-small company, I had the opportunity to test my skills in different areas and
-propose innovative solutions. During the pandemic, I proposed a system to fuse the hints
-system and the video story introduction. Since then, I've followed the path of
-the programmer.
+Before that, I worked for a local escape game, where I was a game master.
+Working for a small company, I had the opportunity to test my skills in
+different areas and propose innovative solutions. During the pandemic, I
+proposed a system to fuse the hints system and the video story introduction.
+Since then, I've followed the path of the programmer.
 
 - Mail: <maxence.guindon@inspection.gc.ca>
 
@@ -86,10 +86,10 @@ in this sector in the coming years. Therefore, I decided to make a switch to
 software engineering, eager to be part of this new technological revolution that
 is set to transform all areas of society.
 
-Thanks to the AI Lab, I have the opportunity to work on exciting projects
-that utilize emerging technologies. Additionally, this initiative by the
-Canadian Food Inspection Agency demonstrates a commitment to innovation, and
-it's an honor to contribute to its mission.
+Thanks to the AI Lab, I have the opportunity to work on exciting projects that
+utilize emerging technologies. Additionally, this initiative by the Canadian
+Food Inspection Agency demonstrates a commitment to innovation, and it's an
+honor to contribute to its mission.
 
 ### [Lopez, Jonathan](https://www.linkedin.com/in/lopez-jonathan/) - DevSecOps
 
@@ -141,10 +141,9 @@ I hope we can get along, and build the technological world of tomorrow !
 
 ### [Fressard, Mélanie](https://www.linkedin.com/in/melanie-fressard/) - Base de données
 
-Hello! My name is Mélanie Fressard, and I am a Database Manager in the
-AI Lab team at the CFIA (Canadian Food Inspection
-Agency). My role involves evolving the database to enhance information
-processing and management.
+Hello! My name is Mélanie Fressard, and I am a Database Manager in the AI Lab
+team at the CFIA (Canadian Food Inspection Agency). My role involves evolving
+the database to enhance information processing and management.
 
 I am very excited to work on such a project, as artificial intelligence and
 database management are fields rich in knowledge.
