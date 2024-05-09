@@ -6,6 +6,16 @@ sidebar_position: 2
 
 ## Current team
 
+### [Sylvanie You](https://www.linkedin.com/in/sylvanie-you/) - Full Stack
+
+Hello 👋 I'm Sylvanie You, I'm working as a Full Stack developer at the Canadian
+Food Inspection Agency AI Lab.
+
+As I a already have some experience in full stack developement for web
+applications, the team trust me to take over the Nachet Backend.
+
+- Mail : sylvanie.you@inspection.gc.ca
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
