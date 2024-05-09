@@ -14,7 +14,7 @@ Food Inspection Agency AI Lab.
 As I a already have some experience in full stack developement for web
 applications, the team trust me to take over the Nachet Backend.
 
-- Mail : sylvanie.you@inspection.gc.ca
+- Mail : <sylvanie.you@inspection.gc.ca>
 
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
