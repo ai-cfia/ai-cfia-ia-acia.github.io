@@ -4,6 +4,20 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
+## [Sylvanie You](https://www.linkedin.com/in/sylvanie-you/) - Full Stack Été 2024
+>
+> Faire mon stage à l'ACIA est pour moi une opportunité de développer mes
+> compétences et de faire partie d'une organisation qui utilise des technologies
+> récentes. Rejoindre l'équipe du laboratoire d'intelligence artificielle me
+> permet de prendre part aux projets, d'apprendre comment fonctionne une équipe
+> informatique, mais aussi de découvrir et apprendre à développer des systèmes
+> intelligents.
+<!-- Ligne vide pour séparer les citations -->
+> Travailler au laboratoire d'intelligence artificiel de l'acia c'est travailler
+> dans une équipe jeune où tout le monde s'entraide. Les stagiaires sont
+> tout le long de l'intégration, nous sommes considérés comme des employés
+> permanents.
+
 ## [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
 >
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des
