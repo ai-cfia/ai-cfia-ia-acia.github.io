@@ -6,6 +6,20 @@ sidebar_position: 2
 
 ## Current team
 
+### [Jules Barbier](https://www.linkedin.com/in/jules-barbier-bordere/) - Fullstack
+
+Hi ! I'm Jules Barbier, and am a Fullstack developer in the AI Lab.
+
+I've had the opportunity to work on really different projects. Some involved
+working with geo-referenced data and a map, some involved user accounts and
+security issues. All those projects gave me tools to understand the complexity
+of a web application.
+
+Here at AI Lab, I will use AI and LLMs to build powerfull applications. This
+give me the opportunity to, once again, add a tool to my tool belt.
+
+- Mail : <jules.barbier@inspections.gc.ca>
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
