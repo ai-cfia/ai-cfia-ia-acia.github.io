@@ -4,6 +4,23 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
+## [Jules Barbier](https://www.linkedin.com/in/jules-barbier-bordere/) - Été 2024
+>Plusieurs amis ont fait leur stage à l'Agence Canadienne d'Inspection des
+>Aliments et m'on parlé d'une expérience positive. N'ayant eu d'expérience que
+>dans une très petite entreprise je voulais expérimenter les plus grande
+>organisation. J'ai été surpris de voir que l'équipe AI Lab fonctionne comme une
+>petite entreprise avec les moyens d'une grande.
+<!-- Ligne vide pour séparer les citations -->
+>Les projets du AI Lab sont vraiment passionnant et utilisent des outils
+>modernes de manière innovante. En effet, l'intelligence artificielle et les LLM
+>permettent aux projets du AI Lab d'être au devant des innovations de
+>l'informatique.
+<!-- Ligne vide pour séparer les citations -->
+>J'aprécis la manière dont l'intégration des stagiaires est organisé par les
+>anciens stagiaire et participe à l'intégration des futurs stagiaires. En effet,
+>notre contribution aux différents documents permet une intégration fluide et
+>agréable tout en nous apportant les clefs de compréhension du AI Lab
+
 ## [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
 >
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des
