@@ -4,6 +4,23 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
+## [Clement Deffes](https://www.linkedin.com/in/clement-deffes) - Été 2024
+>
+> J'ai l'honneur de faire partie de l'équipe de laboratoire d'intelligence
+> artificielle de l'Agence Canadienne d'Inspection des Aliments. Durant ce stage
+> de quatre mois, j'espère pouvoir développer mes connaissances et mettre à
+> profit celles que j'ai déjà emmagasinées dans des projets innovants et
+> intéressants.
+<!-- Ligne vide pour séparer les citations -->
+> En tant que stagiaire Multimédia et communication, je prends conscience que la
+> tache qui m'incombe ne sera pas de tout repos. Il me faudra redoubler d'effort
+> afin de remplir mes objectifs.
+<!-- Ligne vide pour séparer les citations -->
+> L'intégration est très demandante mais reste complète et intéressante. J'ai
+> très hâte de débuter officiellement ce stage et de participer à proposer des
+> solutions qui permettront d'inculquer une meilleure communication au labo d'IA
+> de l'ACIA.
+
 ## [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
 >
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des

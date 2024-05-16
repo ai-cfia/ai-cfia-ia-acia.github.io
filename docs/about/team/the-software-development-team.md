@@ -6,6 +6,20 @@ sidebar_position: 2
 
 ## Current team
 
+### [Clement Deffes](https://www.linkedin.com/in/clement-deffes)
+
+**Howdy!** I am Clément Deffes, and I am a Communication intern at the Canadian
+Food Inspection Agency AI Lab.
+
+I’m currently completing my onboarding process. But soon, I'll be working on the
+AI Lab website and everything linked to the Communication aspect in this branch.
+
+This internship is part of my Computer Enginnering formation at the École de
+Technologie Supérieure. I like to learn new things and I hope that my passage at
+the ACIA will bring me new knowledges.
+
+- Mail: <clement.deffes@inspection.gc.ca>
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
