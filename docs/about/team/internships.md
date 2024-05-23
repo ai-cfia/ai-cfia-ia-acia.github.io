@@ -4,6 +4,26 @@ sidebar_position: 4
 
 # Internships at the AI Lab
 
+## [James Talbi](https://ca.linkedin.com/in/james-talbi) - Été 2024
+>
+> J'ai choisi de postuler à un stage au AI lab de l'Agence canadienne
+> d'inspection des aliments en raison de mon intérêt profond pour l'intelligence
+> artificielle générative et ma passion pour la résolution de problèmes
+> complexes. L'environnement de travail ici est à la fois accueillant et
+> stimulant, parfait pour explorer de nouvelles idées et concevoir des solutions
+> innovantes.
+<!-- Ligne vide pour séparer les citations -->
+> Dès mon arrivée, j'ai été encouragé à proposer des idées et à participer
+> activement aux discussions stratégiques. Cette confiance de la part de mes
+> superviseurs a été très motivante et m'a permis de m'intégrer rapidement dans
+> l'équipe.
+<!-- Ligne vide pour séparer les citations -->
+> Le processus d'intégration a été exceptionnel, et nous avons accès à un large
+> éventail d'outils et de technologies avancés. Le système de gestion des
+> projets est brillant, favorisant une collaboration efficace. Travailler sur
+> des projets open source hébergés sur GitHub ajoute une dimension excitante à
+> notre travail.
+
 ## [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon) - Backend Hiver 2024
 >
 > J'ai choisi de postuler au stage chez l'Agence canadienne d'inspection des

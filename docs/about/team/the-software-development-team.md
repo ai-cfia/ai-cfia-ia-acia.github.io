@@ -6,6 +6,20 @@ sidebar_position: 2
 
 ## Current team
 
+## [James Talbi](https://ca.linkedin.com/in/james-talbi) - Été 2024
+
+Hi everyone! My name is James, and I am thrilled to be part of the AI Lab team
+at the Canadian Food Inspection Agency (CFIA) as a Full Stack Developer.
+
+My passion lies in generative AI and solving complex problems. I thrive when
+brainstorming and designing innovative solutions that meet user needs and
+deliver real-world value.
+
+I will be joining the effort on Fertiscan and Louis to help make these two
+ambitious projects a reality.
+
+- Mail: <james.talbialmaniidrissi@inspection.gc.ca>
+
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
 Hello! My name is Maxence Guindon, and I am a backend developer at the Canadian
