@@ -1,0 +1,20 @@
+name: Vercel Static Frontend Deployment
+
+on:
+  push:
+
+jobs:
+  vercel-deployment-dev:
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@main
+    with:
+        project-name: 'ai-cfia-website'
+        deployment-environment: 'dev'
+    secrets: inherit
+
+  vercel-deployment-uat:
+    if: github.ref == 'refs/heads/main'
+    uses: ai-cfia/github-workflows/.github/workflows/workflow-vercel-deployment.yml@main
+    with:
+        project-name: 'ai-cfia-website'
+        deployment-environment: 'uat'
+    secrets: inherit
