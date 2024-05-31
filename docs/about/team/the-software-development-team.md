@@ -18,7 +18,7 @@ This internship is part of my Computer Enginnering formation at the École de
 Technologie Supérieure. I like to learn new things and I hope that my passage at
 the ACIA will bring me new knowledges.
 
-- Mail: <clement.deffes@inspection.gc.ca>
+- [Courriel](clement.deffes@inspection.gc.ca)
 
 ### [Maxence Guindon](https://www.linkedin.com/in/maxenceguindon)
 
@@ -38,7 +38,7 @@ different areas and propose innovative solutions. During the pandemic, I
 proposed a system to fuse the hints system and the video story introduction.
 Since then, I've followed the path of the programmer.
 
-- Mail: <maxence.guindon@inspection.gc.ca>
+- Mail: [Courriel](maxence.guindon@inspection.gc.ca)
 
 ### [Kabir, Ibrahim](https://www.linkedin.com/in/ibrahimkabir/) - Backend
 
@@ -51,7 +51,7 @@ With a degree in electronics, I discovered my passion for computer science.
 Being a backend developer at CFIA is a way for me to nurture this passion and
 continually expand my knowledge.
 
-- Email : <ibrahim.kabir@inspection.gc.ca>
+- Email : [Courriel](ibrahim.kabir@inspection.gc.ca)
 
 ### [Cardin, Thomas](https://www.linkedin.com/in/thomas-cardin/) - DevOps
 
@@ -149,7 +149,7 @@ many different things and to increase my programming  skills in the future.
 
 I hope we can get along, and build the technological world of tomorrow !
 
-- Email : <jolan.thomassin@inspection.gc.ca>
+- Email : [Courriel](jolan.thomassin@inspection.gc.ca)
 
 ## Former team members
 
@@ -162,7 +162,7 @@ the database to enhance information processing and management.
 I am very excited to work on such a project, as artificial intelligence and
 database management are fields rich in knowledge.
 
-- Email: <melanie.fressard@inspection.gc.ca>
+- Email: [Courriel](melanie.fressard@inspection.gc.ca)
 
 ### [Tarzalt, Reda](https://www.linkedin.com/in/tarzaltreda/) - DevOps
 

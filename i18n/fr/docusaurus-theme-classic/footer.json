@@ -1,0 +1,46 @@
+{
+  "link.title.Products": {
+    "message": "Produits",
+    "description": "The title of the footer links column with title=Products in the footer"
+  },
+  "link.title.Links": {
+    "message": "Liens",
+    "description": "The title of the footer links column with title=Links in the footer"
+  },
+  "link.title.More": {
+    "message": "Plus",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Louis": {
+    "message": "Louis",
+    "description": "The label of footer link with label=Louis linking to /ai-cfia-ia-acia.github.io/docs/products/louis/introduction"
+  },
+  "link.item.label.Nachet": {
+    "message": "Nachet",
+    "description": "The label of footer link with label=Nachet linking to /ai-cfia-ia-acia.github.io/docs/products/nachet/introduction"
+  },
+  "link.item.label.Finesse": {
+    "message": "Finesse",
+    "description": "The label of footer link with label=Finesse linking to /ai-cfia-ia-acia.github.io/docs/products/finesse/introduction"
+  },
+  "link.item.label.Membrane": {
+    "message": "Membrane",
+    "description": "The label of footer link with label=Membrane linking to /ai-cfia-ia-acia.github.io/docs/products/louis/introduction"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/ai-cfia"
+  },
+  "link.item.label.Terms and conditions": {
+    "message": "Termes et conditions",
+    "description": "The label of footer link with label=Terms and conditions linking to https://www.canada.ca/en/transparency/terms.html"
+  },
+  "link.item.label.CFIA Website": {
+    "message": "Site de l'ACIA",
+    "description": "The label of footer link with label=CFIA Website linking to https://inspection.canada.ca/eng/1297964599443/1297965645317"
+  },
+  "copyright": {
+    "message": "CE SITE EST EN ALPHA | 2024 AI Lab | CE SITE EST EN ALPHA",
+    "description": "The footer copyright"
+  }
+}
