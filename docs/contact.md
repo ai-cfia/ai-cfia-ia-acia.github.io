@@ -13,4 +13,4 @@ Whether you are a professional, a student, or simply an AI enthusiast, we invite
 you to reach out to us. Let’s collaborate to expand our understanding and to
 push the boundaries of what AI can achieve.
 
-**Email**: [Courriel](cfia.ai-ia.acia@inspection.gc.ca)
+**Email**: [cfia.ai-ia.acia@inspection.gc.ca](mailto:cfia.ai-ia.acia@inspection.gc.ca)
