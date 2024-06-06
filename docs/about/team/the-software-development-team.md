@@ -14,9 +14,9 @@ Food Inspection Agency AI Lab.
 I’m currently completing my onboarding process. But soon, I'll be working on the
 AI Lab website and everything linked to the Communication aspect in this branch.
 
-This internship is part of my Computer Enginnering formation at the École de
+This internship is part of my Computer Engineering degree at the École de
 Technologie Supérieure. I like to learn new things and I hope that my passage at
-the ACIA will bring me new knowledges.
+the CFIA will bring me new knowledge.
 
 - Mail: <clement.deffes@inspection.gc.ca>
 
