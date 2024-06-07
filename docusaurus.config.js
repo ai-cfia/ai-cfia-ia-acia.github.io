@@ -18,6 +18,18 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: baseUrl,
 
+  plugins: [
+    [
+      'docusaurus-plugin-remote-content',
+      {
+        name: "dev-rel-docs-fetched",
+        sourceBaseUrl: 'https://raw.githubusercontent.com/ai-cfia/dev-rel-docs/main/',
+        outDir: 'docs/dev-rel-docs-fetched',
+        documents: ['README.md'],
+      },
+    ],
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ai-cfia', // Usually your GitHub org/user name.
@@ -91,7 +103,7 @@ const config = {
             position: 'left',
           },
           {
-            to: 'docs/dev-rel-docs/',
+            to: 'dev-rel-docs/',
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
@@ -183,9 +195,10 @@ const config = {
           {
             systemvars: true,
           },
-        ],
-      ],
-    }),
+
+              ],
+            ],
+          })
 };
 
 module.exports = config;
