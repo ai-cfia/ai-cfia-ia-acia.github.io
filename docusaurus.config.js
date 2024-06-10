@@ -136,8 +136,8 @@ const config = {
                 to: '/ai-cfia-ia-acia.github.io/docs/products/finesse/introduction',
               },
               {
-                label: 'Membrane',
-                to: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
+                label: 'FertiScan',
+                to: '/ai-cfia-ia-acia.github.io/docs/products/fertiscan/introduction',
               },
             ],
           },

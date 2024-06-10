@@ -8,46 +8,46 @@ const FeatureList = [
     Svg: require('@site/static/img/louis-icon.svg').default,
     description: (
       <>
-        
+
       </>
     ),
-    link: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
+    link: 'docs/products/louis/introduction',
   },
   {
     title: 'NACHET',
     Svg: require('@site/static/img/nachet-icon.svg').default,
     description: (
       <>
-       
+
       </>
     ),
-    link: '/ai-cfia-ia-acia.github.io/docs/products/nachet/introduction',
+    link: 'docs/products/nachet/introduction',
   },
   {
-    title: 'MEMBRANE',
-    Svg: require('@site/static/img/membrane-icon.svg').default,
+    title: 'FERTISCAN',
+    Svg: require('@site/static/img/membrane-icon.svg').default, // Change this to fertiscan-icon.svg
     description: (
       <>
-        
+
       </>
     ),
-    link: '/ai-cfia-ia-acia.github.io/docs/products/membrane/introduction',
+    link: 'docs/products/fertiscan/introduction',
   },
   {
     title: 'FINESSE',
     Svg: require('@site/static/img/finesse-icon.svg').default,
     description: (
       <>
-        
+
       </>
     ),
-    link: '/ai-cfia-ia-acia.github.io/docs/products/finesse/introduction',
+    link: 'docs/products/finesse/introduction',
   },
 ];
 
 function Feature({Svg, title, description, link}) {
   return (
-    
+
     <div className={clsx('col col--3')}>
       <div className="text--center">
         <a href={link}>

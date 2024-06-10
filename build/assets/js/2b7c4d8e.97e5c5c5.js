@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[451],{7257:a=>{a.exports=JSON.parse('{"label":"Innovation","permalink":"/blog/tags/innovation","allTagsPath":"/blog/tags","count":1}')}}]);
