@@ -18,6 +18,8 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: baseUrl,
 
+  // Plugins for fetching remote content (unused for now)
+  /*
   plugins: [
     [
       'docusaurus-plugin-remote-content',
@@ -28,7 +30,7 @@ const config = {
         documents: ['README.md'],
       },
     ],
-  ],
+  ], */
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
