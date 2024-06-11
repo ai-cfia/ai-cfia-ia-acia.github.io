@@ -124,20 +124,16 @@ const config = {
             title: 'Products',
             items: [
               {
-                label: 'Louis',
-                to: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
-              },
-              {
                 label: 'Nachet',
-                to: '/ai-cfia-ia-acia.github.io/docs/products/nachet/introduction',
+                to: 'docs/products/nachet/introduction',
               },
               {
                 label: 'Finesse',
-                to: '/ai-cfia-ia-acia.github.io/docs/products/finesse/introduction',
+                to: 'docs/products/finesse/introduction',
               },
               {
-                label: 'Membrane',
-                to: '/ai-cfia-ia-acia.github.io/docs/products/louis/introduction',
+                label: 'FertiScan',
+                to: 'docs/products/fertiscan/introduction',
               },
             ],
           },

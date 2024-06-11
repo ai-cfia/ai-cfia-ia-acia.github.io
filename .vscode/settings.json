@@ -2,5 +2,6 @@
     "editor.rulers": [80],
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "svg.preview.background": "transparent"
   }
