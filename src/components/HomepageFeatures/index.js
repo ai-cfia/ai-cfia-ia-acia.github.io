@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'NACHET',
-    Svg: require('@site/static/img/nachet-icon.svg').default,
+    Svg: require('@site/static/img/nachet-logo-v2.svg').default,
     description: (
       <>
 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'FINESSE',
-    Svg: require('@site/static/img/finesse-icon.svg').default,
+    Svg: require('@site/static/img/finesse-logo-v2.svg').default,
     description: (
       <>
 
@@ -26,7 +26,7 @@ const FeatureList = [
 
   {
     title: 'FERTISCAN',
-    Svg: require('@site/static/img/fertiscan-logo.svg').default, // Change this to fertiscan-icon.svg
+    Svg: require('@site/static/img/fertiscan-logo-v2.svg').default,
     description: (
       <>
 
