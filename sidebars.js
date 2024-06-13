@@ -49,6 +49,16 @@ const sidebars = {
       label: 'Projects',
       id: 'projects/projects',
     },
+    {
+      type: 'category',
+      label: 'Invasive Insects',
+      items: ['projects/invasiveinsects/introduction',],
+    },
+    {
+      type: 'category',
+      label: 'Poultry and Red Meat Condemnations',
+      items: ['projects/poultryredmeatcond/introduction',],
+    },
   ],
 
   sidebar: [
