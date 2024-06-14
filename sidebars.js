@@ -68,11 +68,6 @@ const sidebars = {
       label: 'About the Lab',
       id: 'about/about',
     },
-    {
-      type: 'category',
-      label: 'About the Team',
-      items: ['about/team/the-software-development-team', 'about/team/ds', 'about/team/internships' ],
-    },
   ],
 
 };
