@@ -1,6 +1,5 @@
 ---
-title: Seed Classification
-description: Automatic Quality Inspection using Computer Vision
+title: "Seed Classification:  Automatic Quality Inspection using Computer Vision"
 slug: seed-classification
 authors:
   name: Kiri Stern
@@ -9,6 +8,12 @@ authors:
 tags: [computer vision, quality, classification, AI]
 ---
 
+In this post, we motivate the need for computer vision models for automatic the
+classification of seed species. We demonstrate how our custom models have
+achieved promising results using "real-world" seed images and describe our
+future directions for deploying a user-friendly SeedID application.
+
+<!-- truncate -->
 
 ## Introduction
 
@@ -19,9 +24,6 @@ transforming the way we interact with machines. The advances computer vision
 research and their integration in industries have created an unprecedented
 opportunity for enhanced efficiency and accuracy in areas such as: quality
 control, object detection and classification, surveillance, and more.
-
-
-<!-- truncate -->
 
 ## Our mission
 
