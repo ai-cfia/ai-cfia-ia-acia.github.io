@@ -10,10 +10,9 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner, 'backgroundImg')}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div>
         <div>
-          <p className="alpha">THIS WEBSITE IS IN ALPHA STAGE</p>
           <h1 className="hero__title heroTitle">{siteConfig.title}</h1>
         </div>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
