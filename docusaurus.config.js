@@ -95,7 +95,7 @@ const config = {
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Articles', position: 'left' },
           {
             to: 'docs/contact',
             label: 'Contact Us',
