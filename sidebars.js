@@ -26,11 +26,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Louis',
-      items: ['products/louis/introduction', ],
-    },
-    {
-      type: 'category',
       label: 'Nachet',
       items: ['products/nachet/introduction', ],
     },
@@ -41,8 +36,8 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Membrane',
-      items: ['products/membrane/introduction',],
+      label: 'FertiScan',
+      items: ['products/fertiscan/introduction',],
     },
 
 
@@ -53,6 +48,16 @@ const sidebars = {
       type: 'doc',
       label: 'Projects',
       id: 'projects/projects',
+    },
+    {
+      type: 'category',
+      label: 'Invasive Insects',
+      items: ['projects/invasiveinsects/introduction',],
+    },
+    {
+      type: 'category',
+      label: 'Poultry and Red Meat Condemnations',
+      items: ['projects/poultryredmeatcond/introduction',],
     },
   ],
 

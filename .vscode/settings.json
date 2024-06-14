@@ -3,5 +3,6 @@
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
+    "svg.preview.background": "transparent",
     "notebook.insertFinalNewline": true
   }
