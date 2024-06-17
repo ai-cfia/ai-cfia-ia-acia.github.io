@@ -8,14 +8,31 @@ authors:
 tags: [computer vision, quality, classification, AI]
 ---
 
-In this post, we motivate the need for computer vision models for automatic the
-classification of seed species. We demonstrate how our custom models have
+In this article, we motivate the need for computer vision models for automatic
+the classification of seed species. We demonstrate how our custom models have
 achieved promising results using "real-world" seed images and describe our
 future directions for deploying a user-friendly SeedID application.
 
 <!-- truncate -->
 
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ## Introduction
+
+![1](/img/2024-06-14-seed-classification-img/1.png)
+
+### Related work
+
+To read about the fundamentals of computer vision, checkout our page: Artificial
+Vision: Getting Computers to "See"
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 Artificial Intelligence (AI) for computer vision has revolutionised our ability
 to recover valuable insights from visual information. By combining AI algorithms
@@ -25,7 +42,7 @@ research and their integration in industries have created an unprecedented
 opportunity for enhanced efficiency and accuracy in areas such as: quality
 control, object detection and classification, surveillance, and more.
 
-## Our mission
+### Our mission
 
 Here, at the CFIA's AI Lab, we harness the full potential of computer vision
 models. Our dedicated team of Data Scientists leverage the power of this
@@ -42,7 +59,23 @@ leveraging cutting-edge models but also in rendering these services accessible
 to others and foster knowledge sharing, for the continuous advancement of our
 Canadian society.
 
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ## Importance of Canada's seed industry
+
+![2](/img/2024-06-14-seed-classification-img/2.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 Manual seed sorting Canada’s multi-billion seed industry has established a
 global reputation in the production, processing, and exportation of
@@ -75,9 +108,31 @@ However, this process is tedious and time consuming. At the AI Lab, we leverage
 advanced computer vision models to automatically classify seed species from
 images, rendering this process more efficient and reliable.
 
+</div>
+
+</div>
+
+---
+
+<div style={{textAlign: 'center'}}>
+
 ## Overcoming limitations using Computer Vision
 
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ### Shortage of Analysts
+
+![3](/img/2024-06-14-seed-classification-img/3.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 The shortage of expert seed analysts poses a significant challenge in the seed
 industry. The demand for accurate and efficient seed quality assessment is
@@ -92,16 +147,28 @@ Computer vision presents a promising solution to overcome this shortage by
 effectively analyzing and classifying seeds with minimal human intervention.
 These models can be trained on vast datasets of seed images, enabling them to
 recognize patterns, detect variations, and classify seeds based on predetermined
-quality parameters.
+quality parameters. By adopting computer vision models in seed analysis,
+companies and agricultural institutions can alleviate the burden of expert
+shortages, streamline their operations, and enhance overall productivity. This
+technology allows Canada to meet the growing demand for seed quality
+assessments, leading to improved crop yields, reliable seed selection, and
+ultimately, sustainable agricultural practices.
 
-By adopting computer vision models in seed analysis, companies and agricultural
-institutions can alleviate the burden of expert shortages, streamline their
-operations, and enhance overall productivity. This technology allows Canada to
-meet the growing demand for seed quality assessments, leading to improved crop
-yields, reliable seed selection, and ultimately, sustainable agricultural
-practices.
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
 
 ### Time limitations
+
+![4](/img/2024-06-14-seed-classification-img/4.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 Manual analysis of seeds is a time-consuming process that poses challenges in
 terms of efficiency and speed. Seed classification is time-consuming due to the
@@ -116,7 +183,21 @@ analysis. By rapidly processing large volumes of seed samples, they
 significantly reduce the time required for classification enabling faster and
 more efficient seed classification while maintaining accuracy and consistency.
 
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ### Cost
+
+![5](/img/2024-06-14-seed-classification-img/5.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 Developing expertise in seed analysis demands extensive training and exposure to
 diverse seed samples, which can be both expensive and time-consuming. The
@@ -137,9 +218,19 @@ seed varieties and enhancing their accuracy. Moreover, they eliminate the
 subjective biases that may arise from human interpretation, providing an
 objective and standardized assessment of seed quality.
 
+</div>
+
+</div>
+
+<div style={{textAlign: 'center', fontStyle: 'italic'}}>
+
 By leveraging the power of computer vision, the seed industry can overcome the
 limitations associated with labor shortages, time constraints and training
 costs, enabling faster and more efficient seed analysis.
+
+</div>
+
+---
 
 ## Objective: automatic classification of seed species
 
@@ -149,6 +240,17 @@ able to streamline and accelerate the assessment of crop quality. We develop
 upon advanced algorithms and deep learning techniques, while ensuring an
 unbiased and efficient evaluation of crop quality, paving the way for improved
 agricultural practices.
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+![6](/img/2024-06-14-seed-classification-img/6.png) *Image source:
+VideometerLab*
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 ## Project #1: Multispectral Imaging and Analysis
 
@@ -168,7 +270,18 @@ five new canola species into the dataset and observe similar results. These
 encouraging findings highlight our model's potential for continual use even as
 new seed species are introduced.
 
-### Data
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Data (Project #1)
+
+![7](/img/2024-06-14-seed-classification-img/7.png) *19-channel multi-spectral
+image, Carduus nutans*
 
 Our model was trained to classify the following species:
 
@@ -185,7 +298,14 @@ Our model was trained to classify the following species:
   - Brassica rapa subspecies oleifera
   - Brassica rapa subspecies oleifera (brown)
 
-### Results
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Results (Project #1)
+
+![8](/img/2024-06-14-seed-classification-img/8.png) *>95% model accuracy on
+testing datasets*
 
 We show our model is able to correctly identify each seed species with an
 accuracy of over 95%.
@@ -198,6 +318,23 @@ Finally, we introduce five new canola species and evaluate our model's
 performance. Preliminary results from this experiment show a ~93% accuracy on
 the testing data.
 
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+![9](/img/2024-06-14-seed-classification-img/9.png) *Image source: TAGARNO
+microscope*
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
 ## Project #2: Digital Microscope RGB Imaging and Analysis
 
 In this project, we employ a 2-step process to identify a total of 15 different
@@ -209,6 +346,16 @@ the image. Then, a classification model classifies each seed species instance.
 We perform multiple ablation studies by training on one magnification profile
 then testing on seeds coming from a different magnification set. We show
 promising preliminary results of over 90% accuracy across magnification levels.
+
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
 
 ### Data (Project #2)
 
@@ -230,10 +377,23 @@ Three different magnification levels were provided for the following 15 species:
 - Solanum nigrum
 - Solanum rostratum
 
+![10](/img/2024-06-14-seed-classification-img/10.png) *Magnification: 2
+seeds/image, Bromus secalinus*
+
+![11](/img/2024-06-14-seed-classification-img/11.png) *Magnification: 8
+seeds/image, Brassica junsea*
+
 Magnification level is denoted by the total number of seeds present in the
 image, either: 2, 8, or 15 seeds per image.
 
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ### Results (Project #2)
+
+![12](/img/2024-06-14-seed-classification-img/12.png) *Model test accuracy on a
+seed species subset.*
 
 In order to establish a standardised image registration protocol, we
 independently train separate models from a subset of data at each magnification
@@ -252,6 +412,10 @@ We recognise the challenges associated with data obtained by different methods
 and modalities. We strive to continue to enhance our model's robustness by
 incorporating more seed species, improve generalisation across magnification
 levels, and reduce our 2-step model framework into 1 for better efficiency.
+
+</div>
+
+</div>
 
 ## Next steps: Deployment
 
@@ -279,7 +443,19 @@ this open-source, user-friendly solution, we aim to revolutionize the seed
 industry--promoting efficiency, consistency, and accessibility in seed analysis
 and contributing to the advancement of agricultural practices worldwide.
 
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
 ## Conclusion
+
+![13](/img/2024-06-14-seed-classification-img/13.png) *Connecting ideas*
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
 
 The seed classification project is an example of the successful and ongoing
 collaboration between the AI Lab and the Seed Science group at the CFIA. By
@@ -291,7 +467,7 @@ image processing tasks and demonstrate their potential to significantly enhance
 the accuracy and efficiency of evaluating crop quality, ultimately benefiting
 both the agricultural industry and consumers alike.
 
-## Future: Call for collaboration
+### Future: Call for collaboration
 
 As Data Scientists, we recognise the importance of open-source collaboration and
 we are committed to upholding the principles of open science. Our objective is
@@ -302,3 +478,7 @@ experts, and developers to contribute to its further improvement and
 customisation. This collaborative approach fosters innovation, allowing the
 community to collectively enhance the capabilities of the ​​​​​​​SeedID
 application and address specific domain requirements.
+
+</div>
+
+</div>
