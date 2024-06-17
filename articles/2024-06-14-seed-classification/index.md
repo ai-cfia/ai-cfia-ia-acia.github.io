@@ -1,11 +1,10 @@
 ---
 title: "Seed Classification:  Automatic Quality Inspection using Computer Vision"
 slug: seed-classification
-authors:
-  name: Kiri Stern
-  title: Intern
-  email: kiri.stern@inspection.gc.ca
+authors: [kstern, ]
 tags: [computer vision, quality, classification, AI]
+hide_table_of_contents: false
+description: In this article, we motivate the need for computer vision models for automatic the classification of seed species. We demonstrate how our custom models have achieved promising results using "real-world" seed images and describe our future directions for deploying a user-friendly SeedID application.
 ---
 
 In this article, we motivate the need for computer vision models for automatic
@@ -27,8 +26,9 @@ future directions for deploying a user-friendly SeedID application.
 
 ### Related work
 
-To read about the fundamentals of computer vision, checkout our page: Artificial
-Vision: Getting Computers to "See"
+To read about the fundamentals of computer vision, checkout our page:
+[Artificial Vision: Getting Computers to
+"See"](https://136gc.sharepoint.com/sites/IAA/SitePages/Artificial-Vision--Getting-Computers-to--See-.aspx)
 
 </div>
 
@@ -158,6 +158,8 @@ ultimately, sustainable agricultural practices.
 
 </div>
 
+---
+
 <div style={{display: 'flex', justifyContent: 'space-between'}}>
 
 <div style={{flex: 1, marginRight: '10px'}}>
@@ -186,6 +188,8 @@ more efficient seed classification while maintaining accuracy and consistency.
 </div>
 
 </div>
+
+---
 
 <div style={{display: 'flex', justifyContent: 'space-between'}}>
 
@@ -221,6 +225,8 @@ objective and standardized assessment of seed quality.
 </div>
 
 </div>
+
+---
 
 <div style={{textAlign: 'center', fontStyle: 'italic'}}>
 
@@ -351,8 +357,6 @@ promising preliminary results of over 90% accuracy across magnification levels.
 
 </div>
 
----
-
 <div style={{display: 'flex', justifyContent: 'space-between'}}>
 
 <div style={{flex: 1, marginRight: '10px'}}>
@@ -416,6 +420,8 @@ levels, and reduce our 2-step model framework into 1 for better efficiency.
 </div>
 
 </div>
+
+---
 
 ## Next steps: Deployment
 

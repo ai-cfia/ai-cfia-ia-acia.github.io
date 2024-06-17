@@ -48,8 +48,16 @@ const config = {
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          id: 'articles',
+          routeBasePath: 'articles',
+          path: './articles',
           showReadingTime: true,
-          blogSidebarCount: 0,
+          blogSidebarCount: 'ALL',
+          blogTitle: 'Articles',
+          blogDescription: 'Scientific articles written by AI Lab members',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'All our articles',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -96,7 +104,7 @@ const config = {
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
-          { to: '/blog', label: 'Articles', position: 'left' },
+          { to: '/articles', label: 'Articles', position: 'left' },
           {
             to: 'docs/contact',
             label: 'Contact Us',
