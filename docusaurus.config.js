@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE ! | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
+        copyright: `SITE IS IN ALPHA STAGE | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
       },
       prism: {
         theme: lightCodeTheme,

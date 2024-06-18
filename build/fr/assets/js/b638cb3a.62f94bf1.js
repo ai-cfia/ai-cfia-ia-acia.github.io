@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[545],{8790:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/fr/articles","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Articles scientifiques \xe9crits par les membres de l\'AI Lab.","blogTitle":"Articles"}}')}}]);

@@ -19,9 +19,9 @@
     "message": "Dev-Rel-Docs",
     "description": "Navbar item with label Dev-Rel-Docs"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+  "item.label.Articles": {
+    "message": "Articles",
+    "description": "Navbar item with label Articles"
   },
   "item.label.Contact Us": {
     "message": "Contactez nous",
@@ -34,5 +34,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.articles": {
+    "message": "articles",
+    "description": "Navbar item with label articles"
   }
 }
