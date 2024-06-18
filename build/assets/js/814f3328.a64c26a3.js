@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Coming soon!","permalink":"/blog/welcome","unlisted":false}]}')}}]);
