@@ -9,8 +9,8 @@
   position: relative;
   overflow: hidden;
 
-  background-size: 100%;
-  height: 100vh;
+  background-color: #73b4c6;
+  height: 100%;
   background-position:0%;
   background-repeat: no-repeat;
   display: flex;
@@ -51,6 +51,19 @@
   border: red 2px solid;
 }
 
+.popupDarkTheme {
+  width: 60%;
+  max-width: 600px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  box-sizing: border-box;
+  text-align: center;
+  border: red 2px solid;
+}
+
 .disclaimerHeading {
   font-size: larger;
   font-weight: bold;
@@ -66,7 +79,7 @@
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
-    height: 85vh;
+    height: 100%;
   }
 
   .popup {

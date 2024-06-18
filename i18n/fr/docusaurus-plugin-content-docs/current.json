@@ -34,5 +34,17 @@
   "sidebar.sidebar.doc.About the Lab": {
     "message": "À propos du lab",
     "description": "The label for the doc item About the Lab in sidebar sidebar, linking to the doc about/about"
+  },
+  "sidebar.productsSidebar.category.FertiScan": {
+    "message": "FertiScan",
+    "description": "The label for category FertiScan in sidebar productsSidebar"
+  },
+  "sidebar.projectsSidebar.category.Invasive Insects": {
+    "message": "Invasive Insects",
+    "description": "The label for category Invasive Insects in sidebar projectsSidebar"
+  },
+  "sidebar.projectsSidebar.category.Poultry and Red Meat Condemnations": {
+    "message": "Poultry and Red Meat Condemnations",
+    "description": "The label for category Poultry and Red Meat Condemnations in sidebar projectsSidebar"
   }
 }

@@ -17,11 +17,11 @@
   },
   "link.item.label.Nachet": {
     "message": "Nachet",
-    "description": "The label of footer link with label=Nachet linking to /ai-cfia-ia-acia.github.io/docs/products/nachet/introduction"
+    "description": "The label of footer link with label=Nachet linking to docs/products/nachet/introduction"
   },
   "link.item.label.Finesse": {
     "message": "Finesse",
-    "description": "The label of footer link with label=Finesse linking to /ai-cfia-ia-acia.github.io/docs/products/finesse/introduction"
+    "description": "The label of footer link with label=Finesse linking to docs/products/finesse/introduction"
   },
   "link.item.label.Membrane": {
     "message": "Membrane",
@@ -42,5 +42,9 @@
   "copyright": {
     "message": "CE SITE EST EN ALPHA | 2024 AI Lab | CE SITE EST EN ALPHA",
     "description": "The footer copyright"
+  },
+  "link.item.label.FertiScan": {
+    "message": "FertiScan",
+    "description": "The label of footer link with label=FertiScan linking to docs/products/fertiscan/introduction"
   }
 }
