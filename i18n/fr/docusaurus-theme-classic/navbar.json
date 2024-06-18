@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "AI LAB",
+    "description": "The title in the navbar"
+  },
+  "item.label.About": {
+    "message": "À propos",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Products": {
+    "message": "Produits",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Projects": {
+    "message": "Projets",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.Dev-Rel-Docs": {
+    "message": "Dev-Rel-Docs",
+    "description": "Navbar item with label Dev-Rel-Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Contact Us": {
+    "message": "Contactez nous",
+    "description": "Navbar item with label Contact Us"
+  },
+  "item.label.Site is in ALPHA stage": {
+    "message": "Ce site est en ALPHA",
+    "description": "Navbar item with label Site is in ALPHA stage"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
