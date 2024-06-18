@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[507],{7671:i=>{i.exports=JSON.parse('{"title":"Tous nos articles","items":[{"title":"Seed Classification:  Automatic Quality Inspection using Computer Vision","permalink":"/fr/articles/seed-classification","unlisted":false}]}')}}]);
