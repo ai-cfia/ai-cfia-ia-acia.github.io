@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ai-cfia-ia-acia.github.io/fr/articles</id>
+    <title>Artificial Intelligence Lab Blog</title>
+    <updated>2024-06-14T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ai-cfia-ia-acia.github.io/fr/articles"/>
+    <subtitle>Artificial Intelligence Lab Blog</subtitle>
+    <icon>https://ai-cfia-ia-acia.github.io/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Seed Classification:  Automatic Quality Inspection using Computer Vision]]></title>
+        <id>https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification</id>
+        <link href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification"/>
+        <updated>2024-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, we motivate the need for computer vision models for automatic the classification of seed species. We demonstrate how our custom models have achieved promising results using "real-world" seed images and describe our future directions for deploying a user-friendly SeedID application.]]></summary>
+        <content type="html"><![CDATA[<p>In this article, we motivate the need for computer vision models for automatic
+the classification of seed species. We demonstrate how our custom models have
+achieved promising results using "real-world" seed images and describe our
+future directions for deploying a user-friendly SeedID application.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" aria-label="Lien direct vers Introduction" title="Lien direct vers Introduction" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#introduction">​</a></h2><p><img decoding="async" loading="lazy" alt="1" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/1-e042919f5524903390c56c38ec5ddd9a.png" width="1365" height="1365" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="related-work">Related work<a class="hash-link" aria-label="Lien direct vers Related work" title="Lien direct vers Related work" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#related-work">​</a></h3><p>To read about the fundamentals of computer vision, checkout our page:
+<a href="https://136gc.sharepoint.com/sites/IAA/SitePages/Artificial-Vision--Getting-Computers-to--See-.aspx" target="_blank" rel="noopener noreferrer">Artificial Vision: Getting Computers to
+"See"</a></p></div><div style="flex:2;margin-right:10px"><p>Artificial Intelligence (AI) for computer vision has revolutionised our ability
+to recover valuable insights from visual information. By combining AI algorithms
+with visual data analysis, computer vision has revolutionized numerous sectors,
+transforming the way we interact with machines. The advances computer vision
+research and their integration in industries have created an unprecedented
+opportunity for enhanced efficiency and accuracy in areas such as: quality
+control, object detection and classification, surveillance, and more.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="our-mission">Our mission<a class="hash-link" aria-label="Lien direct vers Our mission" title="Lien direct vers Our mission" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#our-mission">​</a></h3><p>Here, at the CFIA's AI Lab, we harness the full potential of computer vision
+models. Our dedicated team of Data Scientists leverage the power of this
+transformative technology and develop customised solutions tailored to meet the
+specific needs of our clients.</p><p>In this post, we motivate the need for computer vision models for automatic the
+classification of seed species. We demonstrate how our custom models have
+achieved promising results using "real-world" seed images and describe our
+future directions for deploying a user-friendly SeedID application.</p><p>At the CFIA AI Lab, we strive not only to push the frontiers of science by
+leveraging cutting-edge models but also in rendering these services accessible
+to others and foster knowledge sharing, for the continuous advancement of our
+Canadian society.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="importance-of-canadas-seed-industry">Importance of Canada's seed industry<a class="hash-link" aria-label="Lien direct vers Importance of Canada's seed industry" title="Lien direct vers Importance of Canada's seed industry" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#importance-of-canadas-seed-industry">​</a></h2><p><img decoding="async" loading="lazy" alt="2" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/2-f8872cdbedac8fcee0022c5df31a129c.png" width="400" height="579" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>Manual seed sorting Canada’s multi-billion seed industry has established a
+global reputation in the production, processing, and exportation of
+premium-grade seeds across a diverse range of crops. Its success is achieved
+through Canada’s commitment to innovation and development of advanced
+technologies, allowing for the delivery of high-quality products that meet both
+international and domestic needs.</p><p>Naturally, a collaboration between a research group from the Seed Science and
+Technology Section and the AI Lab of CFIA formed to maintain Canada’s role as a
+reputable leader in the global seed industry.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="background-quality-control">Background: Quality Control<a class="hash-link" aria-label="Lien direct vers Background: Quality Control" title="Lien direct vers Background: Quality Control" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#background-quality-control">​</a></h3><p>The seed quality of a crop is reflected in a grading report, whereby the final
+grade reflects how well a seed lot conforms with Canada’s Seeds Regulations to
+meet minimum quality standards. Factors used to determine crop quality include:
+purity analysis and percent of seed germination and disease. The seed’s
+germination rate and resistance to disease can provide insight into overall seed
+health. Assessing content purity is essential in ensuring that the crop contains
+a high concentration of the desired seed material and that it is free from
+contaminants, such as other crop seeds or weed seeds. Seed inspection also plays
+an important role in preventing the spread of prohibited and regulated species
+listed in the Canadian Weed Seeds Order.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="motivation">Motivation<a class="hash-link" aria-label="Lien direct vers Motivation" title="Lien direct vers Motivation" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#motivation">​</a></h3><p>Presently, the evaluation of a crop’s quality is done manually by human experts.
+However, this process is tedious and time consuming. At the AI Lab, we leverage
+advanced computer vision models to automatically classify seed species from
+images, rendering this process more efficient and reliable.</p></div></div>
+<hr>
+<div style="text-align:center"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="overcoming-limitations-using-computer-vision">Overcoming limitations using Computer Vision<a class="hash-link" aria-label="Lien direct vers Overcoming limitations using Computer Vision" title="Lien direct vers Overcoming limitations using Computer Vision" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#overcoming-limitations-using-computer-vision">​</a></h2></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="shortage-of-analysts">Shortage of Analysts<a class="hash-link" aria-label="Lien direct vers Shortage of Analysts" title="Lien direct vers Shortage of Analysts" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#shortage-of-analysts">​</a></h3><p><img decoding="async" loading="lazy" alt="3" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/3-a209628fb7dd980eff7bf9cfec0fea01.png" width="319" height="213" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>The shortage of expert seed analysts poses a significant challenge in the seed
+industry. The demand for accurate and efficient seed quality assessment is
+increasing, but the availability of highly trained analysts is limited. This
+scarcity can lead to delays in turnaround time for quality assessments,
+bottlenecks for seed trade, and potential errors in seed classification to
+regulate species.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="how-ai-helps">How AI helps<a class="hash-link" aria-label="Lien direct vers How AI helps" title="Lien direct vers How AI helps" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#how-ai-helps">​</a></h4><p>Computer vision presents a promising solution to overcome this shortage by
+effectively analyzing and classifying seeds with minimal human intervention.
+These models can be trained on vast datasets of seed images, enabling them to
+recognize patterns, detect variations, and classify seeds based on predetermined
+quality parameters. By adopting computer vision models in seed analysis,
+companies and agricultural institutions can alleviate the burden of expert
+shortages, streamline their operations, and enhance overall productivity. This
+technology allows Canada to meet the growing demand for seed quality
+assessments, leading to improved crop yields, reliable seed selection, and
+ultimately, sustainable agricultural practices.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-limitations">Time limitations<a class="hash-link" aria-label="Lien direct vers Time limitations" title="Lien direct vers Time limitations" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#time-limitations">​</a></h3><p><img decoding="async" loading="lazy" alt="4" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/4-1f61c46c8e2bc3c5e2f1dec6c9d17cab.png" width="400" height="215" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>Manual analysis of seeds is a time-consuming process that poses challenges in
+terms of efficiency and speed. Seed classification is time-consuming due to the
+complexity and volume of seed samples. Human experts require significant time
+and effort to visually inspect and classify each seed, leading to bottlenecks
+and potential delays in the quality control process.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="how-ai-helps-time-limitation">How AI helps (Time limitation)<a class="hash-link" aria-label="Lien direct vers How AI helps (Time limitation)" title="Lien direct vers How AI helps (Time limitation)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#how-ai-helps-time-limitation">​</a></h4><p>Computer vision models offer a solution to these bottlenecks by automating the
+analysis. By rapidly processing large volumes of seed samples, they
+significantly reduce the time required for classification enabling faster and
+more efficient seed classification while maintaining accuracy and consistency.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="cost">Cost<a class="hash-link" aria-label="Lien direct vers Cost" title="Lien direct vers Cost" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#cost">​</a></h3><p><img decoding="async" loading="lazy" alt="5" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/5-e156952ed6c7ccfd7e2057508a63fb50.png" width="400" height="248" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>Developing expertise in seed analysis demands extensive training and exposure to
+diverse seed samples, which can be both expensive and time-consuming. The
+associated costs and time required to train expert analysts include not only the
+training programs but also the resources required for practical hands-on
+experience. The time it takes for analysts to gain the necessary proficiency and
+experience can be lengthy, further exacerbating the shortage of qualified
+professionals.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="how-ai-helps-cost">How AI helps (Cost)<a class="hash-link" aria-label="Lien direct vers How AI helps (Cost)" title="Lien direct vers How AI helps (Cost)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#how-ai-helps-cost">​</a></h4><p>Computer vision models can offer a more scalable and efficient approach to seed
+analysis, mitigating the costs and time constraints associated with training
+expert analysts. Models can be trained on large datasets of seed images,
+eliminating the need for extensive human training. Additionally, computer vision
+models can continuously learn and improve over time, rapidly adapting to new
+seed varieties and enhancing their accuracy. Moreover, they eliminate the
+subjective biases that may arise from human interpretation, providing an
+objective and standardized assessment of seed quality.</p></div></div>
+<hr>
+<div style="text-align:center;font-style:italic"><p>By leveraging the power of computer vision, the seed industry can overcome the
+limitations associated with labor shortages, time constraints and training
+costs, enabling faster and more efficient seed analysis.</p></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="objective-automatic-classification-of-seed-species">Objective: automatic classification of seed species<a class="hash-link" aria-label="Lien direct vers Objective: automatic classification of seed species" title="Lien direct vers Objective: automatic classification of seed species" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#objective-automatic-classification-of-seed-species">​</a></h2>
+<p>This project aims to develop and deploy a powerful computer vision pipeline for
+seed species classification. By automating this classification process, we are
+able to streamline and accelerate the assessment of crop quality. We develop
+upon advanced algorithms and deep learning techniques, while ensuring an
+unbiased and efficient evaluation of crop quality, paving the way for improved
+agricultural practices.</p>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="6" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/6-d24ed9a119421002f0e46cc272a3697c.png" width="2405" height="1746" class="img_ev3q"> <em>Image source:
+VideometerLab</em></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-1-multispectral-imaging-and-analysis">Project #1: Multispectral Imaging and Analysis<a class="hash-link" aria-label="Lien direct vers Project #1: Multispectral Imaging and Analysis" title="Lien direct vers Project #1: Multispectral Imaging and Analysis" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#project-1-multispectral-imaging-and-analysis">​</a></h2><p>In this project, we employ a custom computer vision model to assess content
+purity, by identifying and classifying desired seed species from undesired seed
+species.</p><p>We successfully recover and identify the contamination by three different weed
+species in a screening mixture of wheat samples.</p><p>Our model is customised to accept unique high resolution, 19-channel
+multi-spectral image inputs and achieves greater than 95% accuracy on held out
+testing data.</p><p>We further explored our model's potential to classify new species, by injecting
+five new canola species into the dataset and observe similar results. These
+encouraging findings highlight our model's potential for continual use even as
+new seed species are introduced.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-project-1">Data (Project #1)<a class="hash-link" aria-label="Lien direct vers Data (Project #1)" title="Lien direct vers Data (Project #1)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#data-project-1">​</a></h3><p><img decoding="async" loading="lazy" alt="7" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/7-f9e97aad2e936fce28dcbefbcf1e52c6.png" width="681" height="570" class="img_ev3q"> <em>19-channel multi-spectral
+image, Carduus nutans</em></p><p>Our model was trained to classify the following species:</p><ul>
+<li>Three different Canada Thistle (weed) species:<!-- -->
+<ul>
+<li>Cirsium arvense</li>
+<li>Carduus nutans</li>
+<li>Cirsium vulgare</li>
+</ul>
+</li>
+<li>One species of Wheat:<!-- -->
+<ul>
+<li>Triticum aestivum subspecies aestivum</li>
+</ul>
+</li>
+<li>Five different Canola species:<!-- -->
+<ul>
+<li>Brassica napus subspecies napus</li>
+<li>Brassica juncea</li>
+<li>Brassica juncea (yellow)</li>
+<li>Brassica rapa subspecies oleifera</li>
+<li>Brassica rapa subspecies oleifera (brown)</li>
+</ul>
+</li>
+</ul></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="results-project-1">Results (Project #1)<a class="hash-link" aria-label="Lien direct vers Results (Project #1)" title="Lien direct vers Results (Project #1)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#results-project-1">​</a></h3><p><img decoding="async" loading="lazy" alt="8" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/8-da230d17b37faff3984ac63c95c654ac.png" width="1174" height="742" class="img_ev3q"> <em>&gt;95% model accuracy on
+testing datasets</em></p><p>We show our model is able to correctly identify each seed species with an
+accuracy of over 95%.</p><p>Moreover, when the three Canada Thistle seeds were integrated with the wheat
+screening, the model achieved an average accuracy of 99.64% across 360 seeds.
+This demonstrates the model's robustness and ability to classify new images.</p><p>Finally, we introduce five new canola species and evaluate our model's
+performance. Preliminary results from this experiment show a ~93% accuracy on
+the testing data.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="9" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/9-73c384ea61924c9a245c1e5182cf3461.png" width="805" height="638" class="img_ev3q"> <em>Image source: TAGARNO
+microscope</em></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-2-digital-microscope-rgb-imaging-and-analysis">Project #2: Digital Microscope RGB Imaging and Analysis<a class="hash-link" aria-label="Lien direct vers Project #2: Digital Microscope RGB Imaging and Analysis" title="Lien direct vers Project #2: Digital Microscope RGB Imaging and Analysis" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#project-2-digital-microscope-rgb-imaging-and-analysis">​</a></h2><p>In this project, we employ a 2-step process to identify a total of 15 different
+seed species across varying magnification levels.</p><p>First, a seed segmentation model is used to identify each instance of a seed in
+the image. Then, a classification model classifies each seed species instance.</p><p>We perform multiple ablation studies by training on one magnification profile
+then testing on seeds coming from a different magnification set. We show
+promising preliminary results of over 90% accuracy across magnification levels.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-project-2">Data (Project #2)<a class="hash-link" aria-label="Lien direct vers Data (Project #2)" title="Lien direct vers Data (Project #2)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#data-project-2">​</a></h3><p>Three different magnification levels were provided for the following 15 species:</p><ul>
+<li>Ambrosia artemisiifolia</li>
+<li>Ambrosia trifida</li>
+<li>Ambrosia psilostachya</li>
+<li>Brassica junsea</li>
+<li>Brassica napus</li>
+<li>Bromus hordeaceus</li>
+<li>Bromus japonicus</li>
+<li>Bromus secalinus</li>
+<li>Carduus nutans</li>
+<li>Cirsium arvense</li>
+<li>Cirsium vulgare</li>
+<li>Lolium temulentum</li>
+<li>Solanum carolinense</li>
+<li>Solanum nigrum</li>
+<li>Solanum rostratum</li>
+</ul><p><img decoding="async" loading="lazy" alt="10" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/10-84fd169d31ba052bc4a203bc774e6dd7.png" width="1008" height="590" class="img_ev3q"> <em>Magnification: 2
+seeds/image, Bromus secalinus</em></p><p><img decoding="async" loading="lazy" alt="11" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/11-cadc134e471e370eeab89d4cf10e28a5.png" width="963" height="520" class="img_ev3q"> <em>Magnification: 8
+seeds/image, Brassica junsea</em></p><p>Magnification level is denoted by the total number of seeds present in the
+image, either: 2, 8, or 15 seeds per image.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="results-project-2">Results (Project #2)<a class="hash-link" aria-label="Lien direct vers Results (Project #2)" title="Lien direct vers Results (Project #2)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#results-project-2">​</a></h3><p><img decoding="async" loading="lazy" alt="12" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/12-478df93f909046499d03829144206188.png" width="1020" height="586" class="img_ev3q"> <em>Model test accuracy on a
+seed species subset.</em></p><p>In order to establish a standardised image registration protocol, we
+independently train separate models from a subset of data at each magnification
+then evaluate model performance across a reserved test set for all magnification
+levels.</p><p>Preliminary results demonstrate the model's ability to correctly identify seed
+species across magnifications with over 90% accuracy.</p><p>This demonstrates the model's potential to accurately classify previously unseen
+data at varying magnification levels.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="challenges">Challenges<a class="hash-link" aria-label="Lien direct vers Challenges" title="Lien direct vers Challenges" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#challenges">​</a></h3><p>We recognise the challenges associated with data obtained by different methods
+and modalities. We strive to continue to enhance our model's robustness by
+incorporating more seed species, improve generalisation across magnification
+levels, and reduce our 2-step model framework into 1 for better efficiency.</p></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps-deployment">Next steps: Deployment<a class="hash-link" aria-label="Lien direct vers Next steps: Deployment" title="Lien direct vers Next steps: Deployment" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#next-steps-deployment">​</a></h2>
+<p>With the successful development of our advanced computer vision model for seed
+image classification, our next focus is on deploying this powerful tool in an
+open-source, user-friendly application: SeedID. Our aim is to provide an
+intuitive and accessible platform that empowers users of all levels of expertise
+to effortlessly classify seed samples with high accuracy and efficiency.</p>
+<p>To achieve this, we will leverage the capabilities of our computer vision model
+and combine it with an intuitive user interface, making the application easy to
+navigate for users of all levels of expertise. The goal is to streamline the
+seed analysis and classification process and eliminate any technical barriers
+that may hinder its use.</p>
+<p>Our deployment strategy also involves thorough testing and validation to ensure
+the reliability and accuracy of the seed classification results. Rigorous
+evaluation will enable us to fine-tune the model and address any potential
+limitations or biases, guaranteeing robust performance across various seed types
+and conditions.</p>
+<p>Our vision is to empower users with a state-of-the-art seed image classification
+application that seamlessly integrates computer vision technology. By deploying
+this open-source, user-friendly solution, we aim to revolutionize the seed
+industry--promoting efficiency, consistency, and accessibility in seed analysis
+and contributing to the advancement of agricultural practices worldwide.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a class="hash-link" aria-label="Lien direct vers Conclusion" title="Lien direct vers Conclusion" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#conclusion">​</a></h2><p><img decoding="async" loading="lazy" alt="13" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/13-43d41b5bc1d1c4bc5decfefcd96db0bd.png" width="1525" height="700" class="img_ev3q"> <em>Connecting ideas</em></p></div><div style="flex:2;margin-right:10px"><p>The seed classification project is an example of the successful and ongoing
+collaboration between the AI Lab and the Seed Science group at the CFIA. By
+pooling our respective knowledge and expertise, both teams contribute to the
+advancement of Canada's seed industry.</p><p>We showcase the success of leveraging advanced computational models as tools for
+image processing tasks and demonstrate their potential to significantly enhance
+the accuracy and efficiency of evaluating crop quality, ultimately benefiting
+both the agricultural industry and consumers alike.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="future-call-for-collaboration">Future: Call for collaboration<a class="hash-link" aria-label="Lien direct vers Future: Call for collaboration" title="Lien direct vers Future: Call for collaboration" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#future-call-for-collaboration">​</a></h3><p>As Data Scientists, we recognise the importance of open-source collaboration and
+we are committed to upholding the principles of open science. Our objective is
+to promote transparency and engagement through open sharing with the public.</p><p>By making our application open-source, we invite fellow researchers, seed
+experts, and developers to contribute to its further improvement and
+customisation. This collaborative approach fosters innovation, allowing the
+community to collectively enhance the capabilities of the ​​​​​​​SeedID
+application and address specific domain requirements.</p></div></div>]]></content>
+        <author>
+            <name>Kiri Stern</name>
+            <uri>https://github.com/kiristern</uri>
+        </author>
+        <category label="computer vision" term="computer vision"/>
+        <category label="quality" term="quality"/>
+        <category label="classification" term="classification"/>
+        <category label="AI" term="AI"/>
+    </entry>
+</feed>

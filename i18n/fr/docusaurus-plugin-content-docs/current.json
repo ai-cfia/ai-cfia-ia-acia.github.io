@@ -3,10 +3,6 @@
     "message": "Suivant",
     "description": "The label for version current"
   },
-  "sidebar.productsSidebar.category.Louis": {
-    "message": "Louis",
-    "description": "The label for category Louis in sidebar productsSidebar"
-  },
   "sidebar.productsSidebar.category.Nachet": {
     "message": "Nachet",
     "description": "The label for category Nachet in sidebar productsSidebar"
@@ -15,10 +11,6 @@
     "message": "Finesse",
     "description": "The label for category Finesse in sidebar productsSidebar"
   },
-  "sidebar.productsSidebar.category.Membrane": {
-    "message": "Membrane",
-    "description": "The label for category Membrane in sidebar productsSidebar"
-  },
   "sidebar.productsSidebar.doc.Products": {
     "message": "Produits",
     "description": "The label for the doc item Products in sidebar productsSidebar, linking to the doc products/products"
@@ -26,10 +18,6 @@
   "sidebar.projectsSidebar.doc.Projects": {
     "message": "Projets",
     "description": "The label for the doc item Projects in sidebar projectsSidebar, linking to the doc projects/projects"
-  },
-  "sidebar.sidebar.category.About the Team": {
-    "message": "À propos de l'équipe",
-    "description": "The label for category About the Team in sidebar sidebar"
   },
   "sidebar.sidebar.doc.About the Lab": {
     "message": "À propos du lab",
