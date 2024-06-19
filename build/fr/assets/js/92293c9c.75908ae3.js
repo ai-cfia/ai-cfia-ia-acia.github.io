@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[136],{2249:a=>{a.exports=JSON.parse('[{"label":"AI","permalink":"/fr/blog/tags/ai","count":1},{"label":"Machine Learning","permalink":"/fr/blog/tags/machine-learning","count":1},{"label":"Innovation","permalink":"/fr/blog/tags/innovation","count":1}]')}}]);

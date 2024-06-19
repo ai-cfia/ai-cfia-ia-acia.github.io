@@ -5,6 +5,8 @@ sidebar_position: 1
 
 ## What is Nachet?
 
+![A close-up image of a microscope is shown. A computer monitor is in the background. A petri dish and a scalpel are on the table.](./nachet-img/nachet-1.png)
+
 The CFIA ensures that seeds or grains crossing Canadian borders meet strict
 phytosanitary standards to prevent the spread of invasive weed species. Nachet
 Interactive is an open-source web application developed to assist CFIA seed
@@ -21,11 +23,23 @@ scientists by integrating AI into their workflow.
 
 Currently we are training our models to identify these 15 species:
 
-| **Species** | |--| | Ambrosia artemisiifolia  | | Ambrosia trifida | |
-Ambrosia psilostachya | | Brassica junsea | | Brassica napus | | Bromus
-hordeaceus | | Bromus japonicus | | Bromus secalinus | | Carduus nutans | |
-Cirsium arvense | | Cirsium vulgare | | Lolium temulentum | | Solanum
-carolinense | | Solanum nigrum | | Solanum rostratum|
+| **Species** |
+|:--:|
+| Ambrosia artemisiifolia  |
+| Ambrosia trifida |
+| Ambrosia psilostachya |
+| Brassica junsea |
+| Brassica napus |
+| Bromus hordeaceus |
+| Bromus japonicus |
+| Bromus secalinus |
+| Carduus nutans |
+| Cirsium arvense |
+| Cirsium vulgare |
+| Lolium temulentum |
+| Solanum carolinense |
+| Solanum nigrum |
+| Solanum rostratum|
 
 For more information about the CFIA's Seed Program, visit the [Seeds
 identification
@@ -34,7 +48,7 @@ page](https://inspection.canada.ca/plant-health/seeds/seed-testing-and-grading/s
 ## Web App
 
 Visit this link to access the deployed Nachet Interactive web app:
-<https://nachet.inspection.alpha.canada.ca/>
+[https://nachet.inspection.alpha.canada.ca/](https://nachet.inspection.alpha.canada.ca/)
 
 ## Application Components
 
