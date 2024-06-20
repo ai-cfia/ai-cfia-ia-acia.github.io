@@ -2,56 +2,60 @@
 sidebar_position: 3
 ---
 
-# Overview
+# Aperçu
 
-## What is Finesse?
+## Qu'est-ce que Finesse ?
 
-Finesse is a semantic search engine we are developing. Unlike traditional search
-engines that match keywords, semantic search engines understand the intent and
-contextual meaning behind a query. Similar to Google and Bing, Finesse allows
-users to search for information. However, it searches only within specific
-document sets it is provided, not the entire web. The current working prototype,
+Finesse est un moteur de recherche sémantique que nous développons.
+Contrairement aux moteurs de recherche traditionnels qui correspondent aux
+mots-clés, les moteurs de recherche sémantique comprennent l'intention et le
+sens contextuel derrière une requête. Semblable à Google et Bing, Finesse permet
+aux utilisateurs de rechercher des informations. Cependant, il effectue des
+recherches uniquement dans des ensembles de documents spécifiques qui lui sont
+fournis, et non sur l'ensemble du Web. Le prototype de travail actuel,
 [finesse.inspection.alpha.canada.ca](https://finesse.inspection.alpha.canada.ca),
-is configured to search a set of documents crawled from the public website
-[inspection.canada.ca](https://inspection.canada.ca). Our ambition is for
-Finesse to be as secure, accurate, and fast as public search engines, while
-minimizing costs.
+est configuré pour rechercher un ensemble de documents extraits du site Web
+public [inspection.canada.ca](https://inspection.canada.ca). Notre ambition est
+que Finesse soit aussi sûr, précis et rapide que les moteurs de recherche
+publics, tout en minimisant les coûts.
 
-## Key Features
+## Principales caractéristiques
 
-- Semantic Understanding: Provides more accurate search results by understanding
-  the intent behind queries, not just the keywords.
+- Compréhension sémantique : fournit des résultats de recherche plus précis en
+  comprenant l'intention derrière les requêtes, pas seulement les mots-clés.
 
-- Multi-Language Support: Supports searches in various languages, provided the
-  documents are available in those languages.
+- Prise en charge multilingue : prend en charge les recherches dans différentes
+  langues, à condition que les documents soient disponibles dans ces langues.
 
-More features will be added over time.
+D'autres fonctionnalités seront ajoutées au fil du temps.
 
-## Why are we doing this?
+## Pourquoi faisons-nous cela ?
 
-While public search engines like Google and Bing are effective for general web
-searches, they do not have access to internal documents. The tools currently
-available to CFIA employees for searching internal documents are primarily
-keyword-based, which is outdated. Finding the right information is challenging
-and often painful for employees. An example of this is the Guidance Finder tool,
-accessible at [Guidance Finder](https://inspection.canada.ca/apps/eng/guidance).
-In response, we are developing Finesse, a semantic search engine tailored to
-efficiently search internal document sets and improve the search experience for
-our employees.
+Bien que les moteurs de recherche publics comme Google et Bing soient efficaces
+pour les recherches générales sur le Web, ils n'ont pas accès aux documents
+internes. Les outils actuellement à la disposition des employés de l'ACIA pour
+rechercher des documents internes sont principalement basés sur des mots-clés,
+ce qui est dépassé. Trouver les bonnes informations est difficile et souvent
+pénible pour les employés. Un exemple de ceci est l'outil Guidance Finder,
+accessible à [Guidance Finder](https://inspection.canada.ca/apps/eng/guidance).
+En réponse, nous développons Finesse, un moteur de recherche sémantique conçu
+pour rechercher efficacement des ensembles de documents internes et améliorer
+l'expérience de recherche pour nos employés.
 
-## Who is it intended for?
+## À qui est-il destiné ?
 
-The Finesse search engine is primarily intended for CFIA employees. Currently, a
-group of champions—CFIA inspectors—are assisting in testing the prototype.
+Le moteur de recherche Finesse est principalement destiné aux employés de
+l'ACIA. Actuellement, un groupe de champions, des inspecteurs de l'ACIA, aident
+à tester le prototype.
 
-It is also open source, allowing anyone interested to use the code to develop
-their own applications.
+Il est également open source, permettant à toute personne intéressée d'utiliser
+le code pour développer ses propres applications.
 
-- Frontend: [finesse-frontend](https://github.com/ai-cfia/finesse-frontend)
-- Backend: [finesse-backend](https://github.com/ai-cfia/finesse-backend)
-- Azure index integration: [azure-db](https://github.com/ai-cfia/azure-db)
-- LlamaIndex integration:
+- Frontal : [finesse-frontend](https://github.com/ai-cfia/finesse-frontend)
+- Moteur : [finesse-backend](https://github.com/ai-cfia/finesse-backend)
+- Intégration d'index Azure : [azure-db](https://github.com/ai-cfia/azure-db)
+- Intégration de LlamaIndex :
   [llamaindex-db](https://github.com/ai-cfia/llamaindex-db)
-- AI Lab custom index integration:
+- Intégration d'index personnalisé AI Lab :
   [ailab-db](https://github.com/ai-cfia/ailab-db)
-- API testing tools: [api-test](https://github.com/ai-cfia/api-test)
+- Outils de test d'API : [api-test](https://github.com/ai-cfia/api-test)
