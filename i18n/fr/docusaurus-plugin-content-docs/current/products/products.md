@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Products
+# Produits

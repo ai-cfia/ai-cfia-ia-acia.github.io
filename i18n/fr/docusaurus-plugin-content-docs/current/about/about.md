@@ -2,18 +2,21 @@
 sidebar_position: 1
 ---
 
-# About the AI LAB
+# À propos de l'AI LAB
 
-## Who we are
+## Qui nous sommes
 
-The Artificial Intelligence Lab (AI-Lab) is a team within CFIA that aims to
-advance the state of the art in AI through advanced research and development.
-Its mission is to push the boundaries of what AI is capable of doing, with the
-goal of making it more accessible to CFIA employees. The lab team consists of
-experts in machine learning, natural language processing, computer vision and
-other AI-related fields. It works on a wide range of projects, from creating new
-algorithms and models to building practical applications that solve real-world
-problems related to food safety. The AI Lab is committed to open research and
-sharing its results with the broader AI community. In sum, the AI Lab is a key
-player in the CFIA's effort to ensure the health and safety of Canadians by
-ensuring that food is safe to eat.
+Le Laboratoire d'intelligence artificielle (AI-Lab) est une équipe au sein de
+l'ACIA qui vise à faire progresser l'état de l'art en matière d'IA grâce à une
+recherche et un développement avancés. Sa mission est de repousser les limites
+de ce que l'IA est capable de faire, dans le but de la rendre plus accessible
+aux employés de l'ACIA. L'équipe du laboratoire est composée d'experts en
+apprentissage automatique, en traitement du langage naturel, en vision par
+ordinateur et dans d'autres domaines liés à l'IA. Elle travaille sur un large
+éventail de projets, allant de la création de nouveaux algorithmes et modèles à
+la construction d'applications pratiques qui résolvent des problèmes concrets
+liés à la sécurité alimentaire. L'AI Lab s'engage à mener des recherches
+ouvertes et à partager ses résultats avec la communauté de l'IA au sens large.
+En résumé, l'AI Lab est un acteur clé dans les efforts de l'ACIA visant à
+assurer la santé et la sécurité des Canadiens en garantissant que les aliments
+sont propres à la consommation.

@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# NOTICE
+# AVIS
 
-## Alpha Release of the Website
+## Version alpha du site Web
 
-Please note that this website is currently in its alpha phase. All content is
-subject to change and has not been officially endorsed by the CFIA.
+Veuillez noter que ce site Web est actuellement en phase alpha. Tout le contenu
+est sujet à changement et n'a pas été officiellement approuvé par l'ACIA.

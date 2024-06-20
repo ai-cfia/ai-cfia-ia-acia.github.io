@@ -2,15 +2,17 @@
 sidebar_position: 1
 ---
 
-# Get in touch with the AI Lab
+# Contactez l'AI Lab
 
-Are you intrigued by Artificial Intelligence and looking for a space to explore,
-learn, and contribute? AI Lab is the place for you! We welcome individuals who
-are eager to discuss new advancements in AI technology, work on innovative
-projects, or explore internship opportunities.
+L'intelligence artificielle vous intrigue et vous cherchez un espace pour
+explorer, apprendre et contribuer ? L'AI Lab est l'endroit qu'il vous faut !
+Nous accueillons les personnes désireuses de discuter des nouvelles avancées en
+matière de technologie de l'IA, de travailler sur des projets innovants ou
+d'explorer des possibilités de stage.
 
-Whether you are a professional, a student, or simply an AI enthusiast, we invite
-you to reach out to us. Let’s collaborate to expand our understanding and to
-push the boundaries of what AI can achieve.
+Que vous soyez un professionnel, un étudiant ou simplement un passionné d'IA,
+nous vous invitons à nous contacter. Collaborons pour élargir notre
+compréhension et repousser les limites de ce que l'IA peut accomplir.
 
-**Email**: [cfia.ai-ia.acia@inspection.gc.ca](mailto:cfia.ai-ia.acia@inspection.gc.ca)
+**Courriel :**
+[cfia.ai-ia.acia@inspection.gc.ca](mailto:cfia.ai-ia.acia@inspection.gc.ca)
