@@ -28,11 +28,23 @@ intégrant l'IA dans leur flux de travail.
 
 Nous formons actuellement nos modèles pour identifier ces 15 espèces :
 
-| **Espèces** | |:--:| | Ambrosia artemisiifolia  | | Ambrosia trifida | |
-Ambrosia psilostachya | | Brassica junsea | | Brassica napus | | Bromus
-hordeaceus | | Bromus japonicus | | Bromus secalinus | | Carduus nutans | |
-Cirsium arvense | | Cirsium vulgare | | Lolium temulentum | | Solanum
-carolinense | | Solanum nigrum | | Solanum rostratum|
+| **Espèces** |
+|:--:|
+| Ambrosia artemisiifolia  |
+| Ambrosia trifida |
+| Ambrosia psilostachya |
+| Brassica junsea |
+| Brassica napus |
+| Bromus hordeaceus |
+| Bromus japonicus |
+| Bromus secalinus |
+| Carduus nutans |
+| Cirsium arvense |
+| Cirsium vulgare |
+| Lolium temulentum |
+| Solanum carolinense |
+| Solanum nigrum |
+| Solanum rostratum|
 
 Pour plus d'informations sur le Programme des semences de l'ACIA, consultez la
 [page d'identification des
