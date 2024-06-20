@@ -68,13 +68,16 @@
   font-size: larger;
   font-weight: bold;
   margin-bottom: 20px;
+  color: black;
 }
 
 .disclaimerText {
   font-size: medium;
   text-align: left;
   margin-bottom: 20px;
+  color: black;
 }
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {
