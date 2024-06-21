@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[472],{5513:i=>{i.exports=JSON.parse('{"title":"Posts r\xe9cents","items":[{"title":"Coming soon!","permalink":"/ai-cfia-ia-acia.github.io/fr/blog/welcome","unlisted":false}]}')}}]);
