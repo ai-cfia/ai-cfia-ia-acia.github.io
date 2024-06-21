@@ -39,7 +39,7 @@ Currently we are training our models to identify these 15 species:
 | Lolium temulentum |
 | Solanum carolinense |
 | Solanum nigrum |
-| Solanum rostratum|
+| Solanum rostratum |
 
 For more information about the CFIA's Seed Program, visit the [Seeds
 identification
@@ -58,8 +58,3 @@ respective documentation below:
 
 * [Nachet: Frontend](https://github.com/ai-cfia/nachet-frontend)
 * [Nachet: Backend](https://github.com/ai-cfia/nachet-backend)
-
-## Additional Link
-
-[Computer vision models: seed classification project | Statistics
-Canada](https://www.statcan.gc.ca/en/data-science/network/seed-classification-project?utm_source=newsletter&utm_medium=email&utm_campaign=statcan-data-science-23-24?utm_source=newsletter&utm_medium=email&utm_campaign=statcan-data-science-23-24)

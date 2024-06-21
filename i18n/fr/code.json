@@ -306,5 +306,8 @@
   },
   "Close": {
     "message": "Fermer"
+  },
+  "Artificial Intelligence Lab": {
+    "message": "Laboratoire d'intelligence artificielle"
   }
 }
