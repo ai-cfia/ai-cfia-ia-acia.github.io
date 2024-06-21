@@ -28,7 +28,7 @@ intégrant l'IA dans leur flux de travail.
 
 Nous formons actuellement nos modèles pour identifier ces 15 espèces :
 
-| **Espèces** |
+| **Species** |
 |:--:|
 | Ambrosia artemisiifolia  |
 | Ambrosia trifida |
@@ -44,7 +44,7 @@ Nous formons actuellement nos modèles pour identifier ces 15 espèces :
 | Lolium temulentum |
 | Solanum carolinense |
 | Solanum nigrum |
-| Solanum rostratum|
+| Solanum rostratum |
 
 Pour plus d'informations sur le Programme des semences de l'ACIA, consultez la
 [page d'identification des
@@ -57,9 +57,10 @@ Visitez ce lien pour accéder à l'application Web Nachet Interactive déployée
 
 ## Composants de l'application
 
-Nachet Interactive est structurée autour de deux éléments clés : un frontal basé
-sur React et un moteur basé sur Flask. Pour plus d'informations sur chaque
-élément, consultez la documentation respective ci-dessous :
+Nachet Interactive est structurée autour de deux éléments clés : une application
+forntale basée sur React et une application dorsale basée sur Flask. Pour plus
+d'informations sur chaque élément, consultez la documentation respective
+ci-dessous :
 
-* [Nachet : frontal](https://github.com/ai-cfia/nachet-frontend)
-* [Nachet : moteur](https://github.com/ai-cfia/nachet-backend)
+* [Nachet : application frontale](https://github.com/ai-cfia/nachet-frontend)
+* [Nachet : application dorsale](https://github.com/ai-cfia/nachet-backend)

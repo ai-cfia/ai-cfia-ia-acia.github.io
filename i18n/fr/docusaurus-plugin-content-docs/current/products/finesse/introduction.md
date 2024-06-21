@@ -51,11 +51,13 @@ l'ACIA. Actuellement, un groupe de champions, des inspecteurs de l'ACIA, aident
 Il est également open source, permettant à toute personne intéressée d'utiliser
 le code pour développer ses propres applications.
 
-- Frontal : [finesse-frontend](https://github.com/ai-cfia/finesse-frontend)
-- Moteur : [finesse-backend](https://github.com/ai-cfia/finesse-backend)
+- Application frontale :
+  [finesse-frontend](https://github.com/ai-cfia/finesse-frontend)
+- Application dorsale :
+  [finesse-backend](https://github.com/ai-cfia/finesse-backend)
 - Intégration d'index Azure : [azure-db](https://github.com/ai-cfia/azure-db)
 - Intégration de LlamaIndex :
   [llamaindex-db](https://github.com/ai-cfia/llamaindex-db)
-- Intégration d'index personnalisé AI Lab :
+- Intégration d'index personnalisé du Labo d'IA :
   [ailab-db](https://github.com/ai-cfia/ailab-db)
 - Outils de test d'API : [api-test](https://github.com/ai-cfia/api-test)

@@ -1,7 +1,4 @@
 {
-  "THIS WEBSITE IS IN ALPHA STAGE": {
-    "message": "CE SITE WEB EST EN ALPHA"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
     "description": "The title of the fallback page when the page crashed"
@@ -309,5 +306,8 @@
   },
   "Close": {
     "message": "Fermer"
+  },
+  "Artificial Intelligence Lab": {
+    "message": "Laboratoire d'Intelligence Artificielle"
   }
 }

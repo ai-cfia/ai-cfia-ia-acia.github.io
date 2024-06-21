@@ -39,7 +39,7 @@ Currently we are training our models to identify these 15 species:
 | Lolium temulentum |
 | Solanum carolinense |
 | Solanum nigrum |
-| Solanum rostratum|
+| Solanum rostratum |
 
 For more information about the CFIA's Seed Program, visit the [Seeds
 identification

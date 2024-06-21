@@ -54,15 +54,15 @@ développement.
 
 [CONTRIBUTING.md](https://github.com/ai-cfia/.github/blob/main/profile/CONTRIBUTING.md)
 : Ce document fournit des directives détaillées pour contribuer à tous les
-référentiels de l'AI Lab GitHub. Il comprend des informations sur les meilleures
-pratiques, les processus de soumission de code et la manière de proposer des
-changements ou des améliorations. Nous encourageons tous les contributeurs à le
-lire avant de commencer à contribuer.
+référentiels de le GitHub du Labo d'IA. Il comprend des informations sur les
+meilleures pratiques, les processus de soumission de code et la manière de
+proposer des changements ou des améliorations. Nous encourageons tous les
+contributeurs à le lire avant de commencer à contribuer.
 
 ---
 
 Nous espérons que vous trouverez la documentation relative aux développeurs
 utile et intéressante. Si vous avez des questions ou avez besoin d'aide,
-veuillez contacter l'équipe de l'AI Lab de l'ACIA.
+veuillez contacter l'équipe du Labo d'IA de l'ACIA.
 
 Bon développement !

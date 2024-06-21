@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Contactez l'AI Lab
+# Contactez le Labo d'IA
 
 L'intelligence artificielle vous intrigue et vous cherchez un espace pour
-explorer, apprendre et contribuer ? L'AI Lab est l'endroit qu'il vous faut !
+explorer, apprendre et contribuer ? Le Labo d'IA est l'endroit qu'il vous faut !
 Nous accueillons les personnes désireuses de discuter des nouvelles avancées en
 matière de technologie de l'IA, de travailler sur des projets innovants ou
 d'explorer des possibilités de stage.
