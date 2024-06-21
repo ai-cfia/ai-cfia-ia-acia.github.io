@@ -1,0 +1,316 @@
+---
+title: "Natural Language Processing (NLP) Projects using ChatGPT and more"
+slug: nlp-projects-chat-gpt
+authors: [leejaeka, ]
+tags: [Chat GPT, natural language processing, AI]
+hide_table_of_contents: false
+description: In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share few of our projects for demonstration.
+---
+
+In this article, we are excited to be at the forefront of this exciting and
+rapidly developing technology and to share few of our projects for
+demonstration.
+
+<!-- truncate -->
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+## Introduction
+
+![1](./img/1.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+Artificial Intelligence (AI) and Natural Language Processing (NLP) have become
+increasingly important in the modern world. With the rise of conversational
+interfaces, chatbots, and virtual assistants, NLP has become a crucial tool for
+improving communication between humans and machines. One of the most impressive
+NLP models in recent times is ChatGPT, a large language model trained by OpenAI
+based on the GPT-3.5 architecture. ChatGPT has the ability to understand natural
+language and generate human-like responses to a wide variety of prompts.
+
+In spite of its impressive capabilities, users may have encountered limitations
+when using ChatGPT for very specific tasks, such as providing accurate
+historical information about countries. As with any AI system, ChatGPT has its
+limitations and can benefit from additional training to improve its accuracy and
+effectiveness for specific tasks.
+
+As data scientists, we are constantly working to refine and finetune ChatGPT and
+other NLP models to better fit the needs of our clients. By customizing these
+models to work with specific data sets and tasks, we can make previously
+unavailable functionalities possible. In this article, we are excited to be at
+the forefront of this exciting and rapidly developing technology and to share
+few of our projects for demonstration.
+
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+![2](./img/2.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+## Project #1 IMS Illness Report Classification Project
+
+### Objective (Project #1)
+
+The aim of this project is to develop an efficient pipeline that can
+automatically detect illness reports within English documents (pdfs) using
+Artificial Intelligence (AI). The pipeline will utilise NLP techniques to read
+and summarise documents that are specifically focused on illness reporting
+topics. The ultimate goal is to enable the client to process large volumes of
+such documents in a matter of minutes, which will help to save time and increase
+efficiency.
+
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Potential Usage (Project #1)
+
+1. Allows for a retrospective analysis of incidents
+1. QA of structured data via comparative text analysis for Data analytics and
+   Departmental Performance Reports (Current Example)
+1. Supporting systematic reviews of incidents for  administrative, Scientific or
+   strategic analysis. (To pilot)
+1. Combining 1-3 for potential real-time support for possible pathways.
+   ​​​​​​​(To pilot)
+
+Support reporting to Treasury Board on Departmental result Indicator - A
+majority (more than 84%) of high risk recalls are issued before illness being
+reported to CFIA.
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Deliverable (Project #1)
+
+As the final outcome of this project, the client will receive a web application
+connected to a trained machine learning model and the pipeline. The application
+will have the capability to process a large number of English documents focused
+on illness reporting topics. ​​​​​​​
+
+### Phase (Project #1)
+
+Currently, the project is in the testing and implementation phase, where
+different models are being developed to fit illness data. Based on the results,
+finetuned ChatGPT-3 has shown promising outcomes and has been deployed. Next
+step is to make this deliverable for the client.
+
+</div>
+
+</div>
+
+### Next Step (Project #1)
+
+Illness detection can be a stepping stone to expand the project to a general
+question answering AI tool. This is being discussed with the client Devendra and
+he’s shown great interest.
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+![3](./img/3.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+## Project #2 Meat HS Classification Project (2022 Jan-Nov)
+
+### Objective (Project #2)
+
+An Artificial Intelligence-powered text classification initiative is underway to
+automate the manual labelling process of a substantial HS data file. The
+system's input is human-generated descriptions of food products, and the output
+is the categorization of the text into various meat categories, such as Raw or
+Ready-to-Eat, determined by the AI model.​​​​​​​
+
+### Potential Usage (Project #2)
+
+The client specified that their intent in this project was for research
+purposes.
+
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Method (Project #2)
+
+The project leverages state-of-the-art natural language processing techniques,
+specifically the BERT transformer model, to efficiently analyse vast volumes of
+text. This will provide relevant stakeholders with a more profound understanding
+of their data, eliminating the need for manual review and labelling of thousands
+of entries. The result will be a substantial reduction in the time and effort
+required to gain insight into the data.
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Result (Project #2)
+
+Client provided training data which was used to train the BERT model. The model
+was able to accurately label bigger categories such as Poultry, Beef, Pork and
+Alligator meat (99%+ accuracy). However, it had a difficult time labelling very
+specific categories (80% accuracy) such as raw beef vs canned beef as training
+data lacked patterns and details.
+
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Deliverable (Project #2)
+
+As the final deliverable of this project, the client will receive a program that
+can process their input requests. The program will label and generate a .csv
+file for the client.
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Next Step (Project #2)
+
+Client mentioned potential project for fish classification in the future
+
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+![3](./img/4.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+## Project #3 English & French Translator App (2022 Sept-2023)
+
+### Objective (Project #3)
+
+The Eng-Fr, Fr-Eng Translator App aims to translate and summarise classified
+documents securely on CFIA servers. It aims to solve the lack of data privacy of
+Google Translate whilst maintaining the translation accuracy level of DeepL
+Translate using a Machine Learning model, BERT.
+
+### Potential Usage (Project #3)
+
+1. Quick translation to any of the following documents - .pdfs, .docx, .txt,
+   .pptx
+1. Quick summarisation of corpus of text to reduce manual reading time
+
+</div>
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Deliverable (Project #3)
+
+As the final deliverable of this project, the clients with access to CFIA VPN
+can use the web application found
+[here](https://translatorv1.azurewebsites.net/). Client can drag&drop, upload or
+type directly to get translation of the input document. Text-summary feature can
+be used on the same input to give a summarisation of the input document.
+
+Try out the translator [here](https://translatorv1.azurewebsites.net/).
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Phase (Project #3)
+
+Deployed and ready at anytime
+
+### Next Step (Project #3)
+
+The app is expandable to better model plus more functionalities. Since it
+utilises chatGPT backend, not only can it summarise, it can do many other tasks.
+
+</div>
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+## Conclusion
+
+![5](./img/5.png)
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+In conclusion, the development of NLP technology has brought about a new era of
+human-machine interaction, making it possible for us to communicate with
+machines in ways that were previously unimaginable. With the advent of ChatGPT
+and other advanced NLP models, we have seen significant improvements in the
+accuracy and effectiveness of conversational interfaces, chatbots, and virtual
+assistants.
+
+Through the examples we have explored in this article, it is clear that NLP
+technology has the potential to revolutionize a wide range of industries and
+applications here at CFIA. By harnessing the power of NLP, we can develop more
+effective and efficient ways to communicate with users and customers, ultimately
+driving better outcomes for businesses and individuals alike.
+
+However, as with any new technology, there are also challenges that must be
+addressed. Ethical concerns around data privacy and bias in AI systems are
+important considerations that must be carefully managed as NLP technology
+continues to evolve. Additionally, data security is a big concern that is why
+our team is cooperating closely with Microsoft Team to ensure safety and privacy
+of the data the AI process.
+
+At the same time, we are excited about the opportunities that lie ahead in the
+field of NLP. As data scientists, we are committed to continuing to refine and
+improve ChatGPT and other NLP models, so that we can develop even more powerful
+tools to support human-machine interaction and drive innovation in a wide range
+of industries. We are confident that the future of NLP is bright, and we look
+forward to being a part of this exciting journey.
+
+</div>
+
+</div>
