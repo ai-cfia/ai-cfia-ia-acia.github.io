@@ -4,10 +4,129 @@
         <title>Artificial Intelligence Lab Blog</title>
         <link>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles</link>
         <description>Artificial Intelligence Lab Blog</description>
-        <lastBuildDate>Fri, 14 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Natural Language Processing (NLP) Projects using ChatGPT and more]]></title>
+            <link>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt</link>
+            <guid>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt</guid>
+            <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share a few of our projects for demonstration.]]></description>
+            <content:encoded><![CDATA[<p>In this article, we are excited to be at the forefront of this exciting and
+rapidly developing technology and to share a few of our projects for
+demonstration.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#introduction">​</a></h2><p><img decoding="async" loading="lazy" alt="ChatGPT logo." src="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/assets/images/1-64ea16f61064b3cad7f8ea287e54185e.png" width="1200" height="1200" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>Artificial Intelligence (AI) and Natural Language Processing (NLP) have become
+increasingly important in the modern world. With the rise of conversational
+interfaces, chatbots, and virtual assistants, NLP has become a crucial tool for
+improving communication between humans and machines. One of the most impressive
+NLP models in recent times is ChatGPT, a large language model trained by OpenAI
+based on the GPT-3.5 architecture. ChatGPT has the ability to understand natural
+language and generate human-like responses to a wide variety of prompts.</p><p>In spite of its impressive capabilities, users may have encountered limitations
+when using ChatGPT for very specific tasks, such as providing accurate
+historical information about countries. As with any AI system, ChatGPT has its
+limitations and can benefit from additional training to improve its accuracy and
+effectiveness for specific tasks.</p><p>As data scientists, we are constantly working to refine and finetune ChatGPT and
+other NLP models to better fit the needs of our clients. By customizing these
+models to work with specific data sets and tasks, we can make previously
+unavailable functionalities possible. In this article, we are excited to be at
+the forefront of this exciting and rapidly developing technology and to share a
+few of our projects for demonstration.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="A minimalist illustration of a woman with a thermometer in her mouth, holding
+her head with one hand, indicating a fever or headache." src="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/assets/images/2-8e4e426b89453be2e49b6014a8509f8e.png" width="1920" height="1920" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-1-ims-incident-management-system-illness-report-classification-project">Project #1 IMS (Incident Management System) Illness Report Classification Project<a class="hash-link" aria-label="Direct link to Project #1 IMS (Incident Management System) Illness Report Classification Project" title="Direct link to Project #1 IMS (Incident Management System) Illness Report Classification Project" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#project-1-ims-incident-management-system-illness-report-classification-project">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-project-1">Objective (Project #1)<a class="hash-link" aria-label="Direct link to Objective (Project #1)" title="Direct link to Objective (Project #1)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#objective-project-1">​</a></h3><p>The aim of this project is to develop an efficient pipeline that can
+automatically detect illness reports within English documents (pdfs) using
+Artificial Intelligence (AI). The pipeline will utilise NLP techniques to read
+and summarize documents that are specifically focused on illness reporting
+topics. The ultimate goal is to enable the client to process large volumes of
+such documents in a matter of minutes, which will help to save time and increase
+efficiency.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="potential-usage-project-1">Potential Usage (Project #1)<a class="hash-link" aria-label="Direct link to Potential Usage (Project #1)" title="Direct link to Potential Usage (Project #1)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#potential-usage-project-1">​</a></h3><ol>
+<li>Allows for a retrospective analysis of incidents</li>
+<li>QA of structured data via comparative text analysis for Data analytics and
+Departmental Performance Reports (Current Example)</li>
+<li>Supporting systematic reviews of incidents for  administrative, Scientific or
+strategic analysis. (To pilot)</li>
+<li>Combining 1-3 for potential real-time support for possible pathways.
+​​​​​​​(To pilot)</li>
+</ol><p>Support reporting to Treasury Board on Departmental result Indicator - A
+majority (more than 84%) of high risk recalls are issued before illness being
+reported to CFIA.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverable-project-1">Deliverable (Project #1)<a class="hash-link" aria-label="Direct link to Deliverable (Project #1)" title="Direct link to Deliverable (Project #1)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#deliverable-project-1">​</a></h3><p>As the final outcome of this project, the client will receive a web application
+connected to a trained machine learning model and the pipeline. The application
+will have the capability to process a large number of English documents focused
+on illness reporting topics. ​​​​​​​</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="phase-project-1">Phase (Project #1)<a class="hash-link" aria-label="Direct link to Phase (Project #1)" title="Direct link to Phase (Project #1)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#phase-project-1">​</a></h3><p>Currently, the project is in the testing and implementation phase, where
+different models are being developed to fit illness data. Based on the results,
+finetuned ChatGPT-3 has shown promising outcomes and has been deployed. The next
+step is to finalize this deliverable for the client.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="next-step-project-1">Next Step (Project #1)<a class="hash-link" aria-label="Direct link to Next Step (Project #1)" title="Direct link to Next Step (Project #1)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#next-step-project-1">​</a></h3>
+<p>Illness detection can be a stepping stone to expand the project to a general
+question answering AI tool. This is being discussed with the client Devendra and
+he’s shown great interest.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="Photo of a table spread with six bowls filled with assorted charcuterie and
+meats" src="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/assets/images/3-6edef276f8a91d394a682d3dbd25dc07.png" width="683" height="683" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-2-meat-hs-classification-project-2022-jan-nov">Project #2 Meat HS Classification Project (2022 Jan-Nov)<a class="hash-link" aria-label="Direct link to Project #2 Meat HS Classification Project (2022 Jan-Nov)" title="Direct link to Project #2 Meat HS Classification Project (2022 Jan-Nov)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#project-2-meat-hs-classification-project-2022-jan-nov">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-project-2">Objective (Project #2)<a class="hash-link" aria-label="Direct link to Objective (Project #2)" title="Direct link to Objective (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#objective-project-2">​</a></h3><p>An Artificial Intelligence-powered text classification initiative is underway to
+automate the manual labelling process of a substantial HS (Harmonized System)
+data file. The system's input is human-generated descriptions of food products,
+and the output is the categorization of the text into various meat categories,
+such as Raw or Ready-to-Eat, determined by the AI model.​​​​​​​</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="potential-usage-project-2">Potential Usage (Project #2)<a class="hash-link" aria-label="Direct link to Potential Usage (Project #2)" title="Direct link to Potential Usage (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#potential-usage-project-2">​</a></h3><p>The client specified that their intent in this project was for research
+purposes.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="method-project-2">Method (Project #2)<a class="hash-link" aria-label="Direct link to Method (Project #2)" title="Direct link to Method (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#method-project-2">​</a></h3><p>The project leverages state-of-the-art natural language processing techniques,
+specifically the BERT transformer model, to efficiently analyse vast volumes of
+text. This will provide relevant stakeholders with a more profound understanding
+of their data, eliminating the need for manual review and labelling of thousands
+of entries. The result will be a substantial reduction in the time and effort
+required to gain insight into the data.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="result-project-2">Result (Project #2)<a class="hash-link" aria-label="Direct link to Result (Project #2)" title="Direct link to Result (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#result-project-2">​</a></h3><p>Client provided training data which was used to train the BERT model. The model
+was able to accurately label bigger categories such as Poultry, Beef, Pork and
+Alligator meat (99%+ accuracy). However, it had a difficult time labelling very
+specific categories (80% accuracy) such as raw beef vs canned beef as training
+data lacked patterns and details.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverable-project-2">Deliverable (Project #2)<a class="hash-link" aria-label="Direct link to Deliverable (Project #2)" title="Direct link to Deliverable (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#deliverable-project-2">​</a></h3><p>As the final deliverable of this project, the client will receive a program that
+can process their input requests. The program will label and generate a .csv
+file for the client.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="next-step-project-2">Next Step (Project #2)<a class="hash-link" aria-label="Direct link to Next Step (Project #2)" title="Direct link to Next Step (Project #2)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#next-step-project-2">​</a></h3><p>Client mentioned potential project for fish classification in the future</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="Screenshot of our translation software interface showing text input and
+language selection options." src="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/assets/images/4-19a577495fa18729009d393f093e5b2d.png" width="642" height="642" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-3-english--french-translator-app-2022-sept-2023">Project #3 English &amp; French Translator App (2022 Sept-2023)<a class="hash-link" aria-label="Direct link to Project #3 English &amp; French Translator App (2022 Sept-2023)" title="Direct link to Project #3 English &amp; French Translator App (2022 Sept-2023)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#project-3-english--french-translator-app-2022-sept-2023">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-project-3">Objective (Project #3)<a class="hash-link" aria-label="Direct link to Objective (Project #3)" title="Direct link to Objective (Project #3)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#objective-project-3">​</a></h3><p>The Eng-Fr, Fr-Eng Translator App aims to translate and summarise classified
+documents securely on CFIA servers. It aims to solve the lack of data privacy of
+Google Translate whilst maintaining the translation accuracy level of DeepL
+Translate using a Machine Learning model, BERT.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="potential-usage-project-3">Potential Usage (Project #3)<a class="hash-link" aria-label="Direct link to Potential Usage (Project #3)" title="Direct link to Potential Usage (Project #3)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#potential-usage-project-3">​</a></h3><ol>
+<li>Quick translation to any of the following documents - .pdfs, .docx, .txt,
+.pptx</li>
+<li>Quick summarisation of corpus of text to reduce manual reading time</li>
+</ol></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverable-project-3">Deliverable (Project #3)<a class="hash-link" aria-label="Direct link to Deliverable (Project #3)" title="Direct link to Deliverable (Project #3)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#deliverable-project-3">​</a></h3><p>As the final deliverable of this project, the clients with access to CFIA VPN
+can use the web application found
+<a href="https://translatorv1.azurewebsites.net/" target="_blank" rel="noopener noreferrer">here</a>. Client can drag&amp;drop, upload or
+type directly to get translation of the input document. Text-summary feature can
+be used on the same input to give a summarisation of the input document.</p><p>Try out the translator <a href="https://translatorv1.azurewebsites.net/" target="_blank" rel="noopener noreferrer">here</a>.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="phase-project-3">Phase (Project #3)<a class="hash-link" aria-label="Direct link to Phase (Project #3)" title="Direct link to Phase (Project #3)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#phase-project-3">​</a></h3><p>Deployed and ready at any time.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="next-step-project-3">Next Step (Project #3)<a class="hash-link" aria-label="Direct link to Next Step (Project #3)" title="Direct link to Next Step (Project #3)" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#next-step-project-3">​</a></h3><p>The app is expandable to better model plus more functionalities. Since it
+utilises ChatGPT backend, not only can it summarise, it can do many other tasks.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" href="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/nlp-projects-chat-gpt#conclusion">​</a></h2><p><img decoding="async" loading="lazy" alt="Portrait of an anthropomorphic robot touching its chin in a thoughtful
+pose." src="https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/assets/images/5-e33b4e92a5206833e94ea278c51ad496.png" width="600" height="600" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>In conclusion, the development of NLP technology has brought about a new era of
+human-machine interaction, making it possible for us to communicate with
+machines in ways that were previously unimaginable. With the advent of ChatGPT
+and other advanced NLP models, we have seen significant improvements in the
+accuracy and effectiveness of conversational interfaces, chatbots, and virtual
+assistants.</p><p>Through the examples we have explored in this article, it is clear that NLP
+technology has the potential to revolutionize a wide range of industries and
+applications here at CFIA. By harnessing the power of NLP, we can develop more
+effective and efficient ways to communicate with users and customers, ultimately
+driving better outcomes for businesses and individuals alike.</p><p>However, as with any new technology, there are also challenges that must be
+addressed. Ethical concerns around data privacy and bias in AI systems are
+important considerations that must be carefully managed as NLP technology
+continues to evolve. Additionally, data security is a big concern that is why
+our team is cooperating closely with Microsoft Teams to ensure the safety and
+privacy of the data processed by the AI.</p><p>At the same time, we are excited about the opportunities that lie ahead in the
+field of NLP. As data scientists, we are committed to continuing to refine and
+improve ChatGPT and other NLP models, so that we can develop even more powerful
+tools to support human-machine interaction and drive innovation in a wide range
+of industries. We are confident that the future of NLP is bright, and we look
+forward to being a part of this exciting journey.</p></div></div>]]></content:encoded>
+            <category>Chat GPT</category>
+            <category>natural language processing</category>
+            <category>AI</category>
+        </item>
         <item>
             <title><![CDATA[Seed Classification:  Automatic Quality Inspection using Computer Vision]]></title>
             <link>https://ai-cfia-ia-acia.github.io/ai-cfia-ia-acia.github.io/articles/seed-classification</link>
