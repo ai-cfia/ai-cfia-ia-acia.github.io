@@ -23,7 +23,7 @@ pour démonstration.
 
 ## Introduction
 
-![1](./img/1.png)
+![Logo de l'agent conversationnel ChatGPT](./img/1.png)
 
 </div>
 
@@ -31,7 +31,7 @@ pour démonstration.
 
 L'intelligence artificielle (IA) et le traitement automatique des langues (TAL)
 sont devenus de plus en plus importants dans le monde moderne. Avec l'essor des
-interférences conversationnelles, des agents conversationnels et des assistants
+interfaces conversationnelles, des agents conversationnels et des assistants
 virtuels, le TAL est devenu un outil essentiel pour améliorer la communication
 entre les humains et les machines. L'un des modèles de TAL les plus
 impressionnants de ces derniers temps est ChatGPT, un grand modèle de langage
@@ -50,8 +50,8 @@ En tant que scientifiques de données, nous travaillons constamment à affiner e
 à peaufiner ChatGPT et d'autres modèles de TAL pour mieux répondre aux besoins
 de nos clients. En personnalisant ces modèles pour travailler avec des ensembles
 de données et des tâches spécifiques, nous pouvons rendre des fonctionnalités
-auparavant indisponibles possibles. Dans cet article, nous sommes excités d'être
-à l'avant-garde de cette technologie passionnante et en rapide évolution, et de
+auparavant indisponibles possibles. Dans cet article, nous sommes ravis d'être à
+l'avant-garde de cette technologie passionnante et en rapide évolution, et de
 partager quelques-uns de nos projets pour démonstration.
 
 </div>
@@ -64,15 +64,16 @@ partager quelques-uns de nos projets pour démonstration.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![2](./img/2.png)
+![Illustration minimaliste d'une femme avec un thermomètre dans la bouche et
+tenant sa tête d'une main, signe de fièvre ou de céphalée.](./img/2.png)
 
 </div>
 
 <div style={{flex: 2, marginRight: '10px'}}>
 
-## Projet n° 1 : Projet de classification des rapports de maladie IMS
+## Projet n°1 : Projet de classification des rapports de maladie IMS (_Incident Management System_)
 
-### Objectif (Projet n° 1)
+### Objectif (Projet n°1)
 
 L'objectif de ce projet est de développer un pipeline efficace qui peut
 automatiquement détecter les rapports de maladie au sein de documents anglais
@@ -82,7 +83,7 @@ axés sur les sujets de rapport de maladie. L'objectif ultime est de permettre a
 client de traiter de grandes quantités de tels documents en quelques minutes, ce
 qui aidera à gagner du temps et à augmenter l'efficacité.
 
-### Utilisation potentielle (Projet n° 1)
+### Utilisation potentielle (Projet n°1)
 
 1. Permet une analyse rétrospective des incidents
 2. QA des données structurées via une analyse comparative du texte pour
@@ -95,7 +96,7 @@ qui aidera à gagner du temps et à augmenter l'efficacité.
 
 Rapport pour le Conseil du Trésor sur l'indicateur de résultat départemental -
 Une majorité (plus de 84 %) des rappels à haut risque sont émis avant que la
-maladie soit signalée à l'ACIA.
+maladie soit signalée à l'ACIA (Agence Canadienne d'Inspection des Aliments).
 
 </div>
 
@@ -105,25 +106,26 @@ maladie soit signalée à l'ACIA.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Livrable (Projet n° 1)
+### Livrable (Projet n°1)
 
 Comme résultat final de ce projet, le client recevra une application web
 connectée à un modèle d'apprentissage machine entraîné et au pipeline.
 L'application sera capable de traiter un grand nombre de documents anglais axés
 sur les sujets de rapport de maladie.
 
-### Phase (Projet n° 1)
+### Phase (Projet n°1)
 
 Actuellement, le projet est en phase de test et de mise en œuvre, où différents
 modèles sont en cours de développement pour s'adapter aux données de maladie.
 Selon les résultats, le ChatGPT-3 affiné a montré des résultats prometteurs et a
-été déployé. L'étape suivante consiste à rendre ce livrable pour le client.
+été déployé. L'étape suivante consiste à finaliser et à livrer le produit au
+client.
 
 </div>
 
 </div>
 
-### Prochaine étape (Projet n° 1)
+### Prochaine étape (Projet n°1)
 
 La détection de maladie peut être un tremplin pour étendre le projet à un outil
 général de questions-réponses IA. Cela est discuté avec le client Devendra et il
@@ -135,7 +137,8 @@ a montré un grand intérêt.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![3](./img/3.png)
+![Photo d'une table garnie de six bols contenant un assortiment de charcuteries
+et de viandes diverses.](./img/3.png)
 
 </div>
 
@@ -147,10 +150,10 @@ a montré un grand intérêt.
 
 Une initiative de classification de texte propulsée par l'intelligence
 artificielle est en cours pour automatiser le processus de marquage manuel d'un
-volumineux fichier de données HS. L'entrée du système est la description des
-produits alimentaires générée par l'homme, et la sortie est la catégorisation du
-texte en différentes catégories de viande, telles que Cru ou Prêt-à-manger,
-déterminée par le modèle d'IA.
+volumineux fichier de données HS (_Harmonized System_). L'entrée du système est
+la description des produits alimentaires générée par l'homme, et la sortie est
+la catégorisation du texte en différentes catégories de viande, telles que Cru
+ou Prêt-à-manger, déterminée par le modèle d'IA.
 
 ### Utilisation potentielle (Projet n°2)
 
@@ -168,12 +171,12 @@ recherche.
 ### Méthodologie (Projet n°2)
 
 Le projet utilise des techniques de traitement automatique des langues à la
-pointe de la technologie, en particulier le modèle de transformation BERT, pour
-analyser efficacement d'énormes volumes de texte. Cela fournira aux parties
-prenantes pertinentes une compréhension plus profonde de leurs données,
-éliminant le besoin d'examen manuel et de marquage de milliers d'entrées. Le
-résultat sera une réduction substantielle du temps et des efforts nécessaires
-pour obtenir un aperçu des données.
+pointe de la technologie, en particulier le modèle BERT (Bidirectional Encoder
+Representations from Transformers), pour analyser efficacement d'énormes volumes
+de texte. Cela fournira aux parties prenantes pertinentes une compréhension plus
+profonde de leurs données, éliminant le besoin d'examen manuel et de marquage de
+milliers d'entrées. Le résultat sera une réduction substantielle du temps et des
+efforts nécessaires pour obtenir un aperçu des données.
 
 </div>
 
@@ -207,7 +210,7 @@ traiter leurs demandes d'entrée. Le programme étiquettera et générera un fic
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Prochaine Étape (Projet n°2)
+### Prochaine étape (Projet n°2)
 
 Le client a mentionné un projet potentiel pour la classification des poissons à
 l'avenir.
@@ -222,7 +225,7 @@ l'avenir.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![3](./img/4.png)
+![Capture d'écran de l'interface de notre logiciel de traduction.](./img/4.png)
 
 </div>
 
@@ -232,7 +235,7 @@ l'avenir.
 
 ### Objectif (Projet n°3)
 
-L'application Traducteur Ang-Fr, Fr-Ang vise à traduire et résumer de manière
+L'application Traducteur Ang-Fr Fr-Ang vise à traduire et résumer de manière
 sécurisée les documents classifiés sur les serveurs de l'ACIA. Elle vise à
 résoudre le manque de protection des données de Google Translate tout en
 maintenant le niveau de précision de la traduction de DeepL Translate avec un
@@ -270,7 +273,7 @@ Essayez le traducteur [ici](https://translatorv1.azurewebsites.net/).
 
 Déployé et prêt à tout moment.
 
-### Prochaine Étape (Projet n°3)
+### Prochaine étape (Projet n°3)
 
 L'application est extensible pour un meilleur modèle et plus de fonctionnalités.
 Comme elle utilise l'application dorsale de ChatGPT, elle peut non seulement
@@ -288,7 +291,8 @@ résumer, mais aussi effectuer de nombreuses autres tâches.
 
 ## Conclusion
 
-![5](./img/5.png)
+![Portrait d'un robot anthropomorphe se touchant le menton dans une pose
+pensive.](./img/5.png)
 
 </div>
 

@@ -4,11 +4,11 @@ slug: nlp-projects-chat-gpt
 authors: [leejaeka, ]
 tags: [Chat GPT, natural language processing, AI]
 hide_table_of_contents: false
-description: In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share few of our projects for demonstration.
+description: In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share a few of our projects for demonstration.
 ---
 
 In this article, we are excited to be at the forefront of this exciting and
-rapidly developing technology and to share few of our projects for
+rapidly developing technology and to share a few of our projects for
 demonstration.
 
 <!-- truncate -->
@@ -21,7 +21,7 @@ demonstration.
 
 ## Introduction
 
-![1](./img/1.png)
+![ChatGPT logo.](./img/1.png)
 
 </div>
 
@@ -45,7 +45,7 @@ As data scientists, we are constantly working to refine and finetune ChatGPT and
 other NLP models to better fit the needs of our clients. By customizing these
 models to work with specific data sets and tasks, we can make previously
 unavailable functionalities possible. In this article, we are excited to be at
-the forefront of this exciting and rapidly developing technology and to share
+the forefront of this exciting and rapidly developing technology and to share a
 few of our projects for demonstration.
 
 </div>
@@ -58,20 +58,21 @@ few of our projects for demonstration.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![2](./img/2.png)
+![A minimalist illustration of a woman with a thermometer in her mouth, holding
+her head with one hand, indicating a fever or headache.](./img/2.png)
 
 </div>
 
 <div style={{flex: 2, marginRight: '10px'}}>
 
-## Project #1 IMS Illness Report Classification Project
+## Project #1 IMS (Incident Management System) Illness Report Classification Project
 
 ### Objective (Project #1)
 
 The aim of this project is to develop an efficient pipeline that can
 automatically detect illness reports within English documents (pdfs) using
 Artificial Intelligence (AI). The pipeline will utilise NLP techniques to read
-and summarise documents that are specifically focused on illness reporting
+and summarize documents that are specifically focused on illness reporting
 topics. The ultimate goal is to enable the client to process large volumes of
 such documents in a matter of minutes, which will help to save time and increase
 efficiency.
@@ -87,11 +88,11 @@ efficiency.
 ### Potential Usage (Project #1)
 
 1. Allows for a retrospective analysis of incidents
-1. QA of structured data via comparative text analysis for Data analytics and
+2. QA of structured data via comparative text analysis for Data analytics and
    Departmental Performance Reports (Current Example)
-1. Supporting systematic reviews of incidents for  administrative, Scientific or
+3. Supporting systematic reviews of incidents for  administrative, Scientific or
    strategic analysis. (To pilot)
-1. Combining 1-3 for potential real-time support for possible pathways.
+4. Combining 1-3 for potential real-time support for possible pathways.
    ​​​​​​​(To pilot)
 
 Support reporting to Treasury Board on Departmental result Indicator - A
@@ -113,8 +114,8 @@ on illness reporting topics. ​​​​​​​
 
 Currently, the project is in the testing and implementation phase, where
 different models are being developed to fit illness data. Based on the results,
-finetuned ChatGPT-3 has shown promising outcomes and has been deployed. Next
-step is to make this deliverable for the client.
+finetuned ChatGPT-3 has shown promising outcomes and has been deployed. The next
+step is to finalize this deliverable for the client.
 
 </div>
 
@@ -132,7 +133,8 @@ he’s shown great interest.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![3](./img/3.png)
+![Photo of a table spread with six bowls filled with assorted charcuterie and
+meats](./img/3.png)
 
 </div>
 
@@ -143,10 +145,10 @@ he’s shown great interest.
 ### Objective (Project #2)
 
 An Artificial Intelligence-powered text classification initiative is underway to
-automate the manual labelling process of a substantial HS data file. The
-system's input is human-generated descriptions of food products, and the output
-is the categorization of the text into various meat categories, such as Raw or
-Ready-to-Eat, determined by the AI model.​​​​​​​
+automate the manual labelling process of a substantial HS (Harmonized System)
+data file. The system's input is human-generated descriptions of food products,
+and the output is the categorization of the text into various meat categories,
+such as Raw or Ready-to-Eat, determined by the AI model.​​​​​​​
 
 ### Potential Usage (Project #2)
 
@@ -214,7 +216,8 @@ Client mentioned potential project for fish classification in the future
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-![3](./img/4.png)
+![Screenshot of our translation software interface showing text input and
+language selection options.](./img/4.png)
 
 </div>
 
@@ -233,7 +236,7 @@ Translate using a Machine Learning model, BERT.
 
 1. Quick translation to any of the following documents - .pdfs, .docx, .txt,
    .pptx
-1. Quick summarisation of corpus of text to reduce manual reading time
+2. Quick summarisation of corpus of text to reduce manual reading time
 
 </div>
 
@@ -259,12 +262,12 @@ Try out the translator [here](https://translatorv1.azurewebsites.net/).
 
 ### Phase (Project #3)
 
-Deployed and ready at anytime
+Deployed and ready at any time.
 
 ### Next Step (Project #3)
 
 The app is expandable to better model plus more functionalities. Since it
-utilises chatGPT backend, not only can it summarise, it can do many other tasks.
+utilises ChatGPT backend, not only can it summarise, it can do many other tasks.
 
 </div>
 
@@ -278,7 +281,8 @@ utilises chatGPT backend, not only can it summarise, it can do many other tasks.
 
 ## Conclusion
 
-![5](./img/5.png)
+![Portrait of an anthropomorphic robot touching its chin in a thoughtful
+pose.](./img/5.png)
 
 </div>
 
@@ -301,8 +305,8 @@ However, as with any new technology, there are also challenges that must be
 addressed. Ethical concerns around data privacy and bias in AI systems are
 important considerations that must be carefully managed as NLP technology
 continues to evolve. Additionally, data security is a big concern that is why
-our team is cooperating closely with Microsoft Team to ensure safety and privacy
-of the data the AI process.
+our team is cooperating closely with Microsoft Teams to ensure the safety and
+privacy of the data processed by the AI.
 
 At the same time, we are excited about the opportunities that lie ahead in the
 field of NLP. As data scientists, we are committed to continuing to refine and
