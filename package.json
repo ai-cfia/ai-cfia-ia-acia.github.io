@@ -23,7 +23,8 @@
     "node-fetch": "^3.3.2",
     "prism-react-renderer": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.4.0",
