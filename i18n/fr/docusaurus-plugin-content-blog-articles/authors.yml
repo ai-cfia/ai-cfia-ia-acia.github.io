@@ -1,17 +1,11 @@
 lemire:
   name: William Lemire
-  title: Développeur Back-End
+  title: Back-End Developper
   url: https://github.com/RussellJimmies
   image_url: https://github.com/RussellJimmies.png
 
 kstern:
   name: Kiri Stern
-  title: Stagiaire
+  title: Intern
   url: https://github.com/kiristern
   image_url: https://github.com/kiristern.png
-
-leejaeka:
-  name: Tony Kaekang Lee
-  title: Scientifique des données
-  url: https://github.com/leejaeka
-  image_url: https://github.com/leejaeka.png
