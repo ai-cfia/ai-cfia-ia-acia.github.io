@@ -17,8 +17,8 @@ inspectors from the Canadian Food Inspection Agency (CFIA) in their tasks.
 
 ## Key Features
 
-* __AI technology and OCR capabilities__: Enables scanning of fertilizer labels and
-  extracting essential data.
+* __AI technology and OCR capabilities__: Enables scanning of fertilizer labels
+  and extracting essential data.
 
 * __Data storage__: Integrates an organized database system for easy access and
   analysis of collected information.
@@ -30,26 +30,26 @@ inspectors from the Canadian Food Inspection Agency (CFIA) in their tasks.
 
 The project aims to:
 
-* __Increase precision and efficiency__: The application ensures the elimination of
-  errors and reduces the time spent on the manual data entry process of label
+* __Increase precision and efficiency__: The application ensures the elimination
+  of errors and reduces the time spent on the manual data entry process of label
   information.
 
-* __Improve organization__: The information currently collected is dispersed within
-  the RDIMS (Records Document and Information Management System) system.
+* __Improve organization__: The information currently collected is dispersed
+  within the RDIMS (Records Document and Information Management System) system.
   FertiScan proposes a centralized and structured storage solution, addressing
   one of the main current challenges.
 
-* __Facilitate access to and analysis of data__: Decision-making is faster and based
-  on updated and accurate data.
+* __Facilitate access to and analysis of data__: Decision-making is faster and
+  based on updated and accurate data.
 
-* __Resource conservation__: To save time and efforts of the stakeholders involved
-  in the process.
+* __Resource conservation__: To save time and efforts of the stakeholders
+  involved in the process.
 
 * __Regulatory compliance__: To reinforce adherence to current standards and
   regulations in the sector.
 
-* __Usability__: To increase user satisfaction and operational efficiency through a
-  practical and easy-to-use application.
+* __Usability__: To increase user satisfaction and operational efficiency
+  through a practical and easy-to-use application.
 
 ## Who is FertiScan for?
 

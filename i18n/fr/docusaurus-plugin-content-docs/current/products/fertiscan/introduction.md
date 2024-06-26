@@ -19,30 +19,30 @@ d'inspection des aliments (ACIA) dans leurs tâches.
 
 ## Principales caractéristiques
 
-* __Technologie IA et capacités OCR__ : Permet de scanner des étiquettes d’engrais
-  et d’extraire des données essentielles.
+* __Technologie IA et capacités OCR__ : Permet de scanner des étiquettes
+  d’engrais et d’extraire des données essentielles.
 
 * __Stockage de données__ : Intègre un système organisé de base de données
   permettant un accès et une analyse facile des informations collectées.
 
-* __Flexibilité__ : Propose une intégration avec d’autres plateformes logicielles et
-  une personnalisation grâce à des modèles d’IA adaptés.
+* __Flexibilité__ : Propose une intégration avec d’autres plateformes
+  logicielles et une personnalisation grâce à des modèles d’IA adaptés.
 
 ## Pourquoi faisons-nous cela ?
 
 Le projet vise à :
 
-* __Augmenter la précision et l’efficacité__ : L'application veille à éliminer les
-  erreurs et à réduire le temps passé dans le processus de saisie manuelle des
-  données d’étiquettes.
+* __Augmenter la précision et l’efficacité__ : L'application veille à éliminer
+  les erreurs et à réduire le temps passé dans le processus de saisie manuelle
+  des données d’étiquettes.
 
 * __Améliorer l’organisation__ : Les informations collectées actuellement sont
   dispersées dans le système SGDDI (Système de Gestion des Dossiers, des
   Documents et de l’Information). FertiScan propose une solution de stockage
   centralisé et structuré, répondant à l'un des principaux enjeux actuels.
 
-* __Faciliter l’accès et l’analyse des données__ : Les prises de décision sont plus
-  rapides et basées sur des données actualisées et précises.
+* __Faciliter l’accès et l’analyse des données__ : Les prises de décision sont
+  plus rapides et basées sur des données actualisées et précises.
 
 * __Conservation des ressources__ : pour économiser le temps et les efforts des
   parties prenantes impliquées dans le processus.
@@ -50,8 +50,9 @@ Le projet vise à :
 * __Conformité réglementaire__ : pour renforcer la conformité aux normes et
   réglementations en vigueur dans le secteur.
 
-* __Usabilité__ : pour augmenter la satisfaction des utilisateurs et l’efficacité
-  opérationnelle grâce à une application pratique et facile à utiliser.
+* __Usabilité__ : pour augmenter la satisfaction des utilisateurs et
+  l’efficacité opérationnelle grâce à une application pratique et facile à
+  utiliser.
 
 ## À qui est adressée FertiScan?
 
