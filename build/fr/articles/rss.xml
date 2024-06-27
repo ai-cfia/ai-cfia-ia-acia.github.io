@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Artificial Intelligence Lab Blog</title>
+        <link>https://ai-cfia-ia-acia.github.io/fr/articles</link>
+        <description>Artificial Intelligence Lab Blog</description>
+        <lastBuildDate>Fri, 14 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <item>
+            <title><![CDATA[Classification automatisée des semences : Contrôle de la qualité à l'aide de la vision par ordinateur]]></title>
+            <link>https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification</link>
+            <guid>https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification</guid>
+            <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dans cet article, nous motivons le besoin de modèles de vision par ordinateur pour la classification automatique des espèces de semences. Nous démontrons comment nos modèles personnalisés ont obtenu des résultats prometteurs en utilisant des images de semences du « monde réel » et nous décrivons nos orientations futures pour le déploiement d'une application facile à utiliser: SeedID.]]></description>
+            <content:encoded><![CDATA[<p>Dans cet article, nous motivons le besoin de modèles de vision par ordinateur
+pour la classification automatique des espèces de semences. Nous démontrons
+comment nos modèles personnalisés ont obtenu des résultats prometteurs en
+utilisant des images de semences du « monde réel » et nous décrivons nos
+orientations futures pour le déploiement d'une application facile à utiliser:
+SeedID.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" aria-label="Lien direct vers Introduction" title="Lien direct vers Introduction" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#introduction">​</a></h2><p><img decoding="async" loading="lazy" alt="1" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/1-e042919f5524903390c56c38ec5ddd9a.png" width="1365" height="1365" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>L'intelligence artificielle (IA) pour la vision par ordinateur a révolutionné
+notre capacité à obtenir des informations à partir des images. En associant des
+algorithmes d'IA à l'analyse de données en format de photographes, la vision par
+ordinateur a révolutionné de nombreux secteurs, transformant la manière dont
+nous interagissons avec les machines. Les avancées en recherche en vision par
+ordinateur et leur intégration en industrie ont créé une opportunité sans
+précédent d'améliorer l'efficacité et la précision dans des domaines tels que le
+contrôle de la qualité, la détection et la classification d'objets, la
+surveillance, et bien plus encore.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="notre-mission">Notre mission<a class="hash-link" aria-label="Lien direct vers Notre mission" title="Lien direct vers Notre mission" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#notre-mission">​</a></h3><p>Au laboratoire d'IA de l'ACIA, nous exploitons le plein potentiel des modèles de
+vision par ordinateur. Notre équipe dévouée de scientifiques des données
+exploite la puissance de cette technologie transformatrice et développe des
+solutions personnalisées adaptées aux besoins spécifiques de nos clients.</p><p>Ici, nous motivons le besoin de modèles de vision par ordinateur pour la
+classification automatique des espèces de semences. Nous démontrons comment nos
+modèles personnalisés ont obtenu des résultats prometteurs en utilisant des
+images de semences du « monde réel » et nous décrivons nos orientations futures
+pour le déploiement d'une application facile à utiliser: SeedID.</p><p>Au laboratoire d'IA de l'ACIA, nous nous efforçons non seulement de repousser
+les frontières de la science en exploitant des modèles de pointe, mais aussi de
+rendre ces services accessibles aux autres et de favoriser le partage des
+connaissances, pour continuer le progrès de notre société canadienne.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="importance-de-lindustrie-semencière-canadienne">Importance de l'industrie semencière Canadienne<a class="hash-link" aria-label="Lien direct vers Importance de l'industrie semencière Canadienne" title="Lien direct vers Importance de l'industrie semencière Canadienne" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#importance-de-lindustrie-semenci%C3%A8re-canadienne">​</a></h2><p><img decoding="async" loading="lazy" alt="2" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/2-f8872cdbedac8fcee0022c5df31a129c.png" width="400" height="579" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>L'industrie semencière canadienne s'est forgé une réputation mondiale dans la
+production, le traitement et l'exportation de semences de qualité supérieure
+pour un large éventail de cultures. Son succès est dû à l'engagement du Canada
+en faveur de l'innovation et du développement de technologies de pointe, ce qui
+lui permet de fournir des produits de haute qualité qui répondent aux besoins
+nationaux et internationaux.</p><p>Naturellement, une collaboration entre le groupe de chercheurs sur la science
+des semences du Canada et le laboratoire d'IA a été mise en place pour maintenir
+le rôle du Canada en tant que responsable réputé de l'industrie mondiale des
+semences.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="contexte--contrôle-de-la-qualité">Contexte : Contrôle de la qualité<a class="hash-link" aria-label="Lien direct vers Contexte : Contrôle de la qualité" title="Lien direct vers Contexte : Contrôle de la qualité" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#contexte--contr%C3%B4le-de-la-qualit%C3%A9">​</a></h3><p>La qualité d'une culture de semences est reflétée dans un rapport de classement,
+où la note finale reflète le degré de conformité de la culture avec les normes
+de qualité minimales du Canada. Les facteurs utilisés pour déterminer la qualité
+de la récolte comprennent, entre autres l'analyse de la pureté et le pourcentage
+de germination et de maladie des semences. Le taux de germination de la graine
+et sa résistance aux maladies peuvent donner une idée de l'état de santé général
+de la graine. L'évaluation de la pureté du contenu est essentielle pour
+s'assurer que la récolte contient une forte concentration de la matière première
+souhaitée et qu'elle est exempte de contaminants, tels que les graines d'autres
+cultures ou les graines de mauvaises herbes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="motivation">Motivation<a class="hash-link" aria-label="Lien direct vers Motivation" title="Lien direct vers Motivation" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#motivation">​</a></h3><p>Actuellement, l'évaluation de la qualité d'une récolte est effectuée
+manuellement par des experts humains. Toutefois, ce processus est fastidieux et
+chronophage. Au laboratoire d'IA, nous utilisons des modèles avancés de vision
+par ordinateur pour classer automatiquement les espèces de semences à partir
+d'images, ce qui rend ce processus plus efficace et plus fiable.</p></div></div>
+<hr>
+<div style="text-align:center"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="surmonter-les-limitations-grâce-à-la-vision-par-ordinateur">Surmonter les limitations grâce à la vision par ordinateur<a class="hash-link" aria-label="Lien direct vers Surmonter les limitations grâce à la vision par ordinateur" title="Lien direct vers Surmonter les limitations grâce à la vision par ordinateur" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#surmonter-les-limitations-gr%C3%A2ce-%C3%A0-la-vision-par-ordinateur">​</a></h2></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pénurie-danalystes">Pénurie d'analystes<a class="hash-link" aria-label="Lien direct vers Pénurie d'analystes" title="Lien direct vers Pénurie d'analystes" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#p%C3%A9nurie-danalystes">​</a></h3><p><img decoding="async" loading="lazy" alt="3" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/3-a209628fb7dd980eff7bf9cfec0fea01.png" width="319" height="213" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>La pénurie d'analystes experts en semences constitue un défi important pour
+l'industrie des semences. La demande d'évaluation précise et efficace de la
+qualité des cultures augmente, mais la disponibilité d'analystes hautement
+qualifiés est limitée. Cette pénurie peut entraîner des retards dans les
+évaluations de la qualité, des obstacles dans la production et des erreurs
+potentielles dans la classification des semences.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="la-contribution-de-lia-pénurie-danalystes">La contribution de l'IA (Pénurie d'analystes)<a class="hash-link" aria-label="Lien direct vers La contribution de l'IA (Pénurie d'analystes)" title="Lien direct vers La contribution de l'IA (Pénurie d'analystes)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#la-contribution-de-lia-p%C3%A9nurie-danalystes">​</a></h4><p>La vision par ordinateur constitue une solution prometteuse pour remédier à
+cette pénurie en analysant et en classant efficacement les semences avec une
+intervention humaine minimale. Ces modèles peuvent être entraînés sur de vastes
+ensembles de données d'images de semences, ce qui leur permet de reconnaître des
+motifs et des tendances, de détecter des variations et de classer les semences
+en fonction de paramètres de qualité prédéterminés.</p><p>En adoptant des modèles de vision par ordinateur pour l'analyse des semences,
+les entreprises et les institutions agricoles peuvent alléger le fardeau de la
+pénurie d'experts, rationaliser leurs opérations et améliorer la productivité
+globale. Cette technologie permet au Canada de répondre à la demande croissante
+d'évaluation de la qualité des semences, ce qui se traduit par une amélioration
+du rendement des cultures, une sélection fiable des semences et, en fin de
+compte, des pratiques agricoles durables.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="contraintes-temporelles">Contraintes temporelles<a class="hash-link" aria-label="Lien direct vers Contraintes temporelles" title="Lien direct vers Contraintes temporelles" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#contraintes-temporelles">​</a></h3><p><img decoding="async" loading="lazy" alt="4" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/4-1f61c46c8e2bc3c5e2f1dec6c9d17cab.png" width="400" height="215" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>L'analyse manuelle des semences est un processus qui prend du temps et qui pose
+des problèmes en termes d'efficacité et de rapidité. La classification des
+semences prend du temps en raison de la complexité et du volume des échantillons
+de semences. Les experts humains doivent consacrer beaucoup de temps et
+d'efforts à l'inspection visuelle et à la classification de chaque graine, ce
+qui entraîne des goulets d'étranglement et des retards potentiels dans le
+processus de contrôle de la qualité.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="la-contribution-de-lia-contraintes-temporelles">La contribution de l'IA (Contraintes temporelles)<a class="hash-link" aria-label="Lien direct vers La contribution de l'IA (Contraintes temporelles)" title="Lien direct vers La contribution de l'IA (Contraintes temporelles)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#la-contribution-de-lia-contraintes-temporelles">​</a></h4><p>Computer vision models offer a solution to these bottlenecks by automating the
+analysis. By rapidly processing large volumes of seed samples, they
+significantly reduce the time required for classification enabling faster and
+more efficient seed classification while maintaining accuracy and consistency.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="le-coût">Le coût<a class="hash-link" aria-label="Lien direct vers Le coût" title="Lien direct vers Le coût" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#le-co%C3%BBt">​</a></h3><p><img decoding="async" loading="lazy" alt="5" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/5-e156952ed6c7ccfd7e2057508a63fb50.png" width="400" height="248" class="img_ev3q"></p></div><div style="flex:2;margin-right:10px"><p>Le développement d'une expertise dans l'analyse des semences exige une formation
+approfondie et l'exposition à divers échantillons de semences, ce qui peut
+s'avérer à la fois coûteux et chronophage. Les coûts associés et le temps
+nécessaire pour former des analystes experts comprennent non seulement les
+programmes de formation, mais aussi les ressources requises pour l'expérience
+pratique. Le temps nécessaire aux analystes pour acquérir les compétences et
+l'expérience requises peut être long, ce qui aggrave encore la pénurie de
+professionnels qualifiés.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="la-contribution-de-lia-le-coût">La contribution de l'IA (Le coût)<a class="hash-link" aria-label="Lien direct vers La contribution de l'IA (Le coût)" title="Lien direct vers La contribution de l'IA (Le coût)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#la-contribution-de-lia-le-co%C3%BBt">​</a></h4><p>Les modèles de vision par ordinateur peuvent offrir une approche plus évolutive
+et plus efficace de l'analyse des semences, en atténuant les coûts et les
+contraintes de temps associés à la formation d'analystes experts. Les modèles
+peuvent être entraînés sur de vastes ensembles de données d'images de semences,
+ce qui élimine la nécessité d'une formation humaine approfondie. En outre, les
+modèles de vision par ordinateur peuvent apprendre et s'améliorer
+continuellement au fil du temps, s'adaptant rapidement aux nouvelles variétés de
+semences et améliorant leur précision. En outre, ils éliminent les biais
+subjectifs qui peuvent résulter de l'interprétation humaine, fournissant ainsi
+une évaluation objective et normalisée de la qualité des semences.</p></div></div>
+<hr>
+<div style="text-align:center;font-style:italic"><p>En tirant parti de la puissance de la vision par ordinateur, l'industrie des
+semences peut surmonter les limites liées à la pénurie de main-d'œuvre, aux
+coûts de formation et aux contraintes de temps, ce qui permet une analyse plus
+rapide et plus efficace des semences.</p></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="objectif--classification-automatique-des-espèces-de-semences">Objectif : classification automatique des espèces de semences<a class="hash-link" aria-label="Lien direct vers Objectif : classification automatique des espèces de semences" title="Lien direct vers Objectif : classification automatique des espèces de semences" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#objectif--classification-automatique-des-esp%C3%A8ces-de-semences">​</a></h2>
+<p>Ce projet vise à développer et à déployer un cadre de vision par ordinateur pour
+la classification des espèces de semences. En automatisant ce processus de
+classification, nous serons en mesure de rationaliser et d'accélérer
+l'évaluation de la qualité des cultures. Nous développons des algorithmes
+avancés et des techniques d'apprentissage profond, tout en garantissant une
+évaluation impartiale et efficace de la qualité des cultures, ouvrant ainsi la
+voie à de meilleures pratiques agricoles.</p>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="6" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/6-d24ed9a119421002f0e46cc272a3697c.png" width="2405" height="1746" class="img_ev3q"> <em>Source d'image: VideometerLab</em></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="projet-1-videometer">Projet #1: Videometer<a class="hash-link" aria-label="Lien direct vers Projet #1: Videometer" title="Lien direct vers Projet #1: Videometer" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#projet-1-videometer">​</a></h2><p>Dans ce projet, nous utilisions un modèle de vision par ordinateur de type
+réseau neuronal convolutif (CNN) pour évaluer la pureté du contenu, en
+identifiant et en classant les espèces de semences souhaitées par rapport aux
+espèces de semences non souhaitées.</p><p>Nous avions réussi à identifier la contamination par trois espèces de mauvaises
+herbes différentes dans un mélange de sélection d'échantillons de blé.</p><p>Notre modèle était modifié pour accepter des images multispectrales à haute
+résolution de 19 canaux et atteignait une précision supérieure à 95 % sur les
+images réservées à l'évaluation.</p><p>Nous avions d’autant plus exploré le potentiel de notre modèle pour la
+classification de nouvelles espèces, en injectant cinq nouvelles espèces de
+canola dans l'ensemble de données. Les résultats préliminaires de cette
+expérience montraient une précision d'environ 93 % sur les images réserves. Ces
+résultats soulignent le potentiel de notre modèle pour une utilisation continue,
+même si de nouvelles espèces de semences sont introduites.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="données-projet-1">Données (Projet #1)<a class="hash-link" aria-label="Lien direct vers Données (Projet #1)" title="Lien direct vers Données (Projet #1)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#donn%C3%A9es-projet-1">​</a></h3><p><img decoding="async" loading="lazy" alt="7" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/7-f9e97aad2e936fce28dcbefbcf1e52c6.png" width="681" height="570" class="img_ev3q"> <em>Image multispectrale à 19 canaux , Carduus nutans</em></p><p>Notre CNN a été entraîné à classer les espèces suivantes :</p><ul>
+<li>Trois espèces différentes de chardons des champs (mauvaises herbes):<!-- -->
+<ul>
+<li>Cirsium arvense</li>
+<li>Carduus nutans</li>
+<li>Cirsium vulgare</li>
+</ul>
+</li>
+<li>Une espèce de blé:<!-- -->
+<ul>
+<li>Triticum aestivum subspecies aestivum</li>
+</ul>
+</li>
+<li>Cinq espèces différentes de Canola:<!-- -->
+<ul>
+<li>Brassica napus subspecies napus</li>
+<li>Brassica juncea</li>
+<li>Brassica juncea (yellow)</li>
+<li>Brassica rapa subspecies oleifera</li>
+<li>Brassica rapa subspecies oleifera (brown)</li>
+</ul>
+</li>
+</ul></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="résultats-projet-1">Résultats (Projet #1)<a class="hash-link" aria-label="Lien direct vers Résultats (Projet #1)" title="Lien direct vers Résultats (Projet #1)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#r%C3%A9sultats-projet-1">​</a></h3><p><img decoding="async" loading="lazy" alt="8" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/8-da230d17b37faff3984ac63c95c654ac.png" width="1174" height="742" class="img_ev3q"> <em>Précision du modèle de &gt;95%</em></p><p>Nous montrons que notre modèle est capable d'identifier correctement chaque
+espèce de graine avec une précision de plus de 95 %.</p><p>De plus, lorsque les trois graines de chardon des champs ont été intégrées avec
+le blé, le modèle a atteint une précision moyenne de 99,64 % sur 360 graines.
+Cela démontre la robustesse du modèle et sa capacité à identifier de nouvelles
+images.</p><p>Enfin, nous introduisions cinq nouvelles espèces de canola et évaluions les
+performances de notre modèle. Les résultats préliminaires montraient une
+précision d'environ 93 % sur les images réservées à l'évaluation.</p></div></div>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><p><img decoding="async" loading="lazy" alt="9" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/9-73c384ea61924c9a245c1e5182cf3461.png" width="805" height="638" class="img_ev3q"> <em>Source d'image: TAGARNO microscope</em></p></div><div style="flex:2;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="projet-2-tagarno">Projet #2: Tagarno<a class="hash-link" aria-label="Lien direct vers Projet #2: Tagarno" title="Lien direct vers Projet #2: Tagarno" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#projet-2-tagarno">​</a></h2><p>Dans ce projet, le cadre du modèle de vision par ordinateur suivait deux étapes
+pour identifier un total de 15 espèces de semences différentes à différents
+niveaux d'agrandissement.</p><p>En premier, un modèle CNN identifiait chaque occurrence de semence dans l'image.
+Ensuite, un modèle « transformateur de vision » était utilisé pour classifier
+chaque espèce.</p><p>Nous effectuions plusieurs études d'ablation en entraînant sur un profil de
+grossissement puis en évaluant sur des semences provenant d'un ensemble de
+grossissement différent. Nous présentons des résultats préliminaires avec une
+précision de plus de 90% pour tous les niveaux de grossissement.</p></div></div>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="données-projet-2">Données (Projet #2)<a class="hash-link" aria-label="Lien direct vers Données (Projet #2)" title="Lien direct vers Données (Projet #2)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#donn%C3%A9es-projet-2">​</a></h3><p>Trois niveaux de grossissement différents ont été utilisés pour les 15 espèces
+suivantes :</p><ul>
+<li>Ambrosia artemisiifolia</li>
+<li>Ambrosia trifida</li>
+<li>Ambrosia psilostachya</li>
+<li>Brassica junsea</li>
+<li>Brassica napus</li>
+<li>Bromus hordeaceus</li>
+<li>Bromus japonicus</li>
+<li>Bromus secalinus</li>
+<li>Carduus nutans</li>
+<li>Cirsium arvense</li>
+<li>Cirsium vulgare</li>
+<li>Lolium temulentum</li>
+<li>Solanum carolinense</li>
+<li>Solanum nigrum</li>
+<li>Solanum rostratum</li>
+</ul><p><img decoding="async" loading="lazy" alt="10" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/10-84fd169d31ba052bc4a203bc774e6dd7.png" width="1008" height="590" class="img_ev3q"> <em>Niveau de grossissement: 2 semences/image, Bromus
+Secalinus</em></p><p><img decoding="async" loading="lazy" alt="11" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/11-cadc134e471e370eeab89d4cf10e28a5.png" width="963" height="520" class="img_ev3q"> <em>Niveau de grossissement: 8 semences/image, Brassica Junsea</em></p><p>Le niveau de grossissement est indiqué par le nombre total de graines présentes
+dans l'image, soit : 2, 8 ou 15 semences par image.</p></div><div style="flex:1;margin-right:10px"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="résultats-projet-2">Résultats (Projet #2)<a class="hash-link" aria-label="Lien direct vers Résultats (Projet #2)" title="Lien direct vers Résultats (Projet #2)" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#r%C3%A9sultats-projet-2">​</a></h3><p><img decoding="async" loading="lazy" alt="12" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/12-478df93f909046499d03829144206188.png" width="1020" height="586" class="img_ev3q"> <em>Performance du modèle</em></p><p>Afin d'établir un protocole d'enregistrement d'images, nous entraînions des
+modèles distincts à partir d'un sous-ensemble de données à chaque niveau de
+grossissement, puis nous évaluons les performances du modèle sur l'ensemble des
+niveaux de grossissement.</p><p>Les résultats préliminaires démontrent la performance du modèle à identifier
+correctement les espèces de semences à travers les grossissements avec une
+précision de plus de 90%.</p><p>Cela démontre le potentiel du modèle à classifier avec précision des nouveaux
+images à différents niveaux de grossissement.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="défis">Défis<a class="hash-link" aria-label="Lien direct vers Défis" title="Lien direct vers Défis" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#d%C3%A9fis">​</a></h3><p>Nous reconnaissons les défis associés à l'enregistrement des images par
+différentes méthodes et nous nous efforçons de continuer à améliorer la
+robustesse de notre modèle en incorporant plus d'espèces de graines, en
+améliorant la généralisation à travers les niveaux de grossissement, et en
+réduisant notre cadre de modèle de 2-étapes en 1 pour une meilleure efficacité.</p></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prochaines-étapes--déploiement">Prochaines étapes : Déploiement<a class="hash-link" aria-label="Lien direct vers Prochaines étapes : Déploiement" title="Lien direct vers Prochaines étapes : Déploiement" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#prochaines-%C3%A9tapes--d%C3%A9ploiement">​</a></h2>
+<p>Avec la réussite de la classification des images de semences par vision par
+ordinateur, notre prochain objectif est de déployer notre modèle dans une
+application source ouverte : SeedID. Notre but est de fournir une plateforme
+intuitive et accessible qui permet aux utilisateurs de tous niveaux d'expertise
+de classifier facilement et avec précision les échantillons de semences.</p>
+<p>L'objectif est de simplifier le processus de classification des semences et
+d'éliminer les obstacles techniques qui pourraient entraver son utilisation.</p>
+<p>Notre stratégie de déploiement comprend également des tests approfondis et de
+validation pour assurer la fiabilité et la précision des résultats de
+classification des semences. Une évaluation rigoureuse nous permettra d'ajuster
+le modèle et de traiter les limites ou biais potentiels, garantissant des
+performances robustes pour différents types et conditions de semences.</p>
+<p>Notre vision est de donner aux utilisateurs un moyen d'accéder aux modèles de
+vision par ordinateurs d'une manière transparente. En déployant cette
+application à source ouverte, nous favorisons l'efficacité et l'accessibilité
+dans l'analyse des semences pour avancer des pratiques agricoles.</p>
+<hr>
+<div style="display:flex;justify-content:space-between"><div style="flex:1;margin-right:10px"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a class="hash-link" aria-label="Lien direct vers Conclusion" title="Lien direct vers Conclusion" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#conclusion">​</a></h2><p><img decoding="async" loading="lazy" alt="13" src="https://ai-cfia-ia-acia.github.io/fr/assets/images/13-43d41b5bc1d1c4bc5decfefcd96db0bd.png" width="1525" height="700" class="img_ev3q"> <em>Connecter les idées</em></p></div><div style="flex:2;margin-right:10px"><p>Le projet de classification des semences est un exemple de la collaboration
+fructueuse et continue entre le laboratoire d'IA et le groupe de la science des
+semences de l'ACIA. En mettant en commun nos connaissances et nos expertise
+respectives, nos deux équipes contribuent à l'avancement de l'industrie
+semencière canadienne.</p><p>Nous démontrons le succès de l'utilisation d'apprentissage profond en tant
+qu'outils pour les tâches de traitement d'images et nous démontrons leur
+potentiel pour améliorer la précision et l'efficacité de l'évaluation de la
+qualité des cultures, ce qui profitera à la fois à l'industrie agricole et aux
+consommateurs.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="lavenir--appel-à-collaboration">L'avenir : Appel à collaboration<a class="hash-link" aria-label="Lien direct vers L'avenir : Appel à collaboration" title="Lien direct vers L'avenir : Appel à collaboration" href="https://ai-cfia-ia-acia.github.io/fr/articles/seed-classification#lavenir--appel-%C3%A0-collaboration">​</a></h3><p>En tant que scientifiques de données, nous reconnaissons l'importance de la
+collaboration et nous nous engageons à respecter les principes de la science
+ouverte. Notre objectif est de promouvoir la transparence et l'engagement par le
+partage ouvert avec le public.</p><p>En rendant notre application à source ouverte, nous invitons nos collègues, les
+chercheurs, les experts en semences et les développeurs à contribuer à son
+amélioration et à sa personnalisation. Cette approche collaborative favorise
+l'innovation, permettant à la communauté d'améliorer collectivement les
+capacités de l'application SeedID et de répondre aux exigences spécifiques du
+domaine.</p></div></div>]]></content:encoded>
+            <category>computer vision</category>
+            <category>quality</category>
+            <category>classification</category>
+            <category>AI</category>
+        </item>
+    </channel>
+</rss>
