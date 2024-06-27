@@ -46,6 +46,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -61,6 +63,8 @@ const config = {
           blogDescription: 'Scientific articles written by AI Lab members',
           postsPerPage: 'ALL',
           blogSidebarTitle: 'All our articles',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -176,7 +180,7 @@ const config = {
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE ! | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
+        copyright: `SITE IS IN ALPHA STAGE | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
       },
       prism: {
         theme: lightCodeTheme,
