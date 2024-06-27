@@ -214,10 +214,16 @@ x = F<sup>-1</sup>(y)
 
 where:
 
-y represents data measurements (ie. pixel values).
-The solution, x, is an image.
-F-1(·) is the inverse function which transforms pixel measurements, y, into the reconstructed image, x.
+* **y** represents data measurements (ie. pixel values).
+* The solution, **x**, is an image.
+* **F-1(·)** is the _inverse function_ which transforms pixel measurements, **y**, into the reconstructed image, **x**.
 
 </div>
+
+</div>
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+Solving _inverse problems_ is harder than expected due to their _ill-posed_ nature.
 
 </div>
