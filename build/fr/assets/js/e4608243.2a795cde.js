@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkai_cfia_ia_acia=self.webpackChunkai_cfia_ia_acia||[]).push([[507],{7671:a=>{a.exports=JSON.parse('{"title":"Tous nos articles","items":[{"title":"Classification automatis\xe9e des semences : Contr\xf4le de la qualit\xe9 \xe0 l\'aide de la vision par ordinateur","permalink":"/fr/articles/seed-classification","unlisted":false}]}')}}]);
