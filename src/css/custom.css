@@ -104,3 +104,28 @@ margin: 1px;
 .slick-dots li button:before {
   color: orange;
 }
+
+
+/* Add this CSS to your stylesheet or within a <style> tag in your MDX file */
+
+/* This is the default style, where divs are side by side */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  margin-right: 10px;
+}
+
+/* This media query applies styles when the window width is 768px or less */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    margin-right: 0; /* Reset margin if needed */
+    margin-bottom: 10px; /* Add space between items when stacked */
+  }
+}

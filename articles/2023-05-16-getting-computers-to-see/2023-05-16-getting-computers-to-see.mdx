@@ -1,15 +1,21 @@
 ---
 title: "Artificial Vision: Getting Computers to See"
 slug: getting-computers-to-see
-authors: [leejaeka, ]
-tags: [Chat GPT, natural language processing, AI]
+authors: [kstern, ]
+tags: [Computer Vision, AI, Image Analysis, Machine Learning, Detection, Recognition]
 hide_table_of_contents: false
-description: In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share a few of our projects for demonstration.
+description: "As CFIA Data Scientists, we are committed to knowledge sharing,
+transparency, and accessibility. Through this post, we aim to define the
+underlying workings of computer vision models to provide clarity and
+understanding of this technology and how we leverage these powerful models,
+for those interested in the field."
 ---
 
-In this article, we are excited to be at the forefront of this exciting and
-rapidly developing technology and to share a few of our projects for
-demonstration.
+As CFIA Data Scientists, we are committed to knowledge sharing, transparency,
+and accessibility. Through this post, we aim to define the underlying workings
+of computer vision models to provide clarity and understanding of this
+technology and how we leverage these powerful models, for those interested in
+the field.
 
 <!-- truncate -->
 
@@ -27,10 +33,12 @@ from './img/carousel3.png'; import image4 from './img/carousel4.png';
 
 ![Illustration of an eye on a blue motherboard-style background.](./img/1.png)
 
-​​​​​​​Related work To read about our projects using computer vision, click on
-the links below:
+### ​Related work
 
-Seed classification: Automatic Quality Control using Computer Vision
+To read about our projects using computer vision, click on the links below:
+
+[Seed Classification:  Automatic Quality Inspection using Computer
+Vision](../2024-06-14-seed-classification/2024-06-14-seed-classification.md)
 
 </div>
 
@@ -78,10 +86,6 @@ Image source: Co-Learner Lounge.](./img/2.png)
 <div style={{flex: 1, marginRight: '10px'}}>
 
 ## Introduction to computer vision
-
-To skip the introduction and jump directly to:
-
-[Deep Learning computer vision models](#introduction-to-computer-vision)
 
 ### _What is computer vision?_
 
@@ -166,7 +170,8 @@ accurately interpreting and understanding our complex world.
 </div>
 
 <div style={{flex: 2, marginRight: '10px'}}>
-In order to understand why computers seemingly struggle to perform these "basic" tasks, we must first consider what an image is.
+In order to understand why computers seemingly struggle to perform these
+"basic" tasks, we must first consider what an image is.
 </div>
 
 </div>
@@ -195,8 +200,8 @@ Are you able to describe what this image is from these values?
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-**_An image is a set of number, with typically three colour channels: Red,
-Green, Blue._**
+_**An image is a set of number, with typically three colour channels: Red,
+Green, Blue.**_
 
 </div>
 
@@ -247,27 +252,40 @@ nature.
 </div>
 
 ---
+
 <div style={{ display: 'flex', gap: '10px' }}>
 
     <div style={{ width: '60%' }}>
         <Carousel images={[
-            { src: image1, alt: 'Description for image 1', title: 'Busy Background', text: 'Cluttered or textured background can make it difficult to determine the boundaries for each object.' },
-            { src: image2, alt: 'Description for image 2', title: 'Yale Database of Faces', text: 'Variations in lighting can make it difficult to recognise the same person (recall: computers “see” pixel values).' },
-            { src: image3, alt: 'Description for image 3', title:'Rick Scuteri-USA TODAY Sports', text:'Different scales can make it difficult to understand context from images.'},
-            { src: image4, alt: 'Description for image 4', title:'Michelangelo (1475-1564)', text:'Occlusion caused by different viewpoints can make it difficult to recognise the same person.' },
-        ]} />
-    </div>
+            { src: image1,
+    alt: "A black and white cat wearing a red collar sits among several pots of daisies with a mixture of open and closed blooms. The textured background of flowers and shadows illustrates how cluttered backgrounds can make object boundary detection challenging in computer vision.",
+    title: "Busy Background",
+    text: "A cluttered or textured background can make determining the boundaries of each object difficult." },
+    { src: image2,
+    alt: "Two side-by-side photographs of a person's face, with the central features blurred for privacy. The left photo shows the face with frontal illumination, while the right photo presents the same face under different lighting conditions, casting shadows on one side, illustrating how lighting variations affect facial recognition in computer vision.",
+    title: "Variations in Lighting",
+    text: "Variations in lighting can make recognizing the same person challenging (computers “see” pixel values). Image source: Yale Face Database." },
+    { src: image3,
+    alt: "A sequence of three photographs showing a goose. The leftmost photo is a close-up of the goose’s eye and beak, which makes it hard to identify the animal without additional context. The middle photo shows the entire head and neck, clearly identifying it as a bird. The rightmost photo includes the full body of the goose, standing on grass with a person pointing at it in the background, providing full context. This sequence illustrates how scale variations can affect image interpretation and recognition in computer vision.",
+    title: "Scale Variations",
+    text: "Differences in scale can make it difficult to discern context from images. Image source: Rick Scuteri-USA TODAY Sports." },
+    { src: image4,
+    alt: "Three photographs of a Michelangelo statue. The first photo shows the statue from a side view, detailing facial features and hair. The second and third photos feature large gray squares that obscure central parts of the statue, representing occlusion. This demonstrates how different viewpoints can complicate recognition of the same subject in computer vision due to partial visibility.",
+    title: "Different Viewpoints",
+    text: "Occlusions from different viewpoints can make it challenging to recognize the same individual. Image source: Michelangelo (1475-1564)." } ]} /> </div>
 
     <div style={{ width: '40%'}}>
         ### What is an ill-posed​​​​​​​ problem?
 
-        When an image is registered, there is an inherent loss of information, as the 3D world is projected onto a 2D plane.
+        When an image is registered, there is an inherent loss of information,
+        as the 3D world is projected onto a 2D plane.
 
-        Even for us, collapsing the _spatial information we get from the physical world
-        can make it difficult to discern what we are looking at through photos_.
+        Even for us, collapsing the _spatial information we get from the
+        physical world can make it difficult to discern what we are looking
+        at through photos_.
 
-        It can be difficult to recognise objects in 2D pictures due to the following
-        _ill-posed_ properties....
+        It can be difficult to recognise objects in 2D pictures due to the
+        following _ill-posed_ properties....
     </div>
 
 </div>
@@ -286,7 +304,8 @@ nature.
 
 ![Top view of nine assorted soda cans neatly arranged in a grid pattern, all
 unopened.](./img/lackofuniqueness.png)
-<figcaption style={{textAlign: 'center', fontSize:'small'}}>Point of view makes it impossible to identify the cans.</figcaption>
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>Point of view makes
+it impossible to identify the cans.</figcaption>
 
 Several objects can give rise to the same measurement, making it impossible to
 identify their unique identity.
@@ -303,7 +322,8 @@ identify their unique identity.
 
 ![Blurry and out-of-focus photo where the subject is
 indistinguishable.](./img/uncertainty.png)
-<figcaption style={{textAlign: 'center', fontSize:'small'}}>Impossible to describe original scene due to uncertainty from blurring.</figcaption>
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>Impossible to
+describe original scene due to uncertainty from blurring.</figcaption>
 
 Noise (eg. blurring, pixilation, physical damage) in photos can make it
 difficult or impossible to identify the true representation of the real image.
@@ -320,7 +340,8 @@ difficult or impossible to identify the true representation of the real image.
 
 ![Mosaic collage showcasing over 80 various chair models, featuring a diverse
 range of shapes and colors.](./img/inconsistency.png)
-<figcaption style={{textAlign: 'center', fontSize:'small'}}>Chairs take on many different forms.</figcaption>
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>Chairs take on many
+different forms.</figcaption>
 
 Variations in objects make it challenging to classify images (eg. not all chairs
 have four leg, etc. -- humans are able to intuitively classify a chair via its
@@ -333,7 +354,8 @@ functionality).
 ---
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
-_While, at first glance, computer vision tasks may appear superficial, the underlying problem they are trying to address is quite challenging!_
+_While, at first glance, computer vision tasks may appear superficial,
+the underlying problem they are trying to address is quite challenging!_
 </div>
 
 ---
@@ -341,14 +363,159 @@ _While, at first glance, computer vision tasks may appear superficial, the under
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-#### How to solve ill-posed problems
+### How to solve ill-posed problems
 
 </div>
 
 <div style={{flex: 2, marginRight: '10px'}}>
-In order for a computer vision model to overcome the inherent ill-posed problems that are embedded in the images we provide it, we must modify the inverse equation to solve for alternative, yet similar, well-posed problem instead.
+In order for a computer vision model to overcome the inherent ill-posed
+problems that are embedded in the images we provide it, we must modify
+the inverse equation to solve for alternative, yet similar, well-posed problem
+instead.
 </div>
 
 </div>
 
 ---
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+In order for a problem to be _well-posed_ it has to satisfy the following
+criteria, it must:
+
+</div>
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+#### Be unique
+
+</div>
+
+![Photograph of a solitary sail floating on the vast, open sea under a clear
+sky.](./img/beunique.png)
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>Measurements from
+ocean, sky, and sail must be uniquely identified.</figcaption>
+
+The computer vision model should be able to process an image and learn the
+unique features that make up each element in the image.
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+#### Exist
+
+</div>
+
+![Creative photograph of a hamburger with one half artistically composed of
+cubed ingredients including lettuce, bread, and other toppings, giving a
+pixelated, mosaic-like appearance.](./img/exist.png)
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>The reconstructed
+image should be representative of the real object that was
+photographed.</figcaption>
+
+The computer vision model should produce an image from measurements that
+accurately represents the existing object that was photographed.
+
+</div>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+#### Be stable
+
+</div>
+
+![Set of eight images, each featuring one of four distinct chairs, shown from
+different angles and perspectives. The lineup includes a standard blue sky
+chair, a light green chair, a blue swing chair, and a beige chair with a blue
+seat, each photographed twice to showcase their designs.](./img/bestable.png)
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>The model should
+learn unique object features regardless of variations in orientation, angle,
+viewpoint, etc.</figcaption>
+
+The computer vision model must be able to process images consistently, even in
+the presence of variations between different images of the same object.
+
+</div>
+
+</div>
+
+---
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+_We can therefore reformulate the original inverse equation into a constrained
+optimization equation instead._
+
+</div>
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-between'}}>
+
+<div style={{flex: 1, marginRight: '10px'}}>
+
+### Computer vision as a constrained optimization problem
+
+![3D plot displaying a multicolored, undulating surface representing the
+estimated values F(x), situated above a 2D plane with contour lines mapping
+observed data y. A prominent red line traces the Maximum Likelihood Estimation
+(MLE) path along the surface, marking the global minimum distance to the
+observed data and coinciding with the Maximum A Posteriori (MAP)
+point.](./img/optimizationproblemgraph.png)
+<figcaption style={{textAlign: 'center', fontSize:'small'}}>Top 3D shape
+represents the estimated values, F(x).
+Bottom 2D lines represent the observed data, y.
+The MLE that solves for the MAP is in red. It has the global minimum distance
+between y and F(x).</figcaption>
+
+</div>
+
+<div style={{flex: 2, marginRight: '10px'}}>
+
+To impose the properties of _well-posedness_, which will enable our computer
+vision model to return an existing solution that is _stable_ and _unique_, we
+can modify the _inverse equation_:
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+$x = F^{-1}(y)$
+
+</div>
+
+into a _constrained optimization equation_:
+
+<div style={{textAlign: 'center', fontStyle: 'bold'}}>
+
+$x^{*} = argmin_{x} \{L(y, F(x)) + λω(x)\}$
+
+</div>
+
+where:
+
+* The first term, $L(·)$, is the _data fidelity_ term. It represents the
+  difference (ie. _loss_) between the observed data measurements, $y$, and the
+  model's prediction, $F(x)$.
+* The second term, $λω(·)$, is the _regularization_ term. It constrains the
+  search space to a limited set of solutions, in order for the solution to be
+  _well-posed_.
+
+The goal is to solve for $x^{*}$, (also known as the _maximum a posteriori,
+MAP_), using a _forward function_, $F(·)$, that maximises the predicted value's
+likelihood of being the true, real and existing solution, $x*$.
+
+The _maximum likelihood estimation_ (MLE) is the value that minimises the loss,
+L, between the measured data, $y$, and the predicted value, $F(x)$, from a
+constrained set of possible solutions.
+
+</div>
+
+</div>
