@@ -129,3 +129,9 @@ margin: 1px;
     margin-bottom: 10px; /* Add space between items when stacked */
   }
 }
+
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 999;
+}

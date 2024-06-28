@@ -192,15 +192,12 @@ const config = {
           //hideable: true,
         },
       },
-      plugins:[
-        [
-          "docusaurus2-dotenv",
-          {
-            systemvars: true,
-          },
-        ],
-      ],
+      zoom: {},
     }),
+
+    plugins:[
+      'docusaurus-plugin-image-zoom'
+    ],
 };
 
 module.exports = config;
