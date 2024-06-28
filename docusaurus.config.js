@@ -176,7 +176,7 @@ const config = {
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE ! | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
+        copyright: `${new Date().getFullYear()} AI Lab`,
       },
       prism: {
         theme: lightCodeTheme,
