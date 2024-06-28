@@ -274,7 +274,7 @@ voie à de meilleures pratiques agricoles.
 
 <div style={{flex: 2, marginRight: '10px'}}>
 
-## Projet #1: Videometer
+## Projet n°1: Videometer
 
 Dans ce projet, nous utilisions un modèle de vision par ordinateur de type
 réseau neuronal convolutif (CNN) pour évaluer la pureté du contenu, en
@@ -303,7 +303,7 @@ même si de nouvelles espèces de semences sont introduites.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Données (Projet #1)
+### Données (Projet n°1)
 
 ![7](./img/7.png) *Image multispectrale à 19 canaux , Carduus nutans*
 
@@ -326,7 +326,7 @@ Notre CNN a été entraîné à classer les espèces suivantes :
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Résultats (Projet #1)
+### Résultats (Projet n°1)
 
 ![8](./img/8.png) *Précision du modèle de >95%*
 
@@ -358,7 +358,7 @@ précision d'environ 93 % sur les images réservées à l'évaluation.
 
 <div style={{flex: 2, marginRight: '10px'}}>
 
-## Projet #2: Tagarno
+## Projet n°2: Tagarno
 
 Dans ce projet, le cadre du modèle de vision par ordinateur suivait deux étapes
 pour identifier un total de 15 espèces de semences différentes à différents
@@ -381,7 +381,7 @@ précision de plus de 90% pour tous les niveaux de grossissement.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Données (Projet #2)
+### Données (Projet n°2)
 
 Trois niveaux de grossissement différents ont été utilisés pour les 15 espèces
 suivantes :
@@ -414,7 +414,7 @@ dans l'image, soit : 2, 8 ou 15 semences par image.
 
 <div style={{flex: 1, marginRight: '10px'}}>
 
-### Résultats (Projet #2)
+### Résultats (Projet n°2)
 
 ![12](./img/12.png) *Performance du modèle*
 
