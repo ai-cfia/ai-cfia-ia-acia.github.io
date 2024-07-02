@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=CFIA Website linking to https://inspection.canada.ca/eng/1297964599443/1297965645317"
   },
   "copyright": {
-    "message": "CE SITE EST EN ALPHA | 2024 Labo d'IA | CE SITE EST EN ALPHA",
+    "message": "2024 Labo d'IA",
     "description": "The footer copyright"
   },
   "link.item.label.FertiScan": {
