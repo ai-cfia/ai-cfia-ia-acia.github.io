@@ -34,7 +34,7 @@ export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    setShowPopup(true);
+    setShowPopup(false); // set to false to disable the popup
   }, []);
 
   return (

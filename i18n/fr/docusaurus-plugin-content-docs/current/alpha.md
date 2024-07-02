@@ -6,5 +6,8 @@ sidebar_position: 1
 
 ## Version alpha du site Web
 
-Veuillez noter que ce site Web est actuellement en phase alpha. Tout le contenu
-est sujet à changement et n'a pas été officiellement approuvé par l'ACIA.
+Ce site est actuellement en __phase alpha__ de développement dans le cadre d'un
+processus de prototypage. Il n'a pas été officiellement approuvé. Le contenu
+fourni est susceptible de changer et est destiné uniquement à recueillir des
+commentaires et à faciliter les discussions autour du prototype. Il ne doit pas
+être interprété comme une information officielle ou définitive.
