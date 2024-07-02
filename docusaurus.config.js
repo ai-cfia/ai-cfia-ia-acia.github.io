@@ -46,6 +46,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -61,6 +63,8 @@ const config = {
           blogDescription: 'Scientific articles written by AI Lab members',
           postsPerPage: 'ALL',
           blogSidebarTitle: 'All our articles',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -188,15 +192,12 @@ const config = {
           //hideable: true,
         },
       },
-      plugins:[
-        [
-          "docusaurus2-dotenv",
-          {
-            systemvars: true,
-          },
-        ],
-      ],
+      zoom: {},
     }),
+
+    plugins:[
+      'docusaurus-plugin-image-zoom'
+    ],
 };
 
 module.exports = config;
