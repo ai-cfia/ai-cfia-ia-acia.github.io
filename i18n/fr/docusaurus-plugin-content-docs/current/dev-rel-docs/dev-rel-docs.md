@@ -4,20 +4,20 @@ sidebar_position: 1
 
 # Dev-Rel-Docs
 
-Bienvenue dans les documents relatifs aux développeurs ! Ces documents
+Bienvenue dans les documents relatifs aux développeur·euse·s ! Ces documents
 constituent une base de connaissances contenant des ressources essentielles, des
-guides et des meilleures pratiques pour les développeurs étroitement associés à
-nos projets.
+guides et des meilleures pratiques pour les développeur·euse·s étroitement
+associés à nos projets.
 
 ---
 
-[Formation pour les nouveaux
-développeurs](https://github.com/ai-cfia/dev-rel-docs/blob/main/TRAINING.md) :
-Un programme pour former les nouveaux membres de l'équipe aux bases
+[Formation pour les nouvelles·aux
+développeur·euse·s](https://github.com/ai-cfia/dev-rel-docs/blob/main/TRAINING.md)
+: Un programme pour former les nouvelles·aux membres de l'équipe aux bases
 
 [Registres de décision
 d'architecture](https://github.com/ai-cfia/dev-rel-docs/blob/main/adr/index.md)
-: Une liste de tous nos ADR.
+: Une liste de tous nos ADR (Architectural Decision Records).
 
 [Guide de configuration de l'environnement de
 développement](https://github.com/ai-cfia/dev-rel-docs/blob/main/Development-Environment-Setup-Guide/DEV-ENV-SETUP.md)
@@ -54,15 +54,15 @@ développement.
 
 [CONTRIBUTING.md](https://github.com/ai-cfia/.github/blob/main/profile/CONTRIBUTING.md)
 : Ce document fournit des directives détaillées pour contribuer à tous les
-référentiels de le GitHub du Labo d'IA. Il comprend des informations sur les
+référentiels du GitHub du Labo d'IA. Il comprend des informations sur les
 meilleures pratiques, les processus de soumission de code et la manière de
 proposer des changements ou des améliorations. Nous encourageons tous les
 contributeurs à le lire avant de commencer à contribuer.
 
 ---
 
-Nous espérons que vous trouverez la documentation relative aux développeurs
-utile et intéressante. Si vous avez des questions ou avez besoin d'aide,
-veuillez contacter l'équipe du Labo d'IA de l'ACIA.
+Nous espérons que vous trouverez la documentation relative aux
+développeur·euse·s utile et intéressante. Si vous avez des questions ou avez
+besoin d'aide, veuillez contacter l'équipe du Labo d'IA de l'ACIA.
 
 Bon développement !
