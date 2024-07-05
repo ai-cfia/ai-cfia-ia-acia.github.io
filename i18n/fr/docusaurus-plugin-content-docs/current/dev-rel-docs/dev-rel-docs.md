@@ -13,7 +13,7 @@ associés à nos projets.
 
 [Formation pour les nouvelles·aux
 développeur·euse·s](https://github.com/ai-cfia/dev-rel-docs/blob/main/TRAINING.md)
-: Un programme pour former les nouvelles·aux membres de l'équipe aux bases
+: Un programme pour former les nouvelles·aux membres de l'équipe aux bases.
 
 [Registres de décision
 d'architecture](https://github.com/ai-cfia/dev-rel-docs/blob/main/adr/index.md)
