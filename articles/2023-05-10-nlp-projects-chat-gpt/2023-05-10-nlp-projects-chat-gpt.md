@@ -2,7 +2,7 @@
 title: "Natural Language Processing (NLP) Projects using ChatGPT and more"
 slug: nlp-projects-chat-gpt
 authors: [leejaeka, ]
-tags: [Chat GPT, natural language processing, AI]
+tags: [ChatGPT, Natural Language Processing, AI, Illness Report, Food Classification]
 hide_table_of_contents: false
 description: In this article, we are excited to be at the forefront of this exciting and rapidly developing technology and to share a few of our projects for demonstration.
 ---
