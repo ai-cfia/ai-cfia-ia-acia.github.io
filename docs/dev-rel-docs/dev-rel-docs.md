@@ -12,7 +12,7 @@ closely associated with our projects.
 
 [Training for new
 developers](https://github.com/ai-cfia/dev-rel-docs/blob/main/TRAINING.md) : A
-curriculum to train new team members on the basics
+curriculum to train new team members on the basics.
 
 [Architecture Decision
 Records](https://github.com/ai-cfia/dev-rel-docs/blob/main/adr/index.md) : A

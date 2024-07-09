@@ -58,7 +58,7 @@ Visitez ce lien pour accéder à l'application Web Nachet Interactive déployée
 ## Composants de l'application
 
 Nachet Interactive est structurée autour de deux éléments clés : une application
-forntale basée sur React et une application dorsale basée sur Flask. Pour plus
+frontale basée sur React et une application dorsale basée sur Flask. Pour plus
 d'informations sur chaque élément, consultez la documentation respective
 ci-dessous :
 

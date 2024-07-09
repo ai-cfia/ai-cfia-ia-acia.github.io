@@ -39,8 +39,8 @@ The project aims to:
   FertiScan proposes a centralized and structured storage solution, addressing
   one of the main current challenges.
 
-* __Facilitate access to and analysis of data__: Decision-making is faster and
-  based on updated and accurate data.
+* __Facilitate data access and analysis__: Decision-making is faster and based
+  on updated and accurate data.
 
 * __Resource conservation__: To save time and efforts of the stakeholders
   involved in the process.
