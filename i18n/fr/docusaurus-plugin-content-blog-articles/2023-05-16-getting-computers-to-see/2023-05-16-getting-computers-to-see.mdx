@@ -22,17 +22,15 @@ ceux et celles qui s'intéressent au domaine.
 <!-- truncate -->
 
 ---
-import React from 'react';
-import Carousel from '@site/src/components/Carousel/Carousel';
-import image1 from './img/carousel1.png';
-import image2 from './img/carousel2.png';
-import image3 from './img/carousel3.png';
-import image4 from './img/carousel4.png';
-import mediumZoom from 'medium-zoom';
+import React from 'react'; import Carousel from
+'@site/src/components/Carousel/Carousel'; import image1 from
+'./img/carousel1.png'; import image2 from './img/carousel2.png'; import image3
+from './img/carousel3.png'; import image4 from './img/carousel4.png'; import
+mediumZoom from 'medium-zoom';
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Vision par ordinateur
 
@@ -50,7 +48,7 @@ ordinateur](../articles/seed-classification)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 L'intelligence artificielle (IA) appliquée au traitement d'images a révolutionné
 notre capacité à extraire des informations précieuses à partir de données
@@ -87,16 +85,16 @@ ceux et celles qui s'intéressent au domaine.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ![Illustration comparant "Système de Vision Humaine" et "Système de Vision par
 Ordinateur". Source de l'image : Co-Learner Lounge.](./img/2.png)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Introduction à la vision par ordinateur
 
@@ -126,9 +124,9 @@ répondre à des questions liées à :
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Détection et catégorisation d'objets
 
@@ -139,7 +137,7 @@ visage de quelqu'un sur des photos.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Catégorisation de scènes et de contexte
 
@@ -151,7 +149,7 @@ stationnement, etc.)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Informations spatiales qualitatives
 
@@ -176,15 +174,15 @@ toujours des difficultés à interpréter et comprendre notre monde complexe.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Pourquoi la vision par ordinateur est-elle si difficile ?
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 Pour comprendre pourquoi les ordinateurs semblent lutter pour effectuer ces tâches "de base", nous devons d'abord considérer ce qu'est une image.
 </div>
 
@@ -192,15 +190,15 @@ Pour comprendre pourquoi les ordinateurs semblent lutter pour effectuer ces tâc
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ![Ce que les ordinateurs "voient".](./img/6.png)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Ce que les ordinateurs "voient"
 
@@ -210,16 +208,16 @@ Pour comprendre pourquoi les ordinateurs semblent lutter pour effectuer ces tâc
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 **_Une image est un ensemble de nombres, possédant généralement trois canaux de
 couleur : Rouge, Vert, Bleu._**
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Pour dériver un sens à partir de ces valeurs, l'ordinateur doit réaliser ce que
 l'on appelle une reconstruction de l'image. Dans sa forme la plus simplifiée,
@@ -230,15 +228,15 @@ par :
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ![Crédit image : Diane Rohrer.](./img/7.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -268,9 +266,7 @@ nature _mal posée_.
 
 ---
 
-<div style={{ display: 'flex', gap: '10px' }}>
 
-    <div style={{ width: '60%' }}>
         <Carousel images={[
             {
     src: image1,
@@ -288,25 +284,21 @@ nature _mal posée_.
     { src: image4,
     alt: "Trois photographies d’une statue de Michel-Ange. La première photo montre la statue de profil, détaillant les traits du visage et les cheveux. Les deuxième et troisième photos montrent de grands carrés gris qui masquent des parties centrales de la statue, représentant l'occlusion. Ceci démontre comment des points de vue différents peuvent compliquer la reconnaissance d'un même sujet en vision par ordinateur en raison de la visibilité partielle.",
     title: "Différents points de vue", text: "Les occlusions dues à différents points de vue peuvent rendre la reconnaissance d'un même individu difficile. Source de l'image : Michel-Ange (1475-1564)." }, ]} />
-         </div>
 
-    <div style={{ width: '40%'}}>
-        ### Qu'est-ce qu'un problème mal posé ?
+### Qu'est-ce qu'un problème mal posé ?
+Lorsqu'une image est enregistrée, il y a une perte inhérente d'information, car
+le monde en 3D est projeté sur un plan en 2D. Même pour nous, le fait de réduire
+les _informations spatiales que nous obtenons du monde physique peut rendre
+difficile l'identification de ce que nous regardons à travers les photos_. Il
+peut être difficile de reconnaître des objets en images 2D pour les raisons
+suivantes liées aux propriétés _mal posées_....
 
-        Lorsqu'une image est enregistrée, il y a une perte inhérente d'information, car le monde en 3D est projeté sur un plan en 2D.
-
-        Même pour nous, le fait de réduire les _informations spatiales que nous obtenons du monde physique peut rendre difficile l'identification de ce que nous regardons à travers les photos_.
-
-        Il peut être difficile de reconnaître des objets en images 2D pour les raisons suivantes liées aux propriétés _mal posées_....
-    </div>
-
-</div>
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -323,7 +315,7 @@ l'identification de leur identité unique.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -341,7 +333,7 @@ représentation de l'image réelle.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -368,15 +360,15 @@ _Bien qu'à première vue, les tâches de vision par ordinateur puissent sembler
 </div>
 
 ---
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Comment résoudre les problèmes mal posés
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 Afin qu'un modèle de vision par ordinateur puisse surmonter les problèmes mal posés inhérents aux images que nous lui fournissons, nous devons modifier l'équation inverse pour résoudre à la place un problème alternatif, mais similaire, bien posé.
 </div>
 
@@ -391,9 +383,9 @@ il doit :
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -411,7 +403,7 @@ l'image.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -429,7 +421,7 @@ mesures qui représente fidèlement l'objet existant qui a été photographié.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -463,9 +455,9 @@ d'optimisation contrainte à la place._
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### La vision par ordinateur comme un problème d'optimisation contrainte
 
@@ -482,7 +474,7 @@ L'EMV qui résout pour le MAP est en rouge. Il a la distance minimale globale en
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Pour imposer les propriétés de _bien posées_, qui permettront à notre modèle de
 vision par ordinateur de retourner une solution existante qui est _stable_ et
