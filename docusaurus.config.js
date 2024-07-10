@@ -105,8 +105,13 @@ const config = {
             label: 'Projects',
             position: 'left',
           },
-          {
+          /* {
             to: 'docs/dev-rel-docs/',
+            label: 'Dev-Rel-Docs',
+            position: 'left',
+          }, */
+          {
+            to: 'dev-rel-docs-fetched/',
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
