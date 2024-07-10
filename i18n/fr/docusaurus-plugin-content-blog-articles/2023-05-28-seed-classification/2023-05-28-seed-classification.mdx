@@ -2,7 +2,7 @@
 title: "Classification automatisée des semences : Contrôle de la qualité à l'aide de la vision par ordinateur"
 slug: seed-classification
 authors: [kstern, ]
-tags: [computer vision, quality, classification, AI]
+tags: [Vision par ordinateur, Classification des semences, IA, Analyse d'image, Qualité]
 hide_table_of_contents: false
 description: "Dans cet article, nous motivons le besoin de modèles de vision par ordinateur
 pour la classification automatique des espèces de semences. Nous démontrons
@@ -192,10 +192,11 @@ processus de contrôle de la qualité.
 
 #### La contribution de l'IA (Contraintes temporelles)
 
-Computer vision models offer a solution to these bottlenecks by automating the
-analysis. By rapidly processing large volumes of seed samples, they
-significantly reduce the time required for classification enabling faster and
-more efficient seed classification while maintaining accuracy and consistency.
+Les modèles de vision par ordinateur offrent une solution à ces goulets
+d'étranglement en automatisant l'analyse. En traitant rapidement de grands
+volumes d'échantillons de semences, ils réduisent considérablement le temps
+nécessaire à la classification, ce qui permet une classification plus rapide et
+plus efficace des semences, tout en maintenant la précision et la cohérence.
 
 </div>
 

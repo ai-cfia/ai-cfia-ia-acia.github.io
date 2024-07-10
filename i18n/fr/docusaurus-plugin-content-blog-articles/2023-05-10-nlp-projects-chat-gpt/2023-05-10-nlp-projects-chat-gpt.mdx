@@ -2,7 +2,7 @@
 title: "Projets de traitement automatique des langues (TAL) utilisant ChatGPT et plus"
 slug: nlp-projects-chat-gpt
 authors: [leejaeka, ]
-tags: [Chat GPT, traitement automatique des langues, IA]
+tags: [ChatGPT, Traitement automatique des langues, IA, Rapport de maladie, Classification alimentaire]
 hide_table_of_contents: false
 description: "Dans cet article, nous sommes ravis d'être à l'avant-garde de cette technologie
 passionnante et en rapide évolution, et de partager quelques-uns de nos projets
