@@ -1,0 +1,17 @@
+---
+sidebar_position: 1
+---
+
+# Projects
+
+Our projects serve as the creative and organizational foundation for developing
+our products. They originate from requests or problems identified by CFIA staff.
+Projects provide the strategic framework for creating and refining these
+solutions, which ultimately become our final products, designed for direct
+interaction and user satisfaction.
+
+Here are the projects we are currently working on:
+
+- [Invasive Insects Project](./invasiveinsects/introduction.md)
+- [Poultry and Red Meat Condemnations
+  Project](./poultryredmeatcond/introduction.md)
