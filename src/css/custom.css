@@ -3,6 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import "katex/dist/katex.min.css";
 
 /* You can override the default Infima variables here. */
 :root {
@@ -18,7 +19,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -53,7 +54,6 @@
 
 .alphaStamp {
   height: 20%;
-
 }
 
 .alphaDiv {
@@ -62,4 +62,86 @@
   top: 0; /* Adjust as needed */
   left: 50%; /* Set to middle of screen */
   transform: translateX(-50%); /* Center the div */
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+  background-color: var(--ifm-color-primary);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.6;
+  height: 30px;
+  width: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  opacity: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.arrows {
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+}
+
+.slick-dots li button:before {
+  color: orange;
+}
+
+/* Add this CSS to your stylesheet or within a <style> tag in your MDX file */
+
+/* This is the default style, where divs are side by side */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  margin-right: 10px;
+}
+
+/* This media query applies styles when the window width is 768px or less */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    margin-right: 0; /* Reset margin if needed */
+    margin-bottom: 10px; /* Add space between items when stacked */
+  }
+}
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 999;
+}
+
+.navbar__title {
+  overflow: unset;
+  text-overflow: unset;
+  white-space: nowrap;
+}
+
+.navbar__item.navbar__link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.navbar__item.navbar__link:hover {
+  overflow: visible;
 }

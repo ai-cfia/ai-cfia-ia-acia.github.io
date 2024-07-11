@@ -10,6 +10,14 @@ closely associated with our projects.
 
 ---
 
+[Training for new
+developers](https://github.com/ai-cfia/dev-rel-docs/blob/main/TRAINING.md) : A
+curriculum to train new team members on the basics.
+
+[Architecture Decision
+Records](https://github.com/ai-cfia/dev-rel-docs/blob/main/adr/index.md) : A
+list of all our ADRs.
+
 [Development Environment Setup
 Guide](https://github.com/ai-cfia/dev-rel-docs/blob/main/Development-Environment-Setup-Guide/DEV-ENV-SETUP.md)
 : A guide to setting up a development environment with Dev Containers.
@@ -39,6 +47,12 @@ effectively manage environment variables in a TypeScript project. The guide
 emphasizes best practices, security considerations, and offers a structured
 approach to seamlessly integrate environment variables into your development
 workflow.
+
+[CONTRIBUTING.md](https://github.com/ai-cfia/.github/blob/main/profile/CONTRIBUTING.md)
+: This document provides detailed guidelines for contributing to all
+repositories in the AI Lab GitHub. It includes information on best practices,
+code submission processes, and how to propose changes or improvements. We
+encourage all contributors to read it before beginning to contribute.
 
 ---
 

@@ -51,17 +51,33 @@
   border: red 2px solid;
 }
 
+.popupDarkTheme {
+  width: 60%;
+  max-width: 600px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  box-sizing: border-box;
+  text-align: center;
+  border: red 2px solid;
+}
+
 .disclaimerHeading {
   font-size: larger;
   font-weight: bold;
   margin-bottom: 20px;
+  color: black;
 }
 
 .disclaimerText {
   font-size: medium;
   text-align: left;
   margin-bottom: 20px;
+  color: black;
 }
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {

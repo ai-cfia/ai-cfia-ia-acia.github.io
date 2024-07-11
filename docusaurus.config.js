@@ -1,11 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const baseUrl = process.env.BASE_URL || '/';
 
-/** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'Artificial Intelligence Lab',
   tagline: '',
@@ -33,22 +33,38 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      }
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+    },
   },
-
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          id: 'articles',
+          routeBasePath: 'articles',
+          path: './articles',
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
+          blogTitle: 'Articles',
+          blogDescription: 'Scientific articles written by AI Lab members',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'All our articles',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -62,7 +78,6 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
 
@@ -90,12 +105,21 @@ const config = {
             label: 'Projects',
             position: 'left',
           },
-          {
+          /* {
             to: 'docs/dev-rel-docs/',
             label: 'Dev-Rel-Docs',
             position: 'left',
+          }, */
+          {
+            to: 'dev-rel-docs-fetched/',
+            label: 'Dev-Rel-Docs',
+            position: 'left',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            to: 'articles/',
+            label: 'Articles',
+            position: 'left',
+          },
           {
             to: 'docs/contact',
             label: 'Contact Us',
@@ -161,7 +185,7 @@ const config = {
             ],
           },
         ],
-        copyright: `SITE IS IN ALPHA STAGE | ${new Date().getFullYear()} AI Lab | SITE IS IN ALPHA STAGE`,
+        copyright: `${new Date().getFullYear()} AI Lab`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -173,15 +197,12 @@ const config = {
           //hideable: true,
         },
       },
-      plugins:[
-        [
-          "docusaurus2-dotenv",
-          {
-            systemvars: true,
-          },
-        ],
-      ],
+      zoom: {},
     }),
+
+    plugins:[
+      'docusaurus-plugin-image-zoom'
+    ],
 };
 
 module.exports = config;
