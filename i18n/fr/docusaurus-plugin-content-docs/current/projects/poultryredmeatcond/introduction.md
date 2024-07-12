@@ -8,7 +8,7 @@ sidebar_position: 2
 ## Vue d'ensemble
 
 L'équipe de Visualisation de Données de l'ACIA extrait des données des rapports
-condamnations de la volaille et du bétail dans les établissements sous
+[condamnations de la volaille et du bétail dans les établissements sous
 inspection fédérale
 (ADH-717)](https://agriculture.canada.ca/fr/systeme-information-marches/rp/index-fra.cfm?action=pR&r=778&pdctc=)
 pour alimenter le tableau de bord des données sur l'abattage inspecté au
