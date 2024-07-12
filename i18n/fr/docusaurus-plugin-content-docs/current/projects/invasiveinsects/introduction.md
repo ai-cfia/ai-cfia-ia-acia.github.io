@@ -29,7 +29,7 @@ iNaturalist. Ce Service de Réseau Social (SRS) consiste en naturalistes,
 citoyens scientifiques et biologistes qui partagent des observations de la
 biodiversité à travers le monde.
 
-Nous générons des rapports hebdomadaires complets à partir de ces observations
+Nous générons des rapports quotidiens complets à partir de ces observations
 issues de la foule pour mettre à jour les inspecteurs de l'ACIA sur la
 propagation des insectes, plantes et mollusques envahissants à travers
 l'Amérique du Nord.
