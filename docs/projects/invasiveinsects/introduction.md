@@ -28,8 +28,8 @@ service. This Social Networking Service (SNS) consists of naturalists, citizen
 scientists, and biologists who share observations of biodiversity across the
 globe.
 
-We generate weekly comprehensive reports from these crowd-sourced observations
-to update CFIA inspectors about the spread of invasive insects, plants, and
+We generate daily comprehensive reports from these crowd-sourced observations to
+update CFIA inspectors about the spread of invasive insects, plants, and
 molluscs across North America.
 
 ![Alert Example](alert_example.png)
