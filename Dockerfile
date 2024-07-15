@@ -1,4 +1,4 @@
-FROM node:18 AS build
+FROM node:18
 
 WORKDIR /app
 
@@ -10,4 +10,8 @@ COPY . .
 
 RUN yarn build
 
-CMD ["npm", "run", "serve"]
+RUN yarn global add serve
+
+EXPOSE 3000
+
+CMD ["serve", "-s", "build", "-l", "3000"]
