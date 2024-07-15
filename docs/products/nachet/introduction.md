@@ -43,7 +43,7 @@ Currently we are training our models to identify these 15 species:
 
 For more information about the CFIA's Seed Program, visit the [Seeds
 identification
-page](https://inspection.canada.ca/plant-health/seeds/seed-testing-and-grading/seeds-identification/eng/1333136604307/1333136685768).
+page](https://inspection.canada.ca/en/plant-health/seeds/seed-testing-and-grading/seeds-identification).
 
 ## Web App
 

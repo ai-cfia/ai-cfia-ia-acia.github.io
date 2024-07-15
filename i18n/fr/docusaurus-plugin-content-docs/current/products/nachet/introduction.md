@@ -48,7 +48,7 @@ Nous formons actuellement nos modèles pour identifier ces 15 espèces :
 
 Pour plus d'informations sur le Programme des semences de l'ACIA, consultez la
 [page d'identification des
-semences](https://inspection.canada.ca/plant-health/seeds/seed-testing-and-grading/seeds-identification/eng/1333136604307/1333136685768).
+semences](https://inspection.canada.ca/fr/protection-vegetaux/semences/analyse-semences-designation-categorie/identification-semences).
 
 ## Application Web
 

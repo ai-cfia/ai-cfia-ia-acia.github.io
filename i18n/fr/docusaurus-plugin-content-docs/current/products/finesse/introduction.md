@@ -37,9 +37,9 @@ internes. Les outils actuellement à la disposition des employés de l'ACIA pour
 rechercher des documents internes sont principalement basés sur des mots-clés,
 ce qui est dépassé. Trouver les bonnes informations est difficile et souvent
 pénible pour les employés. Un exemple de ceci est l'outil Guidance Finder,
-accessible à [Guidance Finder](https://inspection.canada.ca/apps/eng/guidance).
-En réponse, nous développons Finesse, un moteur de recherche sémantique conçu
-pour rechercher efficacement des ensembles de documents internes et améliorer
+accessible sur [cette page](https://inspection.canada.ca/fr/orientation). En
+réponse, nous développons Finesse, un moteur de recherche sémantique conçu pour
+rechercher efficacement des ensembles de documents internes et améliorer
 l'expérience de recherche pour nos employés.
 
 ## À qui est-il destiné ?
