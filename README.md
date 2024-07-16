@@ -29,16 +29,16 @@ Then you can run:
 npm run serve
 ```
 
-## Deployment
+## Docker
 
-Using SSH:
+To build the Docker image, run:
 
 ```bash
-USE_SSH=true yarn deploy
+docker build -t ailab .
 ```
 
-Not using SSH:
+To run the Docker image, run:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+docker run -p 3000:3000 ailab
 ```
