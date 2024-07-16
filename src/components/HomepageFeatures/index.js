@@ -2,6 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import Translate from "@docusaurus/Translate";
+import Link from '@docusaurus/Link';
+
 
 const FeatureList = [
   {
@@ -29,11 +31,11 @@ function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col")}>
       <div className="text--center padding-horiz--md">
-        <a href={link}>
+        <Link to={link}>
           <Svg className={styles.featureSvg} role="img" />
           <h3>{title}</h3>
           <p>{description}</p>
-        </a>
+        </Link>
       </div>
     </div>
   );
