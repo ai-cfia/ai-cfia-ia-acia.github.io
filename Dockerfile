@@ -10,9 +10,9 @@ RUN chown -R 1000:1000 /opt/docusaurus
 
 COPY . /opt/docusaurus/
 
-RUN npm ci
+RUN yarn install --immutable
 
-RUN npm run build
+RUN yarn build
 
 RUN chown -R 1000:1000 /opt/docusaurus
 
@@ -20,4 +20,4 @@ EXPOSE 3000
 
 USER 1000
 
-CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--no-open"]
+CMD ["yarn", "run", "serve", "--host", "0.0.0.0", "--no-open"]
