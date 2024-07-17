@@ -1,17 +1,23 @@
-FROM node:18
+FROM node:lts
 
-WORKDIR /app
+ENV FORCE_COLOR=0
 
-COPY package.json yarn.lock ./
+RUN corepack enable
 
-RUN yarn install
+WORKDIR /opt/docusaurus
 
-COPY . .
+RUN chown -R 1000:1000 /opt/docusaurus
 
-RUN yarn build
+COPY . /opt/docusaurus/
 
-RUN yarn global add serve
+RUN npm ci
+
+RUN npm run build
+
+RUN chown -R 1000:1000 /opt/docusaurus
 
 EXPOSE 3000
 
-CMD ["serve", "-s", "build", "-l", "3000"]
+USER 1000
+
+CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--no-open"]
