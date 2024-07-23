@@ -32,8 +32,8 @@ function Feature({ Svg, title, description, link }) {
     <div className={clsx("col")}>
       <div className="text--center padding-horiz--md">
         <Link to={link}>
-          <Svg className={styles.featureSvg} role="img" />
-          <h3>{title}</h3>
+          <Svg className={styles.featureSvg} role="img" aria-labelledby={title}/>
+          <h3 id={title}>{title}</h3>
           <p>{description}</p>
         </Link>
       </div>
