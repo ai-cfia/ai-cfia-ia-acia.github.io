@@ -7,17 +7,15 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #387fa3; /* from CFIA Colour Palette and using https://docusaurus.io/docs/styling-layout/#styling-your-site-with-infima */
-  --ifm-color-primary-dark: #327293;
-  --ifm-color-primary-darker: #306c8b;
-  --ifm-color-primary-darkest: #275972;
-  --ifm-color-primary-light: #3e8cb3;
-  --ifm-color-primary-lighter: #4092bb;
-  --ifm-color-primary-lightest: #57a0c5;
+  --ifm-color-primary: #05486c; /* from CFIA Colour Palette and using https://docusaurus.io/docs/styling-layout/#styling-your-site-with-infima */
+  --ifm-color-primary-dark: #044161;
+  --ifm-color-primary-darker: #043d5c;
+  --ifm-color-primary-darkest: #04324c;
+  --ifm-color-primary-light: #054f77;
+  --ifm-color-primary-lighter: #06537c;
+  --ifm-color-primary-lightest: #075e8c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,6 +28,15 @@
   --ifm-color-primary-lighter: #40ab8b;
   --ifm-color-primary-lightest: #4ebc9b;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  --ifm-footer-background-color: #3c8786;
+
+}
+
+.footer__link-item:hover {
+  color: #90d1bd;
 }
 
 /* .backgroundImg {
