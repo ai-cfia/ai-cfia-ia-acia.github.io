@@ -39,7 +39,7 @@ export default function NotFound() {
               </p>
 
               <p>
-                <Button label="Go to Homepage" link="/" variant="info" size="lg"/>
+                <Button label="Go to Homepage" link="/" size="lg"/>
               </p>
             </div>
           </div>

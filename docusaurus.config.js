@@ -79,6 +79,9 @@ const config = {
 
   themeConfig:
     ({
+      colorMode: {
+        disableSwitch: true
+      },
       // Replace with your project's social card
 
       image: 'img/favicon.icon',
@@ -188,9 +191,8 @@ const config = {
         copyright: `${new Date().getFullYear()} AI Lab`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+        theme: lightCodeTheme
+            },
       docs: {
         sidebar: {
           autoCollapseCategories: true,
