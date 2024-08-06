@@ -154,3 +154,7 @@
 .navbar__item.navbar__link:hover {
   overflow: visible;
 }
+
+.footer__col {
+  text-align: center;
+}
