@@ -131,6 +131,13 @@
     margin-right: 0; /* Reset margin if needed */
     margin-bottom: 10px; /* Add space between items when stacked */
   }
+
+  .flex-item img {
+    width: 60%; /* Make images full width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .medium-zoom-overlay,

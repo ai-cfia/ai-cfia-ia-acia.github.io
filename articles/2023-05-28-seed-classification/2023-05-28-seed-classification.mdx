@@ -4,13 +4,15 @@ slug: seed-classification
 authors: [kstern, ]
 tags: [Computer Vision, Seed Classification, AI, Image Analysis, Quality]
 hide_table_of_contents: false
-description: In this article, we motivate the need for computer vision models for automatic the classification of seed species. We demonstrate how our custom models have achieved promising results using "real-world" seed images and describe our future directions for deploying a user-friendly SeedID application.
+description: Artificial intelligence (AI) is revolutionizing seed sorting in agriculture. This article discusses advanced methods developed by the CFIA that use computer vision to automatically identify and classify seeds with high accuracy. With concrete projects and the SeedID application, the laboratory aims to simplify and improve seed quality control, and we’re also inviting open collaboration to advance these technologies.
 ---
 
-In this article, we motivate the need for computer vision models for automatic
-the classification of seed species. We demonstrate how our custom models have
-achieved promising results using "real-world" seed images and describe our
-future directions for deploying a user-friendly SeedID application.
+Artificial intelligence (AI) is revolutionizing seed sorting in agriculture.
+This article discusses advanced methods developed by the CFIA that use computer
+vision to automatically identify and classify seeds with high accuracy. With
+concrete projects and the SeedID application, the laboratory aims to simplify
+and improve seed quality control, and we’re also inviting open collaboration to
+advance these technologies.
 
 <!-- truncate -->
 
@@ -22,7 +24,7 @@ future directions for deploying a user-friendly SeedID application.
 
 ## Introduction
 
-![1](./img/1.png)
+![ ](./img/1.png)
 
 ### Related work
 
@@ -71,7 +73,8 @@ Canadian society.
 
 ## Importance of Canada's seed industry
 
-![2](./img/2.png)
+![Close-up view of seeds with workers sorting them in the
+background](./img/2.png)
 
 </div>
 
@@ -128,7 +131,7 @@ images, rendering this process more efficient and reliable.
 
 ### Shortage of Analysts
 
-![3](./img/3.png)
+![Dimly lit office space with empty workstations](./img/3.png)
 
 </div>
 
@@ -166,7 +169,7 @@ ultimately, sustainable agricultural practices.
 
 ### Time limitations
 
-![4](./img/4.png)
+![Close-up of an hourglass with sand trickling](./img/4.png)
 
 </div>
 
@@ -197,7 +200,7 @@ more efficient seed classification while maintaining accuracy and consistency.
 
 ### Cost
 
-![5](./img/5.png)
+![Broken piggy bank with a bandage](./img/5.png)
 
 </div>
 
@@ -251,7 +254,7 @@ agricultural practices.
 
 <div className="flex-item" style={{flex: 1}}>
 
-![6](./img/6.png) *Image source:
+![Illuminated petri dish with seeds on a platform](./img/6.png) *Image source:
 VideometerLab*
 
 </div>
@@ -286,8 +289,8 @@ new seed species are introduced.
 
 ### Data (Project #1)
 
-![7](./img/7.png) *19-channel multi-spectral
-image, Carduus nutans*
+![Grid of multispectral images showing color and intensity variations for seed
+classification](./img/7.png) *19-channel multi-spectral image, Carduus nutans*
 
 Our model was trained to classify the following species:
 
@@ -310,8 +313,9 @@ Our model was trained to classify the following species:
 
 ### Results (Project #1)
 
-![8](./img/8.png) *>95% model accuracy on
-testing datasets*
+![Bar graph titled ‘Accuracy’ showing percentages for different seed species
+identification categories](./img/8.png) *>95% model accuracy on testing
+datasets*
 
 We show our model is able to correctly identify each seed species with an
 accuracy of over 95%.
@@ -334,8 +338,8 @@ the testing data.
 
 <div className="flex-item" style={{flex: 1}}>
 
-![9](./img/9.png) *Image source: TAGARNO
-microscope*
+![Hand using a metal spatula to handle seeds under a TAGARNO digital
+microscope](./img/9.png) *Image source: TAGARNO microscope*
 
 </div>
 
@@ -381,10 +385,11 @@ Three different magnification levels were provided for the following 15 species:
 - Solanum nigrum
 - Solanum rostratum
 
-![10](./img/10.png) *Magnification: 2
-seeds/image, Bromus secalinus*
+![Magnified view of two Bromus secalinus seeds (25x)](./img/10.png)
+*Magnification: 2 seeds/image, Bromus secalinus (25x)*
 
-![11](./img/11.png) *Magnification: 8
+![Eight Brassica juncea seeds highlighted in red-bordered rectangles, arranged
+in two rows with varying colors and patterns](./img/11.png) *Magnification: 8
 seeds/image, Brassica junsea*
 
 Magnification level is denoted by the total number of seeds present in the
@@ -396,8 +401,9 @@ image, either: 2, 8, or 15 seeds per image.
 
 ### Results (Project #2)
 
-![12](./img/12.png) *Model test accuracy on a
-seed species subset.*
+![Bar chart titled ‘Model Ablation Accuracy’ showing over 90% test accuracy for
+seed species identification at magnifications of 5x, 10x, 20x, and all
+seeds](./img/12.png) *Model test accuracy on a seed species subset.*
 
 In order to establish a standardised image registration protocol, we
 independently train separate models from a subset of data at each magnification
@@ -457,7 +463,7 @@ and contributing to the advancement of agricultural practices worldwide.
 
 ## Conclusion
 
-![13](./img/13.png) *Connecting ideas*
+![ ](./img/13.png) *Connecting ideas*
 
 </div>
 
