@@ -2,38 +2,34 @@
 title: "Classification automatisée des semences : Contrôle de la qualité à l'aide de la vision par ordinateur"
 slug: seed-classification
 authors: [kstern, ]
-tags: [computer vision, quality, classification, AI]
+tags: [Vision par ordinateur, Classification des semences, IA, Analyse d'image, Qualité]
 hide_table_of_contents: false
-description: "Dans cet article, nous motivons le besoin de modèles de vision par ordinateur
-pour la classification automatique des espèces de semences. Nous démontrons
-comment nos modèles personnalisés ont obtenu des résultats prometteurs en
-utilisant des images de semences du « monde réel » et nous décrivons nos
-orientations futures pour le déploiement d'une application facile à utiliser:
-SeedID."
+description: "L'intelligence artificielle (IA) révolutionne le tri des semences dans l'agriculture. Cet article traite des méthodes avancées développées par l'ACIA qui utilisent la vision par ordinateur pour identifier et classer automatiquement les semences avec une grande précision. Avec des projets concrets et l'application SeedID, le laboratoire vise à simplifier et à améliorer le contrôle qualité des semences, tout en invitant à une collaboration ouverte pour faire progresser ces technologies."
 ---
 
-Dans cet article, nous motivons le besoin de modèles de vision par ordinateur
-pour la classification automatique des espèces de semences. Nous démontrons
-comment nos modèles personnalisés ont obtenu des résultats prometteurs en
-utilisant des images de semences du « monde réel » et nous décrivons nos
-orientations futures pour le déploiement d'une application facile à utiliser:
-SeedID.
+L'intelligence artificielle (IA) révolutionne le tri des semences dans
+l'agriculture. Cet article traite des méthodes avancées développées par l'ACIA
+qui utilisent la vision par ordinateur pour identifier et classer
+automatiquement les semences avec une grande précision. Avec des projets
+concrets et l'application SeedID, le laboratoire vise à simplifier et à
+améliorer le contrôle qualité des semences, tout en invitant à une collaboration
+ouverte pour faire progresser ces technologies.
 
 <!-- truncate -->
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Introduction
 
-![1](./img/1.png)
+![ ](./img/1.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 L'intelligence artificielle (IA) pour la vision par ordinateur a révolutionné
 notre capacité à obtenir des informations à partir des images. En associant des
@@ -69,17 +65,18 @@ connaissances, pour continuer le progrès de notre société canadienne.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Importance de l'industrie semencière Canadienne
 
-![2](./img/2.png)
+![Vue rapprochée des semences avec les travailleurs les triant en
+arrière-plan](./img/2.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 L'industrie semencière canadienne s'est forgé une réputation mondiale dans la
 production, le traitement et l'exportation de semences de qualité supérieure
@@ -128,17 +125,17 @@ d'images, ce qui rend ce processus plus efficace et plus fiable.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Pénurie d'analystes
 
-![3](./img/3.png)
+![Un bureau faiblement éclairé avec des postes de travail vides](./img/3.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 La pénurie d'analystes experts en semences constitue un défi important pour
 l'industrie des semences. La demande d'évaluation précise et efficace de la
@@ -170,17 +167,17 @@ compte, des pratiques agricoles durables.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Contraintes temporelles
 
-![4](./img/4.png)
+![Gros plan d’un sablier avec le ruissellement de sable](./img/4.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 L'analyse manuelle des semences est un processus qui prend du temps et qui pose
 des problèmes en termes d'efficacité et de rapidité. La classification des
@@ -192,10 +189,11 @@ processus de contrôle de la qualité.
 
 #### La contribution de l'IA (Contraintes temporelles)
 
-Computer vision models offer a solution to these bottlenecks by automating the
-analysis. By rapidly processing large volumes of seed samples, they
-significantly reduce the time required for classification enabling faster and
-more efficient seed classification while maintaining accuracy and consistency.
+Les modèles de vision par ordinateur offrent une solution à ces goulets
+d'étranglement en automatisant l'analyse. En traitant rapidement de grands
+volumes d'échantillons de semences, ils réduisent considérablement le temps
+nécessaire à la classification, ce qui permet une classification plus rapide et
+plus efficace des semences, tout en maintenant la précision et la cohérence.
 
 </div>
 
@@ -203,17 +201,17 @@ more efficient seed classification while maintaining accuracy and consistency.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Le coût
 
-![5](./img/5.png)
+![Une tirelire brisée avec un bandage](./img/5.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Le développement d'une expertise dans l'analyse des semences exige une formation
 approfondie et l'exposition à divers échantillons de semences, ce qui peut
@@ -264,15 +262,16 @@ avancés et des techniques d'apprentissage profond, tout en garantissant une
 évaluation impartiale et efficace de la qualité des cultures, ouvrant ainsi la
 voie à de meilleures pratiques agricoles.
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
-![6](./img/6.png) *Source d'image: VideometerLab*
+![Boîte de Petri éclairée avec des graines sur une plate-forme](./img/6.png)
+*Source d'image: VideometerLab*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ## Projet n°1: Videometer
 
@@ -299,13 +298,15 @@ même si de nouvelles espèces de semences sont introduites.
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Données (Projet n°1)
 
-![7](./img/7.png) *Image multispectrale à 19 canaux , Carduus nutans*
+![Grille d’images multispectrales montrant les variations de couleur et
+d’intensité pour la classification des semences](./img/7.png) *Image
+multispectrale à 19 canaux , Carduus nutans*
 
 Notre CNN a été entraîné à classer les espèces suivantes :
 
@@ -324,11 +325,13 @@ Notre CNN a été entraîné à classer les espèces suivantes :
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Résultats (Projet n°1)
 
-![8](./img/8.png) *Précision du modèle de >95%*
+![Graphique à barres intitulé « Accuracy » montrant les pourcentages
+d'exactitude pour différentes catégories d’identification des espèces de
+semences](./img/8.png) *Précision du modèle de >95%*
 
 Nous montrons que notre modèle est capable d'identifier correctement chaque
 espèce de graine avec une précision de plus de 95 %.
@@ -348,15 +351,16 @@ précision d'environ 93 % sur les images réservées à l'évaluation.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
-![9](./img/9.png) *Source d'image: TAGARNO microscope*
+![Main utilisant une spatule en métal pour manipuler les graines sous un
+microscope numérique TAGARNO](./img/9.png) *Source d'image: TAGARNO microscope*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ## Projet n°2: Tagarno
 
@@ -377,9 +381,9 @@ précision de plus de 90% pour tous les niveaux de grossissement.
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Données (Projet n°2)
 
@@ -402,21 +406,27 @@ suivantes :
 - Solanum nigrum
 - Solanum rostratum
 
-![10](./img/10.png) *Niveau de grossissement: 2 semences/image, Bromus
-Secalinus*
+![Vue agrandie de deux graines de Bromus secalinus (25x)](./img/10.png) *Niveau
+de grossissement: 2 semences/image, Bromus Secalinus*
 
-![11](./img/11.png) *Niveau de grossissement: 8 semences/image, Brassica Junsea*
+![Huit graines de Brassica juncea mises en évidence dans des rectangles bordés
+de rouge, disposées en deux rangées avec des couleurs et des motifs
+variables](./img/11.png) *Niveau de grossissement: 8 semences/image, Brassica
+Junsea*
 
 Le niveau de grossissement est indiqué par le nombre total de graines présentes
 dans l'image, soit : 2, 8 ou 15 semences par image.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Résultats (Projet n°2)
 
-![12](./img/12.png) *Performance du modèle*
+![Graphique à barres intitulé « Model Ablation Accuracy » montrant une précision
+de test supérieure à 90 % pour l’identification des espèces de semences avec des
+grossissements de 5x, 10x, 20x et toutes les graines](./img/12.png) *Performance
+du modèle*
 
 Afin d'établir un protocole d'enregistrement d'images, nous entraînions des
 modèles distincts à partir d'un sous-ensemble de données à chaque niveau de
@@ -468,17 +478,17 @@ dans l'analyse des semences pour avancer des pratiques agricoles.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Conclusion
 
-![13](./img/13.png) *Connecter les idées*
+![ ](./img/13.png) *Connecter les idées*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Le projet de classification des semences est un exemple de la collaboration
 fructueuse et continue entre le laboratoire d'IA et le groupe de la science des

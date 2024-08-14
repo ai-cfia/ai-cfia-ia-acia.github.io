@@ -79,6 +79,9 @@ const config = {
 
   themeConfig:
     ({
+      colorMode: {
+        disableSwitch: true
+      },
       // Replace with your project's social card
 
       image: 'img/favicon.icon',
@@ -105,8 +108,13 @@ const config = {
             label: 'Projects',
             position: 'left',
           },
-          {
+          /* {
             to: 'docs/dev-rel-docs/',
+            label: 'Dev-Rel-Docs',
+            position: 'left',
+          }, */
+          {
+            to: 'dev-rel-docs-fetched/',
             label: 'Dev-Rel-Docs',
             position: 'left',
           },
@@ -183,9 +191,8 @@ const config = {
         copyright: `${new Date().getFullYear()} AI Lab`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+        theme: lightCodeTheme
+            },
       docs: {
         sidebar: {
           autoCollapseCategories: true,

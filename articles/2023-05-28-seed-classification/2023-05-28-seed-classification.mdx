@@ -2,27 +2,29 @@
 title: "Seed Classification:  Automatic Quality Inspection using Computer Vision"
 slug: seed-classification
 authors: [kstern, ]
-tags: [computer vision, quality, classification, AI]
+tags: [Computer Vision, Seed Classification, AI, Image Analysis, Quality]
 hide_table_of_contents: false
-description: In this article, we motivate the need for computer vision models for automatic the classification of seed species. We demonstrate how our custom models have achieved promising results using "real-world" seed images and describe our future directions for deploying a user-friendly SeedID application.
+description: Artificial intelligence (AI) is revolutionizing seed sorting in agriculture. This article discusses advanced methods developed by the CFIA that use computer vision to automatically identify and classify seeds with high accuracy. With concrete projects and the SeedID application, the laboratory aims to simplify and improve seed quality control, and we’re also inviting open collaboration to advance these technologies.
 ---
 
-In this article, we motivate the need for computer vision models for automatic
-the classification of seed species. We demonstrate how our custom models have
-achieved promising results using "real-world" seed images and describe our
-future directions for deploying a user-friendly SeedID application.
+Artificial intelligence (AI) is revolutionizing seed sorting in agriculture.
+This article discusses advanced methods developed by the CFIA that use computer
+vision to automatically identify and classify seeds with high accuracy. With
+concrete projects and the SeedID application, the laboratory aims to simplify
+and improve seed quality control, and we’re also inviting open collaboration to
+advance these technologies.
 
 <!-- truncate -->
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Introduction
 
-![1](./img/1.png)
+![ ](./img/1.png)
 
 ### Related work
 
@@ -32,7 +34,7 @@ To read about the fundamentals of computer vision, checkout our page:
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Artificial Intelligence (AI) for computer vision has revolutionised our ability
 to recover valuable insights from visual information. By combining AI algorithms
@@ -65,17 +67,18 @@ Canadian society.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Importance of Canada's seed industry
 
-![2](./img/2.png)
+![Close-up view of seeds with workers sorting them in the
+background](./img/2.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Manual seed sorting Canada’s multi-billion seed industry has established a
 global reputation in the production, processing, and exportation of
@@ -122,17 +125,17 @@ images, rendering this process more efficient and reliable.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Shortage of Analysts
 
-![3](./img/3.png)
+![Dimly lit office space with empty workstations](./img/3.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 The shortage of expert seed analysts poses a significant challenge in the seed
 industry. The demand for accurate and efficient seed quality assessment is
@@ -160,17 +163,17 @@ ultimately, sustainable agricultural practices.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Time limitations
 
-![4](./img/4.png)
+![Close-up of an hourglass with sand trickling](./img/4.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Manual analysis of seeds is a time-consuming process that poses challenges in
 terms of efficiency and speed. Seed classification is time-consuming due to the
@@ -191,17 +194,17 @@ more efficient seed classification while maintaining accuracy and consistency.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Cost
 
-![5](./img/5.png)
+![Broken piggy bank with a bandage](./img/5.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Developing expertise in seed analysis demands extensive training and exposure to
 diverse seed samples, which can be both expensive and time-consuming. The
@@ -247,16 +250,16 @@ upon advanced algorithms and deep learning techniques, while ensuring an
 unbiased and efficient evaluation of crop quality, paving the way for improved
 agricultural practices.
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
-![6](./img/6.png) *Image source:
+![Illuminated petri dish with seeds on a platform](./img/6.png) *Image source:
 VideometerLab*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ## Project #1: Multispectral Imaging and Analysis
 
@@ -280,14 +283,14 @@ new seed species are introduced.
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Data (Project #1)
 
-![7](./img/7.png) *19-channel multi-spectral
-image, Carduus nutans*
+![Grid of multispectral images showing color and intensity variations for seed
+classification](./img/7.png) *19-channel multi-spectral image, Carduus nutans*
 
 Our model was trained to classify the following species:
 
@@ -306,12 +309,13 @@ Our model was trained to classify the following species:
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Results (Project #1)
 
-![8](./img/8.png) *>95% model accuracy on
-testing datasets*
+![Bar graph titled ‘Accuracy’ showing percentages for different seed species
+identification categories](./img/8.png) *>95% model accuracy on testing
+datasets*
 
 We show our model is able to correctly identify each seed species with an
 accuracy of over 95%.
@@ -330,16 +334,16 @@ the testing data.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
-![9](./img/9.png) *Image source: TAGARNO
-microscope*
+![Hand using a metal spatula to handle seeds under a TAGARNO digital
+microscope](./img/9.png) *Image source: TAGARNO microscope*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ## Project #2: Digital Microscope RGB Imaging and Analysis
 
@@ -357,9 +361,9 @@ promising preliminary results of over 90% accuracy across magnification levels.
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Data (Project #2)
 
@@ -381,10 +385,11 @@ Three different magnification levels were provided for the following 15 species:
 - Solanum nigrum
 - Solanum rostratum
 
-![10](./img/10.png) *Magnification: 2
-seeds/image, Bromus secalinus*
+![Magnified view of two Bromus secalinus seeds (25x)](./img/10.png)
+*Magnification: 2 seeds/image, Bromus secalinus (25x)*
 
-![11](./img/11.png) *Magnification: 8
+![Eight Brassica juncea seeds highlighted in red-bordered rectangles, arranged
+in two rows with varying colors and patterns](./img/11.png) *Magnification: 8
 seeds/image, Brassica junsea*
 
 Magnification level is denoted by the total number of seeds present in the
@@ -392,12 +397,13 @@ image, either: 2, 8, or 15 seeds per image.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Results (Project #2)
 
-![12](./img/12.png) *Model test accuracy on a
-seed species subset.*
+![Bar chart titled ‘Model Ablation Accuracy’ showing over 90% test accuracy for
+seed species identification at magnifications of 5x, 10x, 20x, and all
+seeds](./img/12.png) *Model test accuracy on a seed species subset.*
 
 In order to establish a standardised image registration protocol, we
 independently train separate models from a subset of data at each magnification
@@ -451,17 +457,17 @@ and contributing to the advancement of agricultural practices worldwide.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Conclusion
 
-![13](./img/13.png) *Connecting ideas*
+![ ](./img/13.png) *Connecting ideas*
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 The seed classification project is an example of the successful and ongoing
 collaboration between the AI Lab and the Seed Science group at the CFIA. By

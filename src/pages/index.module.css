@@ -9,7 +9,9 @@
   position: relative;
   overflow: hidden;
 
-  background-color: #73b4c6;
+  background-color: #05486c;
+  color: #edf7f6;
+
   height: 100%;
   background-position:0%;
   background-repeat: no-repeat;
@@ -17,6 +19,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+[data-theme="dark"] .heroBanner {
+  background-color: #3c8786;
 }
 
 .buttons {

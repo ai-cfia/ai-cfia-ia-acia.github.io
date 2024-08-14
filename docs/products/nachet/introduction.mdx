@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+# Overview
+
+## What is Nachet?
+
+![A digital microscope examining seeds, with a monitor displaying an
+enlarged image of seeds, and a petri dish and scalpel on the
+table](./nachet-img/nachet-1.png)
+
+The CFIA ensures that seeds or grains crossing Canadian borders meet strict
+phytosanitary standards to prevent the spread of invasive weed species. Nachet
+Interactive is an open-source web application developed to assist CFIA seed
+analysts in identifying regulated weed seeds quickly and accurately. It combines
+digital microscopy with computer vision models hosted on AzureML to streamline
+the seed inspection process.
+
+Initially focused on weed seed identification, Nachet Interactive's scope is
+expanding to include other tasks like identifying pure seeds and insects,
+showcasing the application's versatility. This tool aims to support CFIA
+scientists by integrating AI into their workflow.
+
+### Seed Species
+
+Currently we are training our models to identify these 15 species:
+
+| | **Species** | |
+|:--:|:--:| :--:|
+| Ambrosia artemisiifolia  | Ambrosia trifida |  Ambrosia psilostachya |
+| Brassica junsea | Brassica napus | Bromus hordeaceus |
+| Bromus japonicus | Bromus secalinus | Carduus nutans |
+| Cirsium arvense | Cirsium vulgare | Lolium temulentum |
+| Solanum carolinense | Solanum nigrum | Solanum rostratum |
+
+For more information about the CFIA's Seed Program, visit the [Seeds
+identification
+page](https://inspection.canada.ca/en/plant-health/seeds/seed-testing-and-grading/seeds-identification).
+
+## Why are we doing this?
+
+|  | **Improve Operational Excellence** | **Support Service Modernization** | **Improve Stakeholder Experience** |
+|--|--|--|--|
+| **Challenges** | <li>Lengthy seed inspection process due to manual identification of regulated weed seeds. </li> <li>Large amounts of batches to verify, but very few CFIA seed analysts to do so. </li> | <li>Manual identification of pure seeds and insects leading to time-consuming inspections.</li> <li>For computer vision models to be performant, they need vast amounts of training data, which is a current bottleneck.</li> |  Current process is lengthy, meaning regulated parties have to wait a long time before receiving their phytosanitary certificate. |
+| **Opportunities** | <li>**Advanced Identification Models**: Enhance the computer vision models used in Nachet to identify a wider range of regulated weed seeds accurately.</li><li>**Integration with CFIA Workflow**: Integrate Nachet into the CFIA's seed inspection process, reducing time and effort.</li><li>**Cross-functional Expansions**: Extend Nachet's capabilities to identify other seed-related aspects, such as pure seeds and insects. </li> | <li>**Streamline the seed analysis process**: Enabling Nachet to certify seed identification would eliminate the need for multiple lab verifications, significantly reducing time and costs associated with the inspection process. </li> <li>**Real-time Reporting**: Enable automatic reporting capabilities within Nachet, providing instant access to inspection results for internal stakeholders.</li> | <li>**Enhanced Data Accuracy**: Leverage advanced AI models to improve the accuracy of seed identification and provide reliable results for stakeholders.</li> <li>**Quicker turnaround times for exporters:** If smaller labs had the ability to certify the identity of seeds using Nachet, we could prevent many back-and-forths therefore speeding up the phytosanitary certificate emission process. </li> |
+
+## Web App
+
+Visit this link to access the deployed Nachet Interactive web app:
+[https://nachet.inspection.alpha.canada.ca/](https://nachet.inspection.alpha.canada.ca/)
+
+## Application Components
+
+Nachet Interactive is structured around two key elements: a React-based frontend
+and a Flask-powered backend. For more information about each element, view the
+respective documentation below:
+
+* [Nachet: Frontend](https://github.com/ai-cfia/nachet-frontend)
+* [Nachet: Backend](https://github.com/ai-cfia/nachet-backend)

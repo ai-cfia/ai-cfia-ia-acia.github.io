@@ -20,18 +20,16 @@ the field.
 <!-- truncate -->
 
 ---
-import React from 'react';
-import Carousel from '@site/src/components/Carousel/Carousel';
-import image1 from './img/carousel1.png';
-import image2 from './img/carousel2.png';
-import image3 from './img/carousel3.png';
-import image4 from './img/carousel4.png';
-import mediumZoom from 'medium-zoom';
+import React from 'react'; import Carousel from
+'@site/src/components/Carousel/Carousel'; import image1 from
+'./img/carousel1.png'; import image2 from './img/carousel2.png'; import image3
+from './img/carousel3.png'; import image4 from './img/carousel4.png'; import
+mediumZoom from 'medium-zoom';
 
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Computer vision
 
@@ -42,11 +40,11 @@ import mediumZoom from 'medium-zoom';
 To read about our projects using computer vision, click on the links below:
 
 [Seed Classification:  Automatic Quality Inspection using Computer
-Vision](../2024-06-14-seed-classification/2024-06-14-seed-classification.md)
+Vision](../articles/seed-classification)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 Artificial Intelligence (AI) for image processing tasks has revolutionised our
 ability to recover valuable insights from visual information. The advances
@@ -78,16 +76,16 @@ the field.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ![Illustration that compares "Human Vision System" and "Computer Vision System".
 Image source: Co-Learner Lounge.](./img/2.png)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ## Introduction to computer vision
 
@@ -116,9 +114,9 @@ Computer vision models could then be used to address questions related to:
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Object Detection and Categorisation
 
@@ -129,7 +127,7 @@ pictures.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Scene and Context Categorisation
 
@@ -140,7 +138,7 @@ indoor/outdoor, traffic/no traffic, parking/no-parking, etc.)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Qualitative Spatial Information
 
@@ -165,15 +163,15 @@ accurately interpreting and understanding our complex world.
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 #### Why is computer vision so hard?
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 In order to understand why computers seemingly struggle to perform these
 "basic" tasks, we must first consider what an image is.
 </div>
@@ -182,15 +180,15 @@ In order to understand why computers seemingly struggle to perform these
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 ![What computers "see".](./img/6.png)
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### What computers "see"
 
@@ -200,34 +198,22 @@ Are you able to describe what this image is from these values?
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 _**An image is a set of number, with typically three colour channels: Red,
 Green, Blue.**_
-
-</div>
-
-<div style={{flex: 2, marginRight: '10px'}}>
-
-To derive meaning from these values, the computer must perform what is known as
-image reconstruction. In its most simplified form, we can consider this process
-as an inverse problem​​​​​​​, defined by:
-
-</div>
-
-</div>
-
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
-
-<div style={{flex: 1, marginRight: '10px'}}>
 
 ![Image credit: Diane Rohrer.](./img/7.png)
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
+
+To derive meaning from these values, the computer must perform what is known as
+image reconstruction. In its most simplified form, we can consider this process
+as an inverse problem​​​​​​​, defined by:
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -246,6 +232,18 @@ where:
 
 </div>
 
+<div className="flex-container">
+
+<div className="flex-item" style={{flex: 1}}>
+
+</div>
+
+<div className="flex-item" style={{flex: 2}}>
+
+</div>
+
+</div>
+
 ---
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
@@ -257,9 +255,6 @@ nature.
 
 ---
 
-<div style={{ display: 'flex', gap: '10px' }}>
-
-    <div style={{ width: '60%' }}>
         <Carousel images={[
             { src: image1,
     alt: "A black and white cat wearing a red collar sits among several pots of daisies with a mixture of open and closed blooms. The textured background of flowers and shadows illustrates how cluttered backgrounds can make object boundary detection challenging in computer vision.",
@@ -276,29 +271,21 @@ nature.
     { src: image4,
     alt: "Three photographs of a Michelangelo statue. The first photo shows the statue from a side view, detailing facial features and hair. The second and third photos feature large gray squares that obscure central parts of the statue, representing occlusion. This demonstrates how different viewpoints can complicate recognition of the same subject in computer vision due to partial visibility.",
     title: "Different Viewpoints",
-    text: "Occlusions from different viewpoints can make it challenging to recognize the same individual. Image source: Michelangelo (1475-1564)." } ]} /> </div>
+    text: "Occlusions from different viewpoints can make it challenging to recognize the same individual. Image source: Michelangelo (1475-1564)." } ]} />
 
-    <div style={{ width: '40%'}}>
-        ### What is an ill-posed​​​​​​​ problem?
+### What is an ill-posed​​​​​​​ problem?
+When an image is registered, there is an inherent loss of information, as the 3D
+world is projected onto a 2D plane. Even for us, collapsing the _spatial
+information we get from the physical world can make it difficult to discern what
+we are looking at through photos_. It can be difficult to recognise objects in
+2D pictures due to the following _ill-posed_ properties....
 
-        When an image is registered, there is an inherent loss of information,
-        as the 3D world is projected onto a 2D plane.
-
-        Even for us, collapsing the _spatial information we get from the
-        physical world can make it difficult to discern what we are looking
-        at through photos_.
-
-        It can be difficult to recognise objects in 2D pictures due to the
-        following _ill-posed_ properties....
-    </div>
-
-</div>
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -316,7 +303,7 @@ identify their unique identity.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -334,7 +321,7 @@ difficult or impossible to identify the true representation of the real image.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -363,15 +350,15 @@ the underlying problem they are trying to address is quite challenging!_
 </div>
 
 ---
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### How to solve ill-posed problems
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 In order for a computer vision model to overcome the inherent ill-posed
 problems that are embedded in the images we provide it, we must modify
 the inverse equation to solve for alternative, yet similar, well-posed problem
@@ -389,9 +376,9 @@ criteria, it must:
 
 </div>
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -409,7 +396,7 @@ unique features that make up each element in the image.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -429,7 +416,7 @@ accurately represents the existing object that was photographed.
 
 </div>
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 <div style={{textAlign: 'center', fontStyle: 'bold'}}>
 
@@ -463,9 +450,9 @@ optimization equation instead._
 
 ---
 
-<div style={{display: 'flex', justifyContent: 'space-between'}}>
+<div className="flex-container">
 
-<div style={{flex: 1, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 1}}>
 
 ### Computer vision as a constrained optimization problem
 
@@ -483,7 +470,7 @@ between y and F(x).</figcaption>
 
 </div>
 
-<div style={{flex: 2, marginRight: '10px'}}>
+<div className="flex-item" style={{flex: 2}}>
 
 To impose the properties of _well-posedness_, which will enable our computer
 vision model to return an existing solution that is _stable_ and _unique_, we

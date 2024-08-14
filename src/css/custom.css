@@ -3,31 +3,40 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
- @import 'katex/dist/katex.min.css';
+@import "katex/dist/katex.min.css";
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3c8786;
-  --ifm-color-primary-dark: #05486c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #05486c; /* from CFIA Colour Palette and using https://docusaurus.io/docs/styling-layout/#styling-your-site-with-infima */
+  --ifm-color-primary-dark: #044161;
+  --ifm-color-primary-darker: #043d5c;
+  --ifm-color-primary-darkest: #04324c;
+  --ifm-color-primary-light: #054f77;
+  --ifm-color-primary-lighter: #06537c;
+  --ifm-color-primary-lightest: #075e8c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #389579; /* from CFIA Colour Palette and using https://docusaurus.io/docs/styling-layout/#styling-your-site-with-infima */
+  --ifm-color-primary-dark: #32866d;
+  --ifm-color-primary-darker: #307f67;
+  --ifm-color-primary-darkest: #276855;
+  --ifm-color-primary-light: #3ea485;
+  --ifm-color-primary-lighter: #40ab8b;
+  --ifm-color-primary-lightest: #4ebc9b;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  --ifm-footer-background-color: #3c8786;
+
+}
+
+.footer__link-item:hover {
+  color: #90d1bd;
 }
 
 /* .backgroundImg {
@@ -54,7 +63,6 @@
 
 .alphaStamp {
   height: 20%;
-
 }
 
 .alphaDiv {
@@ -65,46 +73,41 @@
   transform: translateX(-50%); /* Center the div */
 }
 
-
 .slick-arrow.slick-next,
-.slick-arrow.slick-prev{
-background-color: var(--ifm-color-primary);
-height:20px;
-width: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-opacity: 0.6;
-height:30px;
-width:30px;
-transition: opacity 0.3s ease;
+.slick-arrow.slick-prev {
+  background-color: var(--ifm-color-primary);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.6;
+  height: 30px;
+  width: 30px;
+  transition: opacity 0.3s ease;
 }
 
 .slick-arrow.slick-next:hover,
-.slick-arrow.slick-prev:hover
-{
-    background-color: var(--ifm-color-primary-lightest);
-    opacity:1;
+.slick-arrow.slick-prev:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  opacity: 1;
 }
 
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
 
-.slick-prev::before,.slick-next::before{
-   display:none;
-
-    }
-
-.arrows{
-height:20px;
-width:20px;
-margin: 1px;
-
+.arrows {
+  height: 20px;
+  width: 20px;
+  margin: 1px;
 }
 
 .slick-dots li button:before {
   color: orange;
 }
-
 
 /* Add this CSS to your stylesheet or within a <style> tag in your MDX file */
 
@@ -128,10 +131,37 @@ margin: 1px;
     margin-right: 0; /* Reset margin if needed */
     margin-bottom: 10px; /* Add space between items when stacked */
   }
-}
 
+  .flex-item img {
+    width: 60%; /* Make images full width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
+}
+
+.navbar__title {
+  overflow: unset;
+  text-overflow: unset;
+  white-space: nowrap;
+}
+
+.navbar__item.navbar__link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.navbar__item.navbar__link:hover {
+  overflow: visible;
+}
+
+.footer__col {
+  text-align: center;
 }
