@@ -1,0 +1,97 @@
+---
+sidebar_position: 3
+---
+# Gestion de la flotte de véhicules
+
+## Aperçu
+
+Le Laboratoire d'Intelligence Artificielle (AI Lab) de l'Agence Canadienne
+d'Inspection des Aliments (ACIA) soutient la gestion de la flotte de véhicules
+en utilisant une solution de stockage personnalisée pour divers ensembles de
+données liés aux dépenses des véhicules, à la consommation de carburant, aux
+avis de rappel et à la télématique. Ce projet utilise un compte de stockage
+Microsoft Azure pour surmonter les limitations rencontrées avec SharePoint sur
+site et Power BI. La migration vers SharePoint Online est prévue pour septembre.
+
+## Introduction
+
+L'équipe de gestion de la flotte de véhicules de l'ACIA utilise Azure Storage
+pour stocker et organiser des rapports Excel critiques, facilitant ainsi l'accès
+et la gestion des informations. Cette approche centralisée améliore l'efficacité
+du suivi et du reporting des données, garantissant que les données de la flotte
+sont à jour et facilement accessibles.
+
+## Structure de stockage
+
+Le compte de stockage Azure `fleetdatacmb` héberge plusieurs types de rapports
+regroupés en répertoires spécifiques. Voici un aperçu :
+
+### ARIData
+
+#### ARI expenses
+Contient des rapports détaillés sur les dépenses fixes et opérationnelles,
+classés par véhicule, mois, type de dépense et fournisseur. Inclut des résumés
+et des répartitions des dépenses par catégorie.
+
+#### ARI fuel
+Fournit des informations détaillées sur la consommation de carburant des
+véhicules, y compris les données de transaction et divers résumés et graphiques
+concernant les dépenses de carburant et les schémas d'utilisation.
+
+#### Recall notice list
+Contient les avis de rappel pour les véhicules de la flotte, fournissant des
+détails sur le statut de chaque rappel, la description et les véhicules
+concernés.
+
+### Geotab
+
+#### ARI extracts
+Contient des données télématiques détaillant les métriques d'utilisation de la
+flotte telles que la distance parcourue, les temps de conduite et d'arrêt, le
+temps d'utilisation et les jours utilisés.
+
+#### Device status data
+Surveille le statut de communication des appareils télématiques dans la flotte,
+indiquant si les appareils sont actifs, inactifs, hors ligne ou non installés.
+
+#### Excel extracts
+Inclut divers indicateurs de performance pour les véhicules, tels que le nombre
+de trajets, les heures de conduite, les heures d'arrêt et les kilomètres
+parcourus.
+
+### PM compliance data
+Conserve les informations de conformité de la maintenance préventive (PM), en
+suivant les dates d'échéance et les intervalles pour les activités de
+maintenance programmées des véhicules de la flotte.
+
+### SAPData
+Contient des données complètes de gestion des actifs pour la flotte, y compris
+les descriptions des actifs, les détails des achats, les données des fabricants
+et les informations de localisation.
+
+### Vehicle conditions data
+Surveille la condition et l'utilisation des véhicules de la flotte, en
+rapportant des indicateurs tels que l'état des témoins lumineux du moteur, les
+alertes de batterie faible, la durée de vie de l'huile et les événements de
+ralenti excessif.
+
+## État du projet
+Actuellement, les données de la flotte de véhicules sont stockées dans des
+comptes de stockage Azure. L'équipe d'Acquisition et de Gestion du Parc
+Automobile de l'ACIA prévoit de migrer ces données vers SharePoint Online en
+septembre pour rationaliser l'accès et améliorer la gestion des données.
+
+## Améliorations futures
+
+- **Intégration améliorée des données**: Une fois migrées sur SharePoint,
+  intégrer avec d'autres systèmes de l'ACIA pour un flux de données sans
+  couture.
+- **Analyse avancée**: Utiliser Power BI pour des rapports plus détaillés et
+  interactifs.
+- **Formation des utilisateurs**: Fournir des sessions de formation au personnel
+  sur l'utilisation du nouveau système basé sur SharePoint.
+
+## Contact
+
+Pour plus d'informations, veuillez contacter :
+- **Contact technique**: noureddine.meraihi@inspection.gc.ca

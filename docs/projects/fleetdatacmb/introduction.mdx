@@ -1,0 +1,86 @@
+---
+sidebar_position: 3
+---
+# Fleet Vehicle Management
+
+## Overview
+
+The Artificial Intelligence Laboratory (AI Lab) at the Canadian Food Inspection
+Agency (CFIA) supports fleet vehicle management by leveraging a customized
+storage solution for various datasets related to vehicle expenses, fuel
+consumption, recall notices, and telematics. This project uses a Microsoft Azure
+storage account to overcome limitations faced with on-premise SharePoint and
+Power BI. Migration to SharePoint Online is scheduled for September.
+
+## Introduction
+
+The CFIA's fleet vehicle management team employs Azure storage to store and
+organize critical Excel reports, making information easy to access and manage.
+This centralized approach improves data monitoring and reporting efficiency,
+ensuring fleet data is up-to-date and readily available.
+
+## Storage Structure
+
+The Azure storage account `fleetdatacmb` hosts several types of reports grouped
+into specific directories. Here is an overview:
+
+### ARIData
+
+#### ARI Expenses
+Contains detailed reports on fixed and operating expenses, categorized by
+vehicle, month, type of expense, and vendor. Includes summaries and expense
+breakouts by category.
+
+#### ARI Fuel
+Provides detailed fuel usage information for vehicles, including
+transaction-level data and various summaries and charts regarding fuel expenses
+and usage patterns.
+
+#### Recall Notice List
+Houses recall notices for vehicles in the fleet, providing details about each
+recall's status, description, and the affected vehicles.
+
+### Geotab
+
+#### ARI Extracts
+Contains telematics data detailing fleet utilization metrics such as distance
+driven, drive and idle times, usage time, and days utilized.
+
+#### Device Status Data
+Monitors the communication status of telematic devices in the fleet, indicating
+whether devices are active, idle, offline, or not installed.
+
+#### Excel Extracts
+Includes various performance metrics for vehicles, such as number of trips,
+driving hours, idle hours, and kilometers driven.
+
+### PM Compliance Data
+Maintains preventive maintenance (PM) compliance information, tracking due dates
+and intervals for scheduled maintenance activities for fleet vehicles.
+
+### SAPData
+Contains comprehensive asset management data for the fleet, including asset
+descriptions, purchase details, manufacturer data, and location information.
+
+### Vehicle Conditions Data
+Tracks the condition and usage of vehicles in the fleet, reporting on metrics
+like engine light status, battery alerts, oil life, and excessive idling events.
+
+## Project Status
+Currently, the fleet vehicle data is stored in Azure storage accounts. The CFIA
+Acquisition and Fleet Management team plans to migrate this data to SharePoint
+Online in September to streamline access and improve data management.
+
+## Future Enhancements
+
+- **Enhanced Data Integration**: Once migrated to SharePoint, integrate with
+  other CFIA systems for seamless data flow.
+- **Advanced Analytics**: Utilize Power BI for more detailed and interactive
+  reporting.
+- **User Training**: Provide training sessions for staff on using the new
+  SharePoint-based system.
+
+## Point of Contact
+
+For further information, please contact:
+- **Technical Contact**: noureddine.meraihi@inspection.gc.ca
