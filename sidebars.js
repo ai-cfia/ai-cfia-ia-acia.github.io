@@ -59,6 +59,11 @@ const sidebars = {
       label: 'Poultry and Red Meat Condemnations',
       items: ['projects/poultryredmeatcond/introduction',],
     },
+    {
+      type: 'category',
+      label: 'Fleet Vehicle Management',
+      items: ['projects/fleetdatacmb/introduction',],
+    },
   ],
 
   sidebar: [
