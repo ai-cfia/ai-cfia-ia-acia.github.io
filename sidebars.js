@@ -59,6 +59,11 @@ const sidebars = {
       label: 'Poultry and Red Meat Condemnations',
       items: ['projects/poultryredmeatcond/introduction',],
     },
+    {
+      type: 'category',
+      label: 'Digital Business Cards',
+      items: ['projects/digitalbusinesscards/introduction',],
+    },
   ],
 
   sidebar: [
