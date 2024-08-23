@@ -32,4 +32,4 @@ We generate daily comprehensive reports from these crowd-sourced observations to
 update CFIA inspectors about the spread of invasive insects, plants, and
 molluscs across North America.
 
-![Alert Example](alert_example.png)
+![Alert Example](/img/invasive-insects/alert_example.png)

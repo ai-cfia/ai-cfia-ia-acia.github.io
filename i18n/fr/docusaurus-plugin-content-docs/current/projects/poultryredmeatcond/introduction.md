@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Projet "Poultry and Red Meat Condemnations"
 
-![texte alternatif](CAHSS_Dashboard.png)
+![texte alternatif](/img/poultryredmeatcond/CAHSS_Dashboard.png)
 
 ## Vue d'ensemble
 

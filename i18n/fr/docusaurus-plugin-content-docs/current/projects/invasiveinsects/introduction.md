@@ -34,4 +34,4 @@ issues de la foule pour mettre à jour les inspecteurs de l'ACIA sur la
 propagation des insectes, plantes et mollusques envahissants à travers
 l'Amérique du Nord.
 
-![Exemple d'alerte](alert_example.png)
+![Exemple d'alerte](/img/invasive-insects/alert_example.png)

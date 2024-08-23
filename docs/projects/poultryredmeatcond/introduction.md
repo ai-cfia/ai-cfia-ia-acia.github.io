@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Poultry and Red Meat Condemnations
 
-![alt text](CAHSS_Dashboard.png)
+![alt text](/img/poultryredmeatcond/CAHSS_Dashboard.png)
 
 ## Overview
 
