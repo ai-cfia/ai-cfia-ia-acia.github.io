@@ -22,11 +22,13 @@ ceux et celles qui s'intéressent au domaine.
 <!-- truncate -->
 
 ---
-import React from 'react'; import Carousel from
-'@site/src/components/Carousel/Carousel'; import image1 from
-'./img/carousel1.png'; import image2 from './img/carousel2.png'; import image3
-from './img/carousel3.png'; import image4 from './img/carousel4.png'; import
-mediumZoom from 'medium-zoom';
+import React from 'react';
+import Carousel from '@site/src/components/Carousel/Carousel';
+import image1 from '/img/2023-05-16-getting-computers-to-see-images/carousel1.png';
+import image2 from '/img/2023-05-16-getting-computers-to-see-images/carousel2.png';
+import image3 from '/img/2023-05-16-getting-computers-to-see-images/carousel3.png';
+import image4 from '/img/2023-05-16-getting-computers-to-see-images/carousel4.png';
+import mediumZoom from 'medium-zoom';
 
 <div className="flex-container">
 
@@ -35,7 +37,7 @@ mediumZoom from 'medium-zoom';
 ## Vision par ordinateur
 
 ![Illustration d'un œil sur un fond bleuté évoquant une carte
-mère.](./img/1.png)
+mère.](/img/2023-05-16-getting-computers-to-see-images/1.png)
 
 ### Travaux connexes
 
@@ -90,7 +92,7 @@ ceux et celles qui s'intéressent au domaine.
 <div className="flex-item" style={{flex: 1}}>
 
 ![Illustration comparant "Système de Vision Humaine" et "Système de Vision par
-Ordinateur". Source de l'image : Co-Learner Lounge.](./img/2.png)
+Ordinateur". Source de l'image : Co-Learner Lounge.](/img/2023-05-16-getting-computers-to-see-images/2.png)
 
 </div>
 
@@ -130,7 +132,7 @@ répondre à des questions liées à :
 
 #### Détection et catégorisation d'objets
 
-![Illustration de détection d'objets.](./img/3.png)
+![Illustration de détection d'objets.](/img/2023-05-16-getting-computers-to-see-images/3.png)
 
 La capacité de classifier des objets dans une scène d'image ou de reconnaître le
 visage de quelqu'un sur des photos.
@@ -141,7 +143,7 @@ visage de quelqu'un sur des photos.
 
 #### Catégorisation de scènes et de contexte
 
-![Illustration de reconnaissance de scènes.](./img/4.png)
+![Illustration de reconnaissance de scènes.](/img/2023-05-16-getting-computers-to-see-images/4.png)
 
 La capacité de comprendre ce qui se passe dans une image à travers ses
 composants (par exemple : intérieur/extérieur, avec/sans trafic, avec/sans
@@ -153,7 +155,7 @@ stationnement, etc.)
 
 #### Informations spatiales qualitatives
 
-![Source de l'image : NVIDIA](./img/5.png)
+![Source de l'image : NVIDIA](/img/2023-05-16-getting-computers-to-see-images/5.png)
 
 La capacité de décrire qualitativement des objets dans une image, tels qu'un
 objet en mouvement rigide (par exemple : vélo, poussette), un objet en mouvement
@@ -194,7 +196,7 @@ Pour comprendre pourquoi les ordinateurs semblent lutter pour effectuer ces tâc
 
 <div className="flex-item" style={{flex: 2}}>
 
-![Ce que les ordinateurs "voient".](./img/6.png)
+![Ce que les ordinateurs "voient".](/img/2023-05-16-getting-computers-to-see-images/6.png)
 
 </div>
 
@@ -232,7 +234,7 @@ par :
 
 <div className="flex-item" style={{flex: 1}}>
 
-![Crédit image : Diane Rohrer.](./img/7.png)
+![Crédit image : Diane Rohrer.](/img/2023-05-16-getting-computers-to-see-images/7.png)
 
 </div>
 
@@ -307,7 +309,7 @@ suivantes liées aux propriétés _mal posées_....
 </div>
 
 ![Vue de dessus de neuf canettes de soda assorties disposées soigneusement en
-grille, toutes fermées.](./img/lackofuniqueness.png)
+grille, toutes fermées.](/img/2023-05-16-getting-computers-to-see-images/lackofuniqueness.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>Le point de vue rend impossible l'identification des canettes.</figcaption>
 
 Plusieurs objets peuvent donner lieu aux mêmes mesures, rendant impossible
@@ -324,7 +326,7 @@ l'identification de leur identité unique.
 </div>
 
 ![Photo floue et hors focus où le sujet est
-indiscernable.](./img/uncertainty.png)
+indiscernable.](/img/2023-05-16-getting-computers-to-see-images/uncertainty.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>Impossible de décrire la scène originale en raison de l'incertitude due au flou.</figcaption>
 
 Le bruit (par exemple : flou, pixellisation, dommages physiques) sur les photos
@@ -342,7 +344,7 @@ représentation de l'image réelle.
 </div>
 
 ![Collage en mosaïque montrant plus de 80 modèles de chaises variées, présentant
-une large gamme de formes et de couleurs.](./img/inconsistency.png)
+une large gamme de formes et de couleurs.](/img/2023-05-16-getting-computers-to-see-images/inconsistency.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>Les chaises prennent de nombreuses formes différentes.</figcaption>
 
 Les variations dans les objets rendent difficile la classification des images
@@ -394,7 +396,7 @@ il doit :
 </div>
 
 ![Photographie d'une voile solitaire flottant sur une vaste mer ouverte sous un
-ciel dégagé.](./img/beunique.png)
+ciel dégagé.](/img/2023-05-16-getting-computers-to-see-images/beunique.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>Les mesures de l'océan, du ciel et de la voile doivent être identifiées de manière unique.</figcaption>
 
 Le modèle de vision par ordinateur devrait être capable de traiter une image et
@@ -413,7 +415,7 @@ l'image.
 
 ![Photographie créative d'un hamburger dont une moitié est artistiquement
 composée d'ingrédients cubiques incluant de la laitue, du pain et d'autres
-garnitures, donnant une apparence pixelisée et mosaïque.](./img/exist.png)
+garnitures, donnant une apparence pixelisée et mosaïque.](/img/2023-05-16-getting-computers-to-see-images/exist.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>L'image reconstruite devrait représenter fidèlement l'objet réel qui a été photographié.</figcaption>
 
 Le modèle de vision par ordinateur devrait produire une image à partir de
@@ -433,7 +435,7 @@ mesures qui représente fidèlement l'objet existant qui a été photographié.
 distincts, montrés sous différents angles et perspectives. La gamme inclut une
 chaise ciel bleu standard, une chaise verte claire, une chaise à balançoire
 bleue et une chaise beige avec un siège bleu, chacune photographiée deux fois
-pour mettre en valeur leur design.](./img/bestable.png)
+pour mettre en valeur leur design.](/img/2023-05-16-getting-computers-to-see-images/bestable.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>Le modèle devrait apprendre des caractéristiques uniques des objets indépendamment des variations d'orientation, d'angle, de point de vue, etc.</figcaption>
 
 Le modèle de vision par ordinateur doit être capable de traiter les images de
@@ -467,7 +469,7 @@ mappant les données observées y. Une ligne rouge proéminente trace le chemin 
 l'Estimation du Maximum de Vraisemblance (EMV) le long de la surface, marquant
 la distance minimale globale par rapport aux données observées et coïncidant
 avec le point du Maximum A Posteriori
-(MAP).](./img/optimizationproblemgraph.png)
+(MAP).](/img/2023-05-16-getting-computers-to-see-images/optimizationproblemgraph.png)
 <figcaption style={{textAlign: 'center', fontSize:'small'}}>La forme 3D supérieure représente les valeurs estimées, F(x).
 Les lignes 2D inférieures représentent les données observées, y.
 L'EMV qui résout pour le MAP est en rouge. Il a la distance minimale globale entre y et F(x).</figcaption>
