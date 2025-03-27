@@ -1,0 +1,129 @@
+---
+sidebar_position: 3
+---
+import imageone from '/img/2023-05-23-digital-business-cards-images/1.png'
+
+import imagetwo from '/img/2023-05-23-digital-business-cards-images/2.png'
+
+# Projet de cartes de visite digitales
+
+## Vue d'ensemble
+
+Les cartes de visite traditionnelles peuvent facilement être perdues, égarées ou
+devenir obsolètes. Mettre à jour les informations de contact manuellement peut
+être chronophage et sujet à des erreurs. La solution personnalisée des cartes de
+visite digitales internes est une approche moderne au réseautage et à la
+communication. Ce projet, développé par le Laboratoire d'Intelligence
+Artificielle de l'Agence Canadienne d'Inspection des Aliments (ACIA), vise à
+répondre aux besoins évolutifs des professionnel·le·s à l'ère numérique.
+
+## Introduction
+
+Les cartes de visite traditionnelles en papier ont des limitations en termes
+d'efficacité et de gestion des contacts. Nos cartes de visite digitales
+personnalisées offrent une manière plus efficace de gérer et d'échanger des
+informations de contact de manière transparente, en s'assurant qu'elles sont
+toujours à jour et facilement partageables via divers canaux de communication.
+
+## Technologies utilisées
+
+- **Application frontale (*front-end*)**: HTML, CSS (Tailwind), Vue.js
+- **Application dorsale (*back-end*)**: JavaScript
+- **Plateforme infonuagique (*cloud*)**: Microsoft Azure
+- **Pipeline de déploiement**: Azure DevOps
+
+## Solution
+
+Une application web statique héberge les cartes de visite digitales, que les
+utilisateur·rice·s peuvent partager via des codes QR intégrés ou des liens
+directs.
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+
+<img src={imageone} alt="Capture d'écran d'un téléphone affichant la carte de
+visite de « Doe John », un « Business Analyst » à l'ACIA." width="400"/>
+
+</div>
+
+### Intégration Azure DevOps
+
+Azure DevOps fournit un ensemble complet d'outils et de services pour
+l'intégration continue, le test et l'automatisation du déploiement. Le pipeline
+de déploiement comprend plusieurs étapes, notamment :
+
+- **Gestion de version**: Utilisation d'Azure Repos pour la gestion du code
+  source, permettant le suivi et la collaboration.
+- **Intégration continue/Déploiement continu (CI/CD)**: Automatisation des
+  processus de construction, de test et de déploiement pour des releases plus
+  rapides et plus fiables.
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+
+<img src={imagetwo} alt='Code QR pour partager une carte de visite. Le client
+peut partager sa carte de visite en fournissant le code QR lié à la carte de
+visite correspondante.' width="400"/>
+
+</div>
+
+
+### Avantages
+
+1. **Gestion efficace des contacts**: Simplifie la gestion des informations de
+   contact, assurant des détails toujours à jour et précis.
+2. **Réseautage transparent**: Les utilisateur·rice·s peuvent facilement
+   partager leurs cartes de visite digitales via divers canaux de communication,
+   améliorant les opportunités de réseautage.
+3. **Scalabilité et flexibilité**: La solution peut accueillir un nombre
+   croissant d'utilisateur·rice·s et s'adapter aux besoins changeants des
+   entreprises.
+4. **Pipeline de déploiement fiable**: Un pipeline de déploiement fiable est
+   fourni par Azure DevOps, garantissant des versions fluides et sans erreurs.
+
+## Livrable
+
+Le résultat final de ce projet est une application web statique où les cartes de
+visite digitales sont hébergées. Les client·e·s peuvent partager leurs cartes en
+utilisant soit le code QR intégré, soit un lien direct.
+
+### Améliorations futures
+
+- **Analyses avancées**: Incorporer des capacités d’analyse pour obtenir des
+  renseignements sur les activités de réseautage et optimiser les stratégies.
+- **Améliorations de l'interface utilisateur**: Améliorer l'interface
+  utilisateur des cartes de visite digitales avec plus d'interactivité et de
+  meilleurs effets de visualisation.
+- **Gestion de l'information**: Permettre aux utilisateur·rice·s de modifier
+  leurs informations personnelles, rendant la solution plus robuste et
+  indépendante.
+
+## Statut du projet
+
+Le projet est actuellement en attente de confirmation de continuation et de
+financement en fonction des résultats de la phase pilote. Si approuvé, les
+retours sur l'interface utilisateur et la manipulation des données seront
+incorporés à la nouvelle solution.
+
+### Résultats du sondage
+
+La solution initiale a été développée rapidement en raison de ressources
+limitées. Les retours se sont principalement concentrés sur l'amélioration du
+design de l'interface utilisateur et la capacité à manipuler les informations.
+Les futures itérations viseront à concevoir une interface utilisateur plus
+conforme à l'image de l'ACIA et à incorporer des améliorations basées sur les
+retours des utilisateur·rice·s.
+
+## Code et référentiel
+
+La solution développée peut être accédée
+[ici](https://dev.azure.com/CFIA-DevOps-ACIA/AI-Lab/_git/Digital-Business-Card).
+Elle a été adaptée de [cette solution](https://enbizcard.vishnuraghav.com/). Le
+référentiel de code inclut un fichier `ecards-download.py` qui ingère un fichier
+.csv fourni avec les détails pour la carte de visite, les génère et les
+télécharge depuis le site spécifié. Ceux-ci sont ensuite hébergés via un
+pipeline CI/CD automatisé, qui peut être accédé
+[ici](https://dev.azure.com/CFIA-DevOps-ACIA/AI-Lab/_build?definitionId=303).
+
+## Point de contact
+
+Pour plus d'informations, veuillez contacter Earl Johnston à
+Earl.Johnston@inspection.gc.ca.

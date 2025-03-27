@@ -1,0 +1,119 @@
+---
+sidebar_position: 3
+---
+import imageone from '/img/2023-05-23-digital-business-cards-images/1.png'
+
+import imagetwo from '/img/2023-05-23-digital-business-cards-images/2.png'
+
+
+# Digital Business Cards
+
+## Overview
+
+Traditional business cards can easily be lost, misplaced, or become obsolete.
+Updating contact information manually can be time-consuming and error-prone. The
+custom solution of in-house digital business cards is a modern approach to
+networking and communication. This project, developed by the Artificial
+Intelligence Lab at the Canadian Food Inspection Agency (CFIA), aims to meet the
+evolving needs of professionals in the digital age.
+
+## Introduction
+
+Traditional paper-based business cards have limitations in terms of efficiency
+and contact management. Our customized digital business cards provide a more
+efficient and effective way to manage and exchange contact information
+seamlessly, ensuring that it is always up-to-date and easily shareable through
+various communication channels.
+
+## Technology Stack
+
+- **Front-end**: HTML, CSS (Tailwind), Vue.js
+- **Back-end**: JavaScript
+- **Cloud Platform**: Microsoft Azure
+- **Deployment Pipeline**: Azure DevOps
+
+## Solution
+
+A static web application hosts the digital business cards, which users can share
+through integrated QR codes or direct links.
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+
+<img src={imageone} alt='A screen shot of a phone displaying the business card
+of "Doe John" who is a "Business Analyst" at CFIA.' width="400"/>
+
+</div>
+
+### Azure DevOps Integration
+
+Azure DevOps provides a comprehensive set of tools and services for continuous
+integration, testing, and deployment automation. The deployment pipeline
+encompasses several stages, including:
+
+- **Version Control**: Utilizing Azure Repos for source code management,
+  enabling tracking and collaboration.
+- **Continuous Integration/Continuous Deployment (CI/CD)**: Automating the
+  build, test, and deployment processes for faster and more reliable releases.
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+
+<img src={imagetwo} alt='QR code to share a business card. The customer can
+share their business card by giving the QR code that is linked to the
+corresponding business card.' width="400"/>
+
+</div>
+
+### Benefits
+
+1. **Efficient Contact Management**: Simplifies managing contact information,
+   ensuring up-to-date and accurate details.
+2. **Seamless Networking**: Users can easily share their digital business cards
+   through various communication channels, enhancing networking opportunities.
+3. **Scalability and Flexibility**: The solution can accommodate a growing
+   number of users and adapt to changing business needs.
+4. **Reliable Deployment Pipeline**: A dependable deployment pipeline is
+   provided by Azure DevOps, ensuring smooth and error-free releases.
+
+## Deliverable
+
+The final outcome of this project is a static web application where digital
+business cards are hosted. Clients can share their cards using either the
+integrated QR code or a direct link.
+
+### Future Enhancements
+
+- **Advanced Analytics**: Incorporate analytics capabilities to gain insights
+  into networking activities and optimize strategies.
+- **User Interface Enhancements**: Enhance the digital business cards' user
+  interface with more interactivity and better visualization effects.
+- **Information Management**: Allow users to modify their personal information,
+  making the solution more robust and independent.
+
+## Project Status
+
+The project is currently waiting for confirmation on continuation and funding
+based on pilot results. If approved, the UI and data manipulation feedback will
+be incorporated into the new solution.
+
+### Survey Results
+
+The initial solution was developed quickly due to limited resources. Feedback
+primarily focused on improving the UI design and the ability to manipulate
+information. Future iterations will aim to design a more CFIA-like UI and
+incorporate improvements based on user feedback.
+
+## Code and Repository
+
+The solution developed can be accessed
+[here](https://dev.azure.com/CFIA-DevOps-ACIA/AI-Lab/_git/Digital-Business-Card).
+It was adapted from [this solution](https://enbizcard.vishnuraghav.com/). The
+code repository includes a `ecards-download.py` file that ingests a provided
+.csv file with the details for the business card, generates, and downloads them
+from the specified website. These are then hosted through an automated CI/CD
+pipeline, which can be accessed
+[here](https://dev.azure.com/CFIA-DevOps-ACIA/AI-Lab/_build?definitionId=303).
+
+## Point of Contact
+
+For further information, please contact Earl Johnston at
+Earl.Johnston@inspection.gc.ca.

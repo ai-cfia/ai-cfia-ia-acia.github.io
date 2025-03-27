@@ -64,6 +64,10 @@ const sidebars = {
       label: 'Fleet Vehicle Management',
       items: ['projects/fleetdatacmb/introduction',],
     },
+    {
+      label: 'Digital Business Cards',
+      items: ['projects/digitalbusinesscards/introduction',],
+    },
   ],
 
   sidebar: [
